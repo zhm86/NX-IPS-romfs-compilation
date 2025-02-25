@@ -1,0 +1,10 @@
+@nsobid-8BFBF5B8A7098443ECCB7B250592F251529F4A03
+
+# FATAL FRAME Maiden of Black Water
+
+@flag print_values
+
+@enabled
+00C53154 00103F1E // ldr s0, [x20,#0x10] | fmov s0, #-1.5 | (LOD bias)
+00C531C4 0010261E // ucvtf s0, s0        | fmov s0, #16   | (max aniso)
+@stop

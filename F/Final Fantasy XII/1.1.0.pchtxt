@@ -1,0 +1,14 @@
+@nsobid-C2932C4D1C84ED7DEF7CEB1042B78951
+
+# Final Fantasy XII: The Zodiac Age
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+00031048 097DC0D2 // mov x9, #0x32000000000                    | mov x9, #0x3e800000000 | (native resolution)
+00031054 097D80D2 // mov x9, #0x320                            | mov x9, #0x3e8         | (native resolution)
+005BFC88 0010261E // ucvtf s0, s0                              | fmov s0, #16           | (max aniso)
+005BFC60 00103F1E // ldr s0, [x25,#0x10]                       | fmov s0, -1.5          | (LOD bias)
+00DA491C 1F2003D5 // "/GameData/NVN/ArtData/shaders/phyrefxaa" | nop                    | (disable FXAA)
+@stop

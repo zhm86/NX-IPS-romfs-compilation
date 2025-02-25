@@ -1,0 +1,17 @@
+@nsobid-2F15CE5FDE33A64F9B3C2E69A17BA28F
+
+# Empire of Sin 
+
+@flag print_values
+
+// Graphic mods
+
+@enabled
+017F6434 E103271E // fmov s1, w8               | fmov s1, wzr
+017F6600 495580F2 // movk x9, #0xaaaa, lsl #32 | movk x9, #0x2aa 
+017F6604 2908E8F2 // movk x9, #0x4040, lsl #48 | movk x9, #0x4041, lsl #48
+017F67C4 8824E1F2 // movk x8, #0x924, lsl #48  | movk x8, #0x9249, lsl #32
+017F67C8 0808E8F2 // movk x8, #0x403c, lsl #48 | movk x8, #0x4040, lsl #48
+026FC4DC 40008052 // mov w0, w19               | movz w0, #0x2
+026FC500 40008052 // mov w0, w19               | movz w0, #0x2
+@stop

@@ -1,0 +1,8 @@
+Final Fantasy XII | IPS | v1.1.0
+
+-Fixed 1920x1080p resolution (docked)
+-Fixed 1280x720p resolution (handheld)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)
+
+Notes: This mod was created by MasaGrator, texture mod by cucholix

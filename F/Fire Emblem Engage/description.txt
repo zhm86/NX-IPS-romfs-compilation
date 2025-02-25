@@ -1,0 +1,5 @@
+Fire Emblem Engage | romfs | v2.0.0
+
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld) 
+-Tweaked camera angle, for a more cinematic experience (docked|handheld)

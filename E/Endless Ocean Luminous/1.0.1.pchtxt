@@ -1,0 +1,11 @@
+@nsobid-E5EFB5ABA3601B97129D074B6FE3C0C22B347661
+
+# Endless Ocean Luminous
+
+@flag print_values
+
+@enabled
+0092BA60 00103F1E // ldr s0, [x20,#0x10] | fmov s0, #-1.5        | (LOD bias)
+0092BADC 0010261E // ucvtf s0, s0        | fmov s0, #16.00000000 | (max aniso)
+@stop
+

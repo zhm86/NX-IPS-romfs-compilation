@@ -1,0 +1,25 @@
+Empire of Sin | IPS | romfs | v1.06.0.51066m
+
+-Some graphics settings enabled (docked|handheld)
+Shadow Quality, Anti-Aliasing, Depth of Field, Global Dimming, Bloom, Reflections
+
+*Except for effects, interface and shadow maps
+-30 FPS limit enabled (docked|handheld)
+-Increased frame time for CPU (docked|handheld)
+-Slightly increased frame time for GPU (docked|handheld)
+*To achieve higher resolution
+-Increased the speed of changing dynamic resolution (docked|handheld)
+-Slightly reduced the number of pedestrians and traffic (docked|handheld)
+*To reduce CPU load
+-Texture filtering changed from linear to anisotropic (docked|handheld)
+-Chromatic aberration disabled (docked|handheld)
+-Slightly reduced the scale of the interface (handheld)
+-Disabled volumetric light from lamp posts (docked|handheld)
+*To increase performance/resolution
+
+Optional: replaced some textures from the PC version of the game (docked|handheld), it's important to note
+          that this mod pack doesn't have all the texture swap included in the original mod, if you are interested
+		  in the full replacement visit https://4pda.to/forum/index.php?showtopic=939714&st=6720#entry102193656
+          otherwise use this texture mod https://mega.nz/file/MYgAlbgJ#Z6yPgijUpnWCC85zF1rN7bwEdNq-nUp7gfh7jauxbjo
+		  
+Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix

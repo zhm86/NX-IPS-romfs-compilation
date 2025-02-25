@@ -1,0 +1,11 @@
+Epic Mickey Rebrushed | romfs | v1.0.2
+
+-Max dynamic resolution 900p, min dynamic resolution 450p (docked)
+-Fixed resolution 720p (handheld)
+-Increased texture LOD quality in most groups (docked|handheld)
+-Texture filtering changed from linear to anisotropic (docked|handheld)
+-Max aniso filtering now x4 (docked|handheld)
+-Increased resolution of dynamic shadows (docked|handheld)
+-Increased resolution of cascade dynamic shadows (docked|handheld)
+-Increased distance of LODs of static objects (docked|handheld)
+-Remapped buttons, now B=Jump, A=Dash (docked|handheld)

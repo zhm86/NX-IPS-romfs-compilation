@@ -1,0 +1,3 @@
+Forgive Me Father | romfs | v1.5.4.3
+
+-Fixed 1080p resolution (docked)

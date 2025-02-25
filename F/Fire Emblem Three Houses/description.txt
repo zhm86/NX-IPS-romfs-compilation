@@ -1,0 +1,4 @@
+Fire Emblem Three Houses | IPS | v1.2.0
+
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)

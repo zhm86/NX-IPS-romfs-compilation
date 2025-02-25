@@ -1,0 +1,4 @@
+FATAL FRAME Mask of the Lunar Eclipse | IPS | v1.0.3
+
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)

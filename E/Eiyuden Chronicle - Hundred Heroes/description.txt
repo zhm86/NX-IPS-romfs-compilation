@@ -1,0 +1,3 @@
+Eiyuden Chronicle - Hundred Heroes | romfs | v1.0.7
+
+-Slightly increased shadows quality (docked|handheld)

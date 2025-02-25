@@ -1,0 +1,12 @@
+@nsobid-A735894277FF90F3D8350F25D87A6EA6875DB1CC
+
+# FATAL FRAME Mask of the Lunar Eclipse
+
+@flag print_values
+
+@enabled
+00F015D0 00103F1E // ldr s0, [x20,#0x10] | fmov s0, #-1.5 | (LOD bias)
+00F01648 0010261E // ucvtf s0, s0        | fmov s0, #16   | (max aniso)
+@stop
+
+

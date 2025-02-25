@@ -1,0 +1,4 @@
+FATAL FRAME Maiden of Black Water | IPS | v1.0.5
+
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)
