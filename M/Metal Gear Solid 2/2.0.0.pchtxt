@@ -1,0 +1,12 @@
+@nsobid-03C2232966780A163979421F7F27722CDFB5BFA1
+
+# Metal Gear Solid 2
+
+@flag print_values
+
+@enabled
+0003653C 1F2003D5 // cmp w0, #0x3c       | nop        | (60fps)
+00036540 48008052 // mov w9, #4          | mov w8, #2 | (60fps)
+00036544 1F2003D5 // csel w8, w8, w9, eq | nop        | (60fps)
+000367D4 61008052 // ldr w1, [x3, #0xc]  | mov w1, #3 | (60fps)
+@stop

@@ -1,0 +1,27 @@
+@nsobid-0359DC95A1454D05300C56B432CF3225F4BC6AEB
+
+# No More Heroes
+
+@flag print_values
+@flag offset_shift 0x100
+
+//Game is ARM32
+
+@enabled 
+000A901C 110D50E3 // cmp r0, #0x384      | cmp r0, #0x440
+000A9020 1E1DA0E3 // mov r1, #0x640      | mov r1, #0x780
+000A9024 801700B3 // movwlt r1, #0x500   | movwlt r1, #0x780
+000A9028 380400E3 // mov r0, #0x384      | movw r0, #0x438
+000A902C 380400B3 // movwlt r0, #0x2d0   | movwlt r0, #0x438
+000A903C 380400E3 // mov r0, #0x2d0      | movw r0, #0x438
+000A9044 1E0DA0E3 // mov r0, #0x500      | mov r0, #0x780
+000A9A54 1E0DA0E3 // mov r0, #0x500      | mov r0, #0x780
+000A9A5C 380400E3 // mov r0, #0x2d0      | movw r0, #0x438
+000ABB3C 1E1DA0E3 // mov r1, #0x640      | mov r1, #0x780
+000ABB40 382400E3 // mov r2, #0x384      | movw r2, #0x438
+000ABFD8 1E1DA0E3 // mov r1, #0x640      | mov r1, #0x780
+000ABFDC 382400E3 // mov r2, #0x384      | movw r2, #0x438
+000B8DD4 1E1DA0E3 // mov r1, #0x500      | mov r1, #0x780
+000B8DE8 382400E3 // mov r2, #0x2d0      | movw r2, #0x438
+004240A0 1EFF2FE1 // add ip, pc, #0, #12 | bx lr
+@stop

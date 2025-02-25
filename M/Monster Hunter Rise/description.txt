@@ -1,0 +1,13 @@
+Monster Hunter: Rise | IPS | 16.0.2
+
+-Resolution increased from 896x504 to 1280x720 (handheld)
+-Resolution increased from 1440x810 to 1728x972 (docked)
+-Slightly reduced sharpness of Fidelity FX CAS (docked|handheld)
+*The picture was too sharp after turning on native resolution in portable mode
+-Increased shadow resolution from 512 to 800 (docked|handheld)
+-Increased shadow distance (docked|handheld)
+-Anisotropic Texture Filtering increased to 8x (docked|handheld) 
+*Needs to be enabled in the pchtxt, disabled due performance issues
+-Slightly decreased texture LOD bias (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix 

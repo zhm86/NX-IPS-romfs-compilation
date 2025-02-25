@@ -1,0 +1,7 @@
+Metro Redux | IPS | 1.0.0
+
+-Changed TAA to FXAA (docked|handheld)
+-Forced docked mode (handheld)
+*It was needed as change in TAA breaks in handheld mode
+
+Notes: TAA mod by Hazerou, forced docked mod by cucholix

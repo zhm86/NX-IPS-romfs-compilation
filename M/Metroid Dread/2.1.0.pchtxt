@@ -1,0 +1,16 @@
+@nsobid-646761F643AFEBB379EDD5E6A5151AF2CEF93DC1
+
+# Metroid Dread
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+0014E740 08008052 // mov w8, #1                  | mov w8, #0x0   | (pp_downscaler)
+0014E888 08008052 // mov w8, #1                  | mov w8, #0x0   | (pp_fxaa)
+0014F498 C0035FD6 // stp x20, x19, [sp, #-0x20]! | ret            | (pp_motionblur) 
+0015EB98 00103E1E // ldr s0, [x19,#0x28]         | fmov s0, #-1.0 | (max aniso)
+0015EBC8 0010261E // ldr s0, [x19,#0x34]         | fmov s0, #16   | (LOD bias)
+01A1BE18 00070000 // 40060000                    | 00070000       | (docked resX 1792p)
+01A1BE1C F0030000 // 84030000                    | F0030000       | (docked resY 1008p)
+@stop

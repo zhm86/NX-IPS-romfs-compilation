@@ -1,0 +1,15 @@
+@nsobid-85C362CC9790F0EDF23749B041953C514BB926BA
+
+# Metro Redux
+
+@flag print_values
+
+@enabled
+00A6FC64 00103F1E // ldr s0, [x8, #0x28]    | fmov s0, #-1.5
+00ADB1D0 36008052 // bl #0xffffffffff5250f0 | mov w22, #1    | (r_taa)
+00ADB1E8 160100B9 // mov w22, #1            | str w22, [x8]
+00ADB1EC 16008052 // str w22, [x8]          | mov w22, #0
+00ADB274 36008052 // bl #0xffffffffff52504c | mov w22, #1
+00D58378 00008052 // add x16, x16, #0x758   | mov w0, #0     | (nn::oe::GetPerformanceMode(void))
+00D5837C C0035FD6 // br x17                 | nop            | (nn::oe::GetPerformanceMode(void))
+@stop

@@ -1,0 +1,4 @@
+Monark| romfs | v1.0.1
+
+-900p fixed resolution (docked)
+-720p fixed resolution (handheld)

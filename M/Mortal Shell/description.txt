@@ -1,0 +1,4 @@
+Mortal Shell | IPS | 1.2.0
+
+-Decreased texture LOD bias (docked|handheld)
+-Handheld forced to use docked mode (handheld)

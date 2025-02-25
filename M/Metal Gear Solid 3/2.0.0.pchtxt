@@ -1,0 +1,33 @@
+@nsobid-AE937A8EA9B815AD8812AD3D29264515DFD1A853
+
+# Metal Gear Solid 3 
+
+@flag print_values
+
+@enabled
+00025F9C 09F080D2 // mov x9,#0x500            | mov x9, #0x780            | (docked|handheld resX)
+00025FA0 09F0C0F2 // movk x9,#0x500, LSL #32  | movk x9, #0x780, lsl #32  | (docked|handheld resX)
+00025FAC 0BF080D2 // mov x11,#0x500           | mov x11, #0x780           | (docked|handheld resX)
+00025FCC 088780D2 // mov x8,#0x2d0            | mov x8, #0x438            | (docked|handheld resY)
+00025FDC 0A878052 // mov w10,#0x2d0           | mov w10, #0x438           | (docked|handheld resY)
+00025FF4 0987C0F2 // movk x9,#0x2d0, LSL #32  | movk x9, #0x438, lsl #32  | (docked|handheld resY)
+00026010 08F080D2 // mov x8,#0x500            | mov x8, #0x780            | (docked|handheld resX)
+00026018 0C87C0F2 // movk x12,#0x2d0, LSL #32 | movk x12, #0x438, lsl #32 | (docked|handheld resY)
+000673A8 03F08052 // mov w3,#0x500            | mov w3, #0x780            | (docked|handheld resX)
+000673AC 04878052 // mov w4,#0x2d0            | mov w4, #0x438            | (docked|handheld resY)
+0005343C 1F2003D5 // cmp w0, #0x3c            | nop                       | (60 FPS)
+00053440 48008052 // mov w9, #4               | mov w8, #2                | (60 FPS)
+00053444 1F2003D5 // csel w8, w8, w9, eq      | nop                       | (60 FPS)
+000536D4 61008052 // ldr w1, [x3, #0xc]       | mov w1, #3                | (60 FPS)
+@stop
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+Mortal Kombat 1 | plugin | romfs | ALL
+
+-Minimum dynamic resolution 540p (docked)
+-Minimum dynamic resolution 360p (handheld)
+-Max dynamic resolution 1080p (docked)
+-Max dynamic resolution 720p (handheld)
+-Increased texture LODs groups (docked|handheld)
+-Increased draw distance, noticeable during Invasion mode maps (docked|handheld)
+-Increased resolution of dynamic shadows (docked|handheld)
+-Increased texture loading speed (docked|handheld)
+-Enabled walk-in animation during local VS mode (docked|handheld)
+-Reworked memory management to avoid chances of crashes (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, converted to plugin by cucholix
+       Unlike IPS patch plugin patching method works regardless the game version.
+	   It's working in the latest update as 11-02-2025 (Conan The Barbarian) 

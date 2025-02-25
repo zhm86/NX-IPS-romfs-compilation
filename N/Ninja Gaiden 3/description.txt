@@ -1,0 +1,3 @@
+Ninja Gaiden 3: Razor's Edge | IPS | v1.0.1
+
+-Max dynamic resolution 900p (docked|handheld)

@@ -1,0 +1,10 @@
+Metroid Dread| IPS | v2.1.0
+
+-1008x1792p fixed resolution (docked)
+-720p fixed resolution (handheld)
+-Disabled FXAA (docked|handheld)
+-Disabled downscaler (docked|handheld)
+-Disabled motion blur (docked|handheld)
+-Decreased texture LOD bias (docked|handheld)
+
+Notes: This mod was created by KeatonTheBot, texture mod by cucholix  

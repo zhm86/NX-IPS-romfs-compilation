@@ -1,0 +1,5 @@
+Metal Gear Solid 2 | IPS | 2.0.0
+
+-Framerate set to 60 FPS (docked|handheld)
+
+Notes: This mod was created by MasaGratoR

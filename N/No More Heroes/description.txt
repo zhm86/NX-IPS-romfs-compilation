@@ -1,0 +1,5 @@
+No More Heroes | IPS | v1.2.0
+
+-Fixed resolution 1080p (docked|handheld)
+
+Notes: This mod was created by theboy181

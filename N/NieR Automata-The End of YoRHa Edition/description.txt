@@ -1,0 +1,13 @@
+NieR: Automata - The End of YoRHa Edition | IPS | v1.0.2
+
+-Antialiasing Disabled (docked|handheld)
+-Slightly increased frame time of dynamic resolution (docked|handheld)
+-Changed some texture filtering from linear to anisotropic 1x (docked|handheld)
+-Anisotropic filtering of other textures increased to 8x-16x (docked|handheld)
+*Depends on texture type
+-Increased LOD distance of objects (docked|handheld)
+-Global dimming enabled (docked|handheld)
+-Slightly reduced softness of dynamic shadows (docked|handheld)
+-Increased LOD on trees and animals (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, LOD mods by theboy181, converted to IPS by cucholix

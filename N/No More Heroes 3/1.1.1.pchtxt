@@ -1,0 +1,10 @@
+@nsobid-8F55F6F72C9E9F4E0B6F2872F3D6BC48
+
+# No More Heroes 3
+
+@flag print_values
+
+@enabled
+06C26E7E 58 // DynamicShadowCascades
+06CD0EEE 58 // CastShadow
+@stop

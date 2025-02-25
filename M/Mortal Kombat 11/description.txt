@@ -1,0 +1,7 @@
+Mortal Kombat 11 | IPS | 1.0.24
+
+-Fixed resolution 720p (docked|handheld)
+*Including Fatalities/Crashing Blows/Intro/Outros
+-Decreased texture LOD bias (docked|handheld)
+
+Notes: This mod was created by Hazerou, texture mod by cucholix 

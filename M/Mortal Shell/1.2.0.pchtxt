@@ -1,0 +1,11 @@
+@nsobid-6D9F6C7B79F5197FFDDD18F60BBCD829
+
+# Mortal Shell
+
+@flag print_values
+
+@enabled
+03B83250 00103C1E // ldr s0, [x20,#4] | fmov s0, #-0.5 | (LOD bias)
+03ED4EE8 20008052C0035FD6             | (handheld as docked)
+03ED4F08 20008052C0035FD6             | (handheld as docked)
+@stop

@@ -1,0 +1,6 @@
+Metal Gear Solid 3 | IPS | 2.0.0
+
+-Fixed 1080p resolution (docked)
+-Framerate set to 60 FPS (docked|handheld)
+
+Notes: 60 FPS mod by MasaGratoR, resolution mod by cucholix

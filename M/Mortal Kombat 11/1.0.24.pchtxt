@@ -1,0 +1,10 @@
+@nsobid-4F7AB1A3EEFC7EB20413936E8E37C2E9
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+00ABE354 00103E1E // fmov s0, wzr   | fmov s0, #-1.0 | (LOD bias)
+0948BD40 00050000 // 00040000       | 00050000       | (docked|handheld 720p in cinematics and Fatality)
+0948BD44 D0020000 // 40020000       | D0020000       | (docked|handheld 720p in cinematics and Fatality)
+@stop

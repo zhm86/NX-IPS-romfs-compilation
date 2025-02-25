@@ -1,0 +1,26 @@
+@nsobid-67C9CA1428222752F951021464A7B3597EB98FEC
+
+# Metroid Prime Remastered
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+00001248 00F08052 // mov w0, #0x640         | mov w0, #0x780 | (docked resX)
+00001250 00878052 // mov w0, #0x384         | mov w0, #0x438 | (docked resY)
+00001258 00A08052 // mov w0, #0x400         | mov w0, #0x500 | (handheld resX)
+00001260 005A8052 // mov w0, #0x240         | mov w0, #0x2d0 | (handheld resY)
+00001268 00A08052 // mov w0, #0x400         | mov w0, #0x500 | (handheld resX)
+00001270 005A8052 // mov w0, #0x240         | mov w0, #0x2d0 | (handheld resY)
+0010DC88 00103E1E // ldr s0, [x21,#0x20]    | fmov s0, #-1.0 | (LOD bias)
+001FBE40 3D000014 // cbz x8, #0x118         | b #0x11c       | (improved LOD)
+001FBB5C 27000014 // mov x9, xzr            | b #0xcc        | (improved LOD)
+00BDB81C 00C88052 // bl #0xffffffffff425a34 | mov w0, #0x640 | (UI resX)
+00BDB844 80708052 // bl #0xffffffffff425a18 | mov w0, #0x384 | (UI resY)
+00E5324C 00C88052 // bl #0xffffffffff1ae010 | mov w0, #0x384 | (UI resY)
+00E53254 80708052 // bl #0xffffffffff1adffc | mov w0, #0x384 | (UI resY)
+00E5325C 00C88052 // bl #0xffffffffff1adfec | mov w0, #0x640 | (UI resX) 
+00E53264 80708052 // bl #0xffffffffff1adfec | mov w0, #0x384 | (UI resY)
+00E54C40 00C88052 // bl #0xffffffffff1ac608 | mov w0, #0x640 | (UI resX)
+00E54C50 80708052 // bl #0xffffffffff1ac600 | mov w0, #0x384 | (UI resY)
+@stop

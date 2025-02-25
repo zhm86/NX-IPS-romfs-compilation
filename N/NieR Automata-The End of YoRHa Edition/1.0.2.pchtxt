@@ -1,0 +1,41 @@
+@nsobid-E43525F22282A47785AAED2DFFF6E2E94D82B129
+
+# NieR:Automata The End of YoRHa Edition
+
+@flag print_values
+
+@enabled
+0059A2A0 1F2003D5 // bl #0x2f2c20                        | nop (bypass function forcing linear filter)
+0059A8C0 1F2003D5 // bl #0x2f2608                        | nop (bypass function forcing linear filter)
+0059C7DC 1F2003D5 // bl #0x2ef324                        | nop (bypass function forcing linear filter)
+0059C978 1F2003D5 // bl #0x2ef188                        | nop (bypass function forcing linear filter)
+0059CB80 1F2003D5 // bl #0x2eef80                        | nop (bypass function forcing linear filter)
+0059CD54 1F2003D5 // bl #0x2eedac                        | nop (bypass function forcing linear filter)
+0059CF18 1F2003D5 // bl #0x2eebe8                        | nop (bypass function forcing linear filter)
+005A1748 1F2003D5 // bl #0x2ea3b8                        | nop (bypass function forcing linear filter)
+005A3CF4 1F2003D5 // bl #0x2e7e0c                        | nop (bypass function forcing linear filter)
+005A4584 1F2003D5 // bl #0x2e757c                        | nop (bypass function forcing linear filter)
+005A4610 1F2003D5 // bl #0x2e74f0                        | nop (bypass function forcing linear filter)
+005A4D6C 1F2003D5 // bl #0x2e6d98                        | nop (bypass function forcing linear filter)
+005A64A0 1F2003D5 // bl #0x2e5660                        | nop (bypass function forcing linear filter)
+005A6960 04902D1E // fmov s4, #0.50000000                | fmov s4, #0.87500000 (no symbol)
+005B06A4 03008052 // mov w3, #1                          | mov w3, #0 (no AA) (symbol, Filter09)
+005B06A8 04008052 // mov w4, #1                          | mov w4, #0 (no AA) (symbol, Filter09)
+005B889C 1F2003D5 // bl #0x2d3264                        | nop (bypass function forcing linear filter)
+005BB4BC 1F2003D5 // bl #0x2d0644                        | nop (bypass function forcing linear filter)
+0088BB14 60008052 // csinc w0, w8, wzr, ne               | mov w0, #3 (pass argument #3)
+008C1058 1F2003D5 // fdiv s0, s1, s0                     | nop (animals and trees LOD)
+008C124C 05102F1E // fmov s5, #1.00000000                | fmov s5, #1.50000000
+008C1250 06102F1E // fmov s6, #1.00000000                | fmov s6, #1.50000000
+008C126C 05102F1E // fmov s5, #1.00000000                | fmov s5, #1.50000000
+008C1270 06102F1E // fmov s6, #1.00000000                | fmov s6, #1.50000000 
+009BF538 CC40A872 // movk w12, #0x4200, lsl #16 (32)     | movk w12, #0x4206, lsl #16 (frametime 33.5)
+009BF588 CC40A872 // movk w12, #0x4200, lsl #16 (32)     | movk w12, #0x4206, lsl #16 (frametime 33.5)
+009BF5E4 6C668652 // mov w12, #0x5326 (0.8333)           | mov w12, #0x3333 (0.7) (shadow softness)
+009BF5E8 6CE6A772 // movk w12, #0x3f55, lsl #16 (0.8333) | movk w12, #0x3f33, lsl #16 (0.7) (shadow softness)
+009CF290 A1008052 // mov w1, #3                          | mov w1, #5 (aniso)
+00FFE67C 0000803F // 0000803F                            | 00000041 (max aniso x8)
+00FFE680 00000041 // 00000040                            | 00000041 (max aniso x8)
+00FFE684 00000041 // 00008040                            | 00000041 (max aniso x8)
+//000C034C 01008152 // mov w1, #0x400                      | mov w1, #0x800 (mesh pattern)
+@stop

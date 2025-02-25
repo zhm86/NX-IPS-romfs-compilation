@@ -1,0 +1,16 @@
+No More Heroes 3 | IPS | romfs | v1.0.1
+
+-30 FPS limit enabled (docked|handheld)
+-Fixed resolution 900p (docked)
+-Fixed resolution 720p (handheld)
+-Increased image sharpness (docked|handheld)
+-Increased drawing distance of objects (docked|handheld)
+-3-stage dynamic shadow mode enabled (docked|handheld)
+-Increased resolution of dynamic shadows (docked|handheld)
+-Increased rendering distance of dynamic shadows (docked|handheld)
+-Bloom quality increased (docked|handheld)
+-Increased texture quality (docked|handheld)
+-Texture filtering changed from linear to anisotropic 4x (docked|handheld)
+-SSR enabled (docked|handheld)
+
+Notes: Shadow tweaks mod by ECLIPSE00074, converted to IPS by cucholix
