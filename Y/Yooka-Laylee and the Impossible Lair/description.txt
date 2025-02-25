@@ -1,0 +1,6 @@
+Yooka-Laylee and the Impossible Lair | IPS | 1.0.4
+
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)

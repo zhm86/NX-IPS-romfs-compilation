@@ -1,0 +1,5 @@
+Valkyria Chronicles | IPS | v1.0.1
+
+-Render resolution increased from 1600x900 to 1920x1080 (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix

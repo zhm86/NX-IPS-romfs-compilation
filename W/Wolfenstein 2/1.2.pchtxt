@@ -1,0 +1,12 @@
+@nsobid-F2FE5EF877839F4F9334388D278366B2
+
+# Wolfenstein II
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+0061BBC0 00103A1E // mov v0.16b, v11.16b | fmov s0, #-0.25 | (LOD bias)
+0061BBC8 00103A1E // mov v1.16b, v10.16b | fmov s0, #-0.25 | (LOD bias)
+0061BC28 0010261E // mov v0.16b, v8.16b  | fmov s0, #16    | (max aniso)
+@stop

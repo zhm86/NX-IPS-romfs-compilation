@@ -1,0 +1,14 @@
+@nsobid-FE77FFB8CBFB3A5C60F19BB727F958FD
+
+# Valkyria Chronicles
+
+@flag print_values
+
+@enabled
+0021D898 1E5DA0E3 // mov r5, #0x640 | mov r5, #0x780  | (docked|handheld resX)
+0021D89C 386400E3 // mov r6, #0x384 | movw r6, #0x438 | (docked|handheld resY)
+0021D8B4 1E0DA0E3 // mov r0, r5     | mov r0, #0x780  | (docked|handheld resX)
+0021D8B8 381400E3 // mov r1, r6     | movw r1, #0x438 | (docked|handheld resY)
+0021D8C4 1E1DA0E3 // mov r1, r5     | mov r1, #0x780  | (docked|handheld resX)
+0021D8C8 382400E3 // mov r2, r6     | movw r2, #0x438 | (docked|handheld resY)
+@stop

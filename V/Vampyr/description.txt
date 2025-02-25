@@ -1,0 +1,12 @@
+Vampyr | romfs | v0.4
+
+-Fixed resolution 900p (docked)
+-Fixed resolution 780p resolution (handheld)
+-Decreased antialiasing intensity (docked)
+-Increased image sharpening (docked)
+-Decreased image sharpening (handheld)
+-Increased ambient occlusion level and quality (docked|handheld)
+-Increased draw distance (docked|handheld)
+-Increased data streaming speed (docked|handheld)
+*Textures don't pop-up
+-Texture anisotropy x4 (docked|handheld)

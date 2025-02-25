@@ -1,0 +1,4 @@
+Wolfenstein II | IPS | romfs | v1.2
+
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)

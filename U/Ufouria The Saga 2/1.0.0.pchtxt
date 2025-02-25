@@ -1,0 +1,10 @@
+@nsobid-06C281CBE70E6C34
+
+# Ufouria: The Saga 2
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+0098DD6C 00103C1E // ldr s0, [x19,#8] | fmov s0, #-0.5 | (LOD bias)
+@stop

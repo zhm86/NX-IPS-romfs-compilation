@@ -1,0 +1,7 @@
+Unravel TWO | IPS | v1.0.1
+
+-Increased resolution from 1440x900p to 1584x896 (docked)
+-Increased resolution from 1066x600 to 1280x720 (handheld)
+-Enabled aniso filtering (docked|handheld)
+-Max aniso filtering x8 (docked|handheld)
+-Decreased LOD bias (docked|handheld)
