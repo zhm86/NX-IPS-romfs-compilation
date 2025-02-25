@@ -1,0 +1,10 @@
+@nsobid-B420A0AE30EDC6F0671F2883BD2EE9E5
+
+# SAMURAI SHODOWN
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+005BDAD0 C0035FD6 // sub sp, sp, #0x70 | ret | (disables internal resolution to be loaded through romfs)
+@stop

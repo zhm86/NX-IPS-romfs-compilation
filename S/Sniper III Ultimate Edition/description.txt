@@ -1,0 +1,4 @@
+Sniper III Ultimate Edition | IPS | v1.0.1
+
+-Decreased LOD bias (docked|handheld)
+-Anisotropic filtering for some textures increased to 16x (docked|handheld)

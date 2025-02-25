@@ -1,0 +1,20 @@
+Super Mario Odyssey | IPS | romfs | v3.1.3
+
+-Minimum dynamic resolution increased from 800x450 to 1280x720 [Docking Station]
+-Minimum dynamic resolution increased from 640x360 to 960x540 [Portable mode]
+-Disabled Interlacing (docked|handheld)
+*Now the image is clear when the camera moves
+-Slightly reduced antialiasing intensity (docked|handheld)
+-Increased bloom quality (docked|handheld)
+-Increased LoD distance of objects (docked|handheld)
+-Increased rendering distance of various objects and characters (docked|handheld)
+-Increased dynamic shadow distance (docked|handheld)
+-Increased resolution of dynamic shadows (docked|handheld)
+*In some locations
+-Disabled half dynamic shadow buffer (docked|handheld)
+-Increased quality of softness of dynamic shadows (docked|handheld)
+-Increased resolution of reflections in mirrors (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix
+       This mod doesn't include texture changes like the original 
+	   https://4pda.to/forum/index.php?showtopic=939714&view=findpost&p=114144272

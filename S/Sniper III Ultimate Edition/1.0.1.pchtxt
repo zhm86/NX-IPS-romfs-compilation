@@ -1,0 +1,10 @@
+@nsobid-6888027D61CF603D248939C2BC4063AD
+
+# Sniper III Ultimate Edition
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+003D0440 0010261E // fmov s0, #4.0 | fmov s0, #16 | (max aniso)
+@stop

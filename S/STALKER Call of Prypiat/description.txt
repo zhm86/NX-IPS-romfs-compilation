@@ -1,0 +1,21 @@
+S.T.A.L.K.E.R.: Call of Prypiat | IPS | romfs | v1.0.2
+
+-Fixed resolution 1080p (docked|handheld)
+-Improved lens flare textures from the sun (docked|handheld)
+-Increased rendering distance (docked|handheld)
+-Fog distance increased slightly (docked|handheld)
+-Disabled image blurring (docked|handheld)
+-Reduced FXAA antialiasing intensity (docked|handheld)
+-Anisotropic texture filtering increased from 4x to 8x (docked|handheld)
+-Increased LOD for all textures (docked|handheld)
+-Increased rendering distance (docked|handheld)
+-Increased distance of cascading shadows (docked|handheld)
+-Increased resolution of cascading shadows (docked|handheld)
+-Improved softness of first cascade shadows and light source shadows (docked|handheld)
+-Enabled shadows from grass and other small objects (docked|handheld)
+-Grass density slightly increased (docked|handheld)
+-DOF enabled (docked|handheld)
+-Global dimming enabled (docked|handheld)
+-Added contrast, brightness and motion blur settings (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix

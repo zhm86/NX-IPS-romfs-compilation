@@ -1,0 +1,23 @@
+Sifu | romfs | 0.1
+
+-Max dynamic resolution 1080p, min dynamic resolution 720p (docked)
+-Fixed resolution 720p (handheld)
+-Reduced TAA intensity (docked|handheld)
+-Reduced image sharpness (docked|handheld)
+-Increased LOD distance for characters (docked|handheld)
+-Enabled dynamic shadows from light sources (docked|handheld)
+-Increased softness of dynamic shadows (docked|handheld)
+-3-stage dynamic shadow mode enabled (docked|handheld)
+-Increased resolution of dynamic shadows (docked|handheld)
+-Increased dynamic shadow distance (docked|handheld)
+-Reduced threshold of all shadows (docked|handheld)
+-Increased smoothness of transition from cascade to cascade for dynamic shadows (docked|handheld)
+-Capsule shadows enabled (docked|handheld)
+-Replaced baked shadows from PC version of the game (docked|handheld)
+-Global dimming enabled (docked|handheld)
+-Increased bloom quality (docked|handheld)
+-Disabled image grain (docked|handheld)
+-Texture filtering changed from linear to anisotropic 2x (docked|handheld)
+-Slightly increased LOD for all texture groups (docked|handheld)(docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074

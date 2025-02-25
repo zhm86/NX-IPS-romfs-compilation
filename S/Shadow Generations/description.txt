@@ -1,0 +1,11 @@
+Shadow Generations | IPS | v1.0.1
+
+-Disabled dynamic resolution (docked|handheld)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x8 (docked|handheld)
+-CPU Boost disabled (docked|handheld)
+*During gameplay it could turn on and drag the GPU frequency up to 307
+-Planar reflections enabled (handheld)
+-Global dimming enabled (handheld)
+
+Notes: This mod was created by ECLIPSE00074, dynamic resolution mod by cucholix

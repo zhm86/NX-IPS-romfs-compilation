@@ -1,0 +1,10 @@
+Shin Megami Tensei V: Vengeance | IPS | romfs | v1.0.3
+
+-Screen resolution 900p, with 1080p backbuffer, min screen resolution 450p (docked)
+-Screen resolution 720p, min screen resolution 450p (handheld)
+-Max anisotropy filter x4 (docked|handheld)
+-Increased draw distance x1,875 (docked|handheld)
+-Increased resolution of dynamic shadows x2 (docked|handheld)
+-Increased resolution of dynamic cascades x2 (docked|handheld)
+-Increased dynamic shadow distance (docked|handheld)
+-Tree foliage uses max LOD regardless the distance (docked|handheld)

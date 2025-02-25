@@ -1,0 +1,4 @@
+Sonic Colors Ultimate | IPS | v1.0.9
+
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)

@@ -1,0 +1,12 @@
+@nsobid-957E1E19958A93F9607E65CB4C387A9F8E9F8565
+
+# Sonic Colors Utimate
+
+@flag print_values
+
+@enabled
+000107AC 00102E1E // ldr s0, [x8, #0xdc] | fmov s0, #1.0 | (set_scene_res_scale)
+0001060C 00102E1E // fmov s0, #0.75      | fmov s0, #1.0 | (set_scene_res_scale)
+@stop
+
+Notes: Doesn't seems to have a pointer to SetLODBias

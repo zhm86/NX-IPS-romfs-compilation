@@ -1,0 +1,10 @@
+@nsobid-957E1E19958A93F9607E65CB4C387A9F8E9F8565
+
+# Sonic Generations
+
+@flag print_values
+
+@enabled
+007D5030 00103F1E // ldr s0, [x20,#0x10] | fmov s0, #-1.5 | (LOD bias)
+007D50AC 0010261E // ucvtf s0,s0         | fmov s0, #16.0 | (max aniso)
+@stop

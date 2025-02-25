@@ -1,0 +1,16 @@
+@nsobid-8E8BFFE66292CFF1496F7935A854A83D6D86B020
+
+# S.T.A.L.K.E.R.: Shadow of Chornobyl
+
+@flag print_values
+
+@enabled
+00BDBE8C 00103A1E // ldr s0, [x19, #0x1c] | fmov s0, #-0.25000000 | (LOD bias)
+00C8D8AC 0922A852 // mov w9, #0x41200000  | mov w9, #0x41100000   | (search E83245F92900805209810139)
+00C8D8D4 094EA852 // mov w9, #0x42200000  | mov w9, #0x42700000   |
+00C8DF68 0110281E // fmov s1, #1.00000000 | fmov s1, #0.12500000  |
+00C95E38 00902B1E // ldr s0, [x8, #0xe40] | fmov s0, #0.43750000  | (search 0018241EE08B062D)
+00D04DF0 01102A1E // ldr s1, [x8, #0x40]  | fmov s1, #0.25000000  | (search 001542F9400500B4)
+012E1C76 65 // lights_spot01.accum_volumetric_sun_nomsaa_minmax.accum_sun_mask_msaa.accum_sun_nomsaa.stub_notransform.s_jitter1
+016603FC 0000E044 // 00004044 (768)       | 0000E044 (1792)       |
+@stop

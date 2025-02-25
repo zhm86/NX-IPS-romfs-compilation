@@ -1,0 +1,19 @@
+@nsobid-FDBD3A3B672290F8CC85FE3C8BBF9F9B42DA7C08
+
+# Story of Seasons: A Wonderful Life
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+006A5C38 01F08052 // mov w1, #0x61C | mov w1, #0x780 | (docked resX)
+006A5C3C 02878052 // mov w2, #0x370 | mov w2, #0x438 | (docked resY)
+006A5C94 01A08052 // mov w1, #0x3E8 | mov w1, #0x500 | (handheld resX)
+006A5C98 025A8052 // mov w2, #0x230 | mov w2, #0x2D0 | (handheld resY)
+008B7F18 01F08052 // mov w1, #0x61C | mov w1, #0x780 | (docked resX)
+008B7F1C 02878052 // mov w2, #0x370 | mov w2, #0x438 | (docked resY)
+008B7F30 01A08052 // mov w1, #0x3E8 | mov w1, #0x500 | (handheld resX)
+008B7F34 025A8052 // mov w2, #0x230 | mov w2, #0x2D0 | (handheld resY)
+008B7F44 01A08052 // mov w1, #0x3E8 | mov w1, #0x500 | (handheld resX)
+008B7F48 025A8052 // mov w2, #0x230 | mov w2, #0x2D0 | (handheld resY)
+@stop

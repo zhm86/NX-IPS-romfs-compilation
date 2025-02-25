@@ -1,0 +1,4 @@
+Samurai Shodown | IPS | romfs | v2.43
+
+-Max dynamic resolution 1080p, min dynamic resolution 900p (docked)
+-Fixed 720p resolution (handheld)

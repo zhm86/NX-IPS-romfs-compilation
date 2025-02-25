@@ -1,0 +1,10 @@
+@nsobid-109D974E180A5AA100C3E9E3464058AB
+
+# Stray
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+033D0F20 00103F1E // ldr s0, [x19,#4] | fmov s0, #-1.5 | (LOD bias)
+@stop

@@ -1,0 +1,19 @@
+@nsobid-4EEA2970DF38ECE1CB72DF182C8CC4743B2E3060
+
+# Sniper Elite 4
+
+@flag print_values
+
+@enabled
+00521E2C 68008052 // ldr w8, [x8, #0x52c]  | mov w8, #3             |
+00544240 28008052 // ldr w8, [x8, #0x534]  | mov w8, #1             |
+00630ED4 68008052 // ldr w8, [x8, #0x530]  | mov w8, #3             |
+00630EDC 08458152 // lsl w8, w9, w8        | mov w8, #0xa28         |
+00631F48 01102A1E // fmov s1, #0.75        | fmov s1, #0.25000000   |
+006DB8AC 0A103A1E // fmov s10, #0.25       | fmov s10, #-0.25000000 | (LOD bias)
+006DB960 0B102A1E // fmov s1, #0.75        | fmov s11, #0.25000000  |
+006DCF18 0E10261E // fmov s14, #4.0        | fmov s14, #16          | (max aniso)
+006DCF28 0E10261E // mov v0.16B, v14.16b   | fmov s14, #16          | (max aniso)
+006DD6C8 0E10261E // fmov s14, #2.0        | fmov s14, #16          | (max aniso)
+006E7C68 08F8A752 // mov w8, #0x3F400000   | mov w8, #0x3FC00000    |
+@stop

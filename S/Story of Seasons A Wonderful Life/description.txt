@@ -1,0 +1,4 @@
+Story of Seasons: A Wonderful Life | IPS | v1.0.2
+
+-Increased resolution from 1564x880p to 1920x1080p (docked)
+-Increased resolution from 1000x560 to 1280x720p (handheld)

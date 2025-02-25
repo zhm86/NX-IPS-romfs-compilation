@@ -1,0 +1,4 @@
+Super Mario Maker | IPS | v3.1.3
+
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)

@@ -1,0 +1,12 @@
+@nsobid-D214BA64D902AEDA4197B57DEBABD01B
+
+# STAR OCEAN THE SECOND STORY 2 R
+
+@flag print_values
+
+@enabled
+00767A70 00103F1E // ldr s0, [x20,#8]        | fmov s0, #-1.5            | (LOD bias)
+015D74B0 88C3A872 // movk w8, #0x441c,lsl#16 | movk w8, #0x461c, lsl #16 | (vegetation draw distance)
+02012C88 00102E1E // fmov s0, w8             | fmov s0, #1.0             | (disable downscaling)
+02015ED0 00102E1E // fmov s0, #0.75000000    | fmov s0, #1.0             | (disable downscaling)
+@stop

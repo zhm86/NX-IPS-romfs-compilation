@@ -1,0 +1,5 @@
+Super Mario Bros Wonder | IPS | v1.1.0
+
+-Force antialiasing in World Map (docked|handheld)
+
+Notes: This mod was created by theboy181

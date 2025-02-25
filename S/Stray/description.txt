@@ -1,0 +1,6 @@
+Stray | IPS | romfs | v1.6.0
+
+-Slightly increased LOD (docked|handheld)
+-Increased overall draw distance (docked|handheld)
+-Enabled and increased secondary distance scale, increases draw distance for primitives objects (docked|handheld)
+-Increased refraction and SSR quality (docked|handheld)

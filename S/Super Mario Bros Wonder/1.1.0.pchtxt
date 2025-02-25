@@ -1,0 +1,10 @@
+@nsobid-F91868B88F60D3D59009DB3389FDE314A6A32FCD
+
+# Super Mario Bros. Wonder
+
+@flag print_values
+
+@enabled
+00036ED8 29008052 // movk w8, #0x3c23, lsl #16 | mov w9, #1 | (forces AA in the world map)
+0017AD44 28008052 // ldrb w8, [x23, #0x7b0]    | mov w9, #1 | (forces AA in the world map)
+@stop 

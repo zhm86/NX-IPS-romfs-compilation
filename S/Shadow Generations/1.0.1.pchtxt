@@ -1,0 +1,20 @@
+@nsobid-3AEBA262CC1D26D3D54D77D0FD7593590B57BB45
+
+# SHADOW GENERATIONS
+
+@flag print_values
+
+@enabled
+0018A3F0 2B008052 // add x1, x28, w25, uxtw | mov w11, #1          |
+00549518 1F2003D5 // tbz w8, #6, #0x28      | nop                  | (nvnSamplerBuilderSetMaxAnisotropy)
+0054952C 0010241E // ucvtf s0, s0           | fmov s0, #8          | (max aniso)
+00755E20 00102E1E // fmov s0, #0.75         | fmov s0, #1          | (docked res scaling)
+00755E24 01102E1E // fmov s1, #0.5          | fmov s1, #1          | (handheld res scaling)
+01327C4C 02B02C1E // fmov s2, #1.00000000   | fmov s2, #0.65625000 | (GetSystemTick?)
+01889AF8 20008052 // add x16, x16, #0x48    | mov w0, #1           | (SetPerformanceConfiguration)
+01889AFC C0035FD6 // br x17                 | ret                  | (SetPerformanceConfiguration)
+01889DF8 20008052 // add x16, x16, #0x1c8   | mov w0, #1           | (GetPerformanceMode)
+01889DFC C0035FD6 // br x17                 | ret                  | (GetPerformanceMode)
+01889EB8 00008052 // add x16, x16, #0x228   | mov w0, #0           | (SetCpuBoostMode)
+01889EBC C0035FD6 // br x17                 | ret                  | (SetCpuBoostMode)
+@stop

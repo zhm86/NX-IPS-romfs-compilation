@@ -1,0 +1,45 @@
+@nsobid-B424BE150A8E7D78701CBE7A439D9EBF
+
+# Super Mario Odyssey
+
+@flag print_values
+
+@enabled
+005EB8A4 08008052 // mov w8, #1           | mov w8, #0
+005EC3C8 0859A852 // mov w8, #0x42be0000  | mov w8, #0x42c80000
+005ED554 08FBA752 // mov w8, #0x3f800000  | mov w8, #0x3fd80000
+005ED62C 0800A852 // mov w8, #0x3f800000  | mov w8, #0x40000000
+005ED70C 0800A852 // mov w8, #0x3f800000  | mov w8, #0x40000000
+005EDB78 1F2003D5 // adrp x8, #0x87f000   | nop
+005EDB7C 1F2003D5 // add x8, x8, #0x108   | nop
+006D90C8 01102E1E // fmov s1, wzr         | fmov s1, #1.00000000
+00788B90 08208052 // mov w8, #0x6a        | mov w8, #0x100
+00788C78 08208052 // mov w8, #0x3c        | mov w8, #0x100
+0079BCAC 08008152 // mov w8, #0x400       | mov w8, #0x800
+0079C108 0869A852 // mov w8, #0x42c80000  | mov w8, #0x43480000
+0079C1F4 0869A852 // mov w8, #0x42c80000  | mov w8, #0x43480000
+0079C2D4 0869A852 // mov w8, #0x42c80000  | mov w8, #0x43480000
+0079C3B8 48CDA852 // mov w8, #0x457a0000  | mov w8, #0x466a0000
+0079C49C 48CDA852 // mov w8, #0x457a0000  | mov w8, #0x46750000
+0079C578 48CFA852 // mov w8, #0x457a0000  | mov w8, #0x467a0000
+009BA8AC 18F8A752 // mov w24, #0x40400000 | mov w24, #0x3fc00000
+009C6CB0 08D0A752 // mov w8, #0x40a00000  | mov w8, #0x3e800000
+00E4AB84 6C // MirrorTexWidthScale 
+00E4AB99 6C // MirrorTexHeightScale
+00E53039 7A // ShadowMapSize
+00E66A15 67 // ReduceQualityPercentage
+00E697A9 6C // ShadowMapScale
+00E6F402 61 // ProjLightView.Far
+00E72254 61 // FETCH_TYPE.Near
+00E72730 70 // MatrixCalcType
+00E78B7F 6C // span_multiply.FilterAA.enable
+00E7E686 74 // mix_rate.pcfWidth
+00E86326 72 // DepthShadowMapDepthTex.NearThird
+00E8E1F7 6C // LodDistanceScale
+00E8E206 6C // ShadowFarScale
+00E9158E 72 // FarFadeStart
+00E91599 6E // FarFadeEnd
+00E975C1 61 // hue.max_span.smaa
+00E99556 6C // ShadowPrePassBufScale
+00E99BA9 6E // ShadowMapHeight.PolygonSlopeScale.NearSecond
+@stop

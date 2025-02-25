@@ -1,0 +1,4 @@
+Sonic Generations | IPS | v1.0.1
+
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)

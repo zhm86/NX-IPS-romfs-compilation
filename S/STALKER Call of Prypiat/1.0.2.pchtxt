@@ -1,0 +1,23 @@
+@nsobid-BBA39C65C1CC64631E62FC510A81495BDCFCDFCF
+
+# S.T.A.L.K.E.R.: Call of Prypiat
+
+@flag print_values
+
+@enabled
+000D33CC 00502E1E // ldr s0, [x8, #0x154]      | fmov s0, #1.12500000      | (search 4105001FA8000037)
+000D33E4 00502E1E // ldr s0, [x8, #0x154]      | fmov s0, #1.12500000      |
+000D34A0 08008052 // mov w8, #0x999a           | mov w8, #0                |
+000D34A4 082EB872 // movk w8, #0x3f59, lsl #16 | movk w8, #0xc170, lsl #16 | (fog)
+000D34B8 E87A9452 // mov w8, #0x70a4           | mov w8, #0xa3d7           |
+000D34BC 08F6A772 // movk w8, #0x3f7d, lsl #16 | movk w8, #0x3fb0, lsl #16 |
+//008AAE34 28008052 // ldr w8, [x8, #0xde8]      | mov w8, #1                | (disable copyrights)
+00D1EF5C 00103C1E // ldr s0, [x19, #0x1c]      | fmov s0, #-0.50000000     | (LOD bias) (search E003009108CD42F900013FD6)
+00DB5C0C 092EA852 // mov w9, #0x41200000       | mov w9, #0x41700000       | (search 0924A852F44F49A9F65748A9)
+00DB5C34 0954A852 // mov w9, #0x42200000       | mov w9, #0x42a00000       | 
+00DAABE8 01102C1E // fmov s1, #1.00000000      | fmov s1, #0.50000000      | (search 01102E1E6000031F)
+00DC6CF8 00102B1E // ldr s0, [x8, #0xe40]      | fmov s0, #0.37500000      | (search 0018241EE08B062D)
+00E2FEF0 01102C1E // ldr s1, [x8, #0x40]       | fmov s1, #0.50000000      | (search 003541F9400500B4)
+0144B4CA 65 // lights_spot01�accum_volumetric_sun_nomsaa_minmax�accum_sun_mask_msaa�accum_sun_nomsaa�stub_notransform�s_jittee1
+017FA86C 0000D044 // 00004044 (768)            | 0000D044 (1664)           | (search 00004044000000000300000000001000010005000000180003000A00)
+@stop
