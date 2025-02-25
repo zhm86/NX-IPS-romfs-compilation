@@ -1,0 +1,6 @@
+Kirby Forgotten Land | IPS | v1.0.0
+
+-Disabled dynamic resolution (docked|handheld)
+-Decreased LOD bias (docked|handheld)
+
+Notes: Dynamic resolution mod by theboy181

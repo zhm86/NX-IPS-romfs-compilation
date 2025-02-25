@@ -1,0 +1,8 @@
+INSIDE | IPS | v1.0.3
+
+-Render resolution increased from 1792x1008 to 1920x1080 (docked|handheld)
+-Reduced anti-aliasing intensity (docked|handheld)
+-Enabled 30fps limit in pause menu (docked|handheld)
+-Texture filtering changed from linear to anisotropic (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074

@@ -1,0 +1,11 @@
+@nsobid-6D72E1ED0C330944834C8D571F6E518F
+
+# Liberated EE 
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+00621154 17F08052 // mov w23, #0x500  | mov w23, #0x780 | (docked resX)
+00621158 16878052 // mov w22, #0x2D0  | mov w22, #0x438 | (docked resY)
+@stop

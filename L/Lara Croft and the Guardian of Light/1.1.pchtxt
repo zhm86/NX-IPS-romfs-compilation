@@ -1,0 +1,11 @@
+@nsobid-BD5CD5189BC900935BC28B4B7139D09887571CDA
+
+# Lara Croft and the Guardian of Light
+
+@flag print_values
+
+@enabled
+0070C594 00103F1E // ldr s0, [x20, #0x30] | fmov s0, #-1.50000000 | (LOD bias)
+010B7E88 00008052 // add x16, x16, #0xb90 | movz w0, #0           | (disable GPU downtime)
+010B7E8C C0035FD6 // br x17               | ret                   | (disable GPU downtime)
+@stop

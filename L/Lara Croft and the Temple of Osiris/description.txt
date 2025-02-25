@@ -1,0 +1,12 @@
+Lara Croft and the Temple of Osisris | IPS | romfs | v1.1
+
+-Disabled dynamic GPU frequency change (docked|handheld)
+-Decreased LOD bias (docked|handheld)
+-Lightmap modulation disabled (docked|handheld)
+-More objects cast shadows (docked|handheld)
+-Improved quality of dynamic shadows (docked|handheld)
+-Increased texture filtering quality (docked|handheld)
+-Slightly increased sharpness of upscaler (docked|handheld)
+
+Notes: If you have launched the game at least once, then use JKSV to delete the preferences file from the saves at the following path LaraCroftGoL/app_support
+       This mod is based on ECLIPSE00074 work, IPS by cucholix

@@ -1,0 +1,4 @@
+Liberated Enhanced Edition | IPS | v1.0
+
+-Fixed 1080p resolution (docked)
+*Gameplay resolution is lower

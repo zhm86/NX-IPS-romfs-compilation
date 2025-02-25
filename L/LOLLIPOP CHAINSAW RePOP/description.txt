@@ -1,0 +1,15 @@
+LOLLIPOP CHAINSAW RePOP | romfs | v1.07
+
+-Max dynamic resolution 1920x1080p, min dynamic resolution 1280x720p (docked)
+-Fixed 1280x720p (handheld)
+-Increased view distance (docked|handheld)
+-Increased static meshes view distance (docked|handheld)
+-Increased dynamic shadow distance (docked|handheld)
+-Increased dynamic shadow resolution x2 (docked|handheld)
+-Disabled FSR (docked|handheld)
+-Increased LOD for all texture groups (docked|handheld)
+-Increased aniso x4 (docked|handheld)
+-Enabled ambient occlusion (docked|handheld)
+-Increased ambient occlusion quality (docked|handheld)
+-Increased reflection quality (docked|handheld)
+-Foliage has docked quality (handheld)

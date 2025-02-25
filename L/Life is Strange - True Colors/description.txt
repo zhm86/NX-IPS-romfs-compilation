@@ -1,0 +1,12 @@
+Life is Strange: True Colors | romfs | v1.0.2
+
+-Min dynamic resolution 720p, max dynamic resolution 1080p (docked)
+-Fixed resolution 720p (handheld)
+-Max aniso increased 8x (docked|handheld)
+-Antialiasing changed from TAA to FXAA+ (docked|handheld)
+-Increased draw distance 1.5x (docked|handheld)
+-Enabled shadow cast in some objects (docked|handheld)
+-Increased quality meshes at distance (docked|handheld)
+-Increased shadow resolution (docked|handheld)
+-Increased LOD in all texture groups (docked|handheld)
+-Increased LOD in landscape still images (docked|handheld)

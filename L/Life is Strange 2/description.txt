@@ -1,0 +1,17 @@
+Life is Strange 2 | romfs | v1.1.0
+
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)
+-Disabled 30 FPS lock, and set internal framerate to 30 FPS (docked|handheld)
+*This change greatly improve performance, and allow custom FPSLocker framerate without need of extra patches
+-Increased draw distance (docked|handheld)
+-Increased distance LOD meshes (docked|handheld)
+-Foliage use max LOD at any distance (docked|handheld)
+-Enabled dynamic shadow casting (docked|handheld)
+-Increased number of shadow cascades (docked|handheld)
+-Increased resolution of shadow cascades (docked|handheld)
+-TAA changed to FXAA (docked|handheld)
+-Anisotropic texture filtering increased to 4x (docked|handheld)
+-All texture groups use aniso except for Cinematics, to keep good performance balance (handheld | docked)
+-Slightly improved DOF quality (docked|handheld)
+-Texture streaming tweaks to avoid pop-up and delay on texture loading  (docked|handheld)

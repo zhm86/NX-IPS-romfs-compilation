@@ -1,0 +1,5 @@
+Luigi's Mansion 3 | IPS | v1.4.0
+
+-Disabled dynamic resolution scaling (docked|handheld)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)

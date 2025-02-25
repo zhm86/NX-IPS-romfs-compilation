@@ -1,0 +1,7 @@
+Kirby Return to Dream Land DX | IPS | v1.0.0
+
+-Fixed 1280x720p resolution (handheld)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix

@@ -1,0 +1,17 @@
+Lost in Random | romfs | v1.0.1
+
+-Fixed 1080p resolution (docked)
+*Changed in sharedassets0.assets
+-Fixed 720p resolution (handheld)
+*Changed in sharedassets0.assets
+-Texture filtering changed from linear to anisotropic (docked|handheld)
+-HDR enabled (docked|handheld)
+*Mainly improved the quality of the halo effect
+-Increased resolution of dynamic shadows (docked|handheld)
+-3-stage dynamic shadow mode enabled (docked|handheld)
+-Increased dynamic shadow distance (docked|handheld)
+-Enabled shadows from light sources (docked|handheld)
+
+Required: romfs https://mega.nz/file/tYYETIyL#-h2eEGnOihRg1X1feFsdXlQKpJytfndjs1xXgp0pU6Y
+
+Notes: This mod was created by ECLIPSE00074

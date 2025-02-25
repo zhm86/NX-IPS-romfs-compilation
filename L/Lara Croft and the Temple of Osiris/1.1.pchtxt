@@ -1,0 +1,11 @@
+@nsobid-F47C697C2B59443B71FB58F433D541CBF903CE7F
+
+# Lara Croft and the Temple of Osiris
+
+@flag print_values
+
+@enabled
+00ADE130 00103E1E // ldr s0, [x20, #0x30] | fmov s0, #-1.00000000 | (LOD bias)
+018D96B8 00008052 // add x16, x16, #0x230 | movz w0, #0           | (increased GPU)
+018D96BC C0035FD6 // br x17               | ret                   | (increased GPU)
+@stop

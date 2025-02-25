@@ -1,0 +1,23 @@
+Little Nightmares II | romfs | v1.4
+
+-Slightly increased image sharpness (docked|handheld)
+-Min dynamic resolution 50% (docked|handheld)
+-Max dynamic resolution 100% (docked|handheld)
+-Reduced depth bias of dynamic shadows from light sources (docked|handheld)
+*For example, now the shadow of a character under a light source will start from the boots, not from the knees
+-Increased sharpness and accuracy of shadows (docked|handheld)
+-Increased resolution of dynamic shadows (docked|handheld)
+-Improved volumetric fog quality (docked|handheld)
+-Depth of field enabled (docked|handheld)
+-Bloom quality increased (docked|handheld)
+-Increased quality of materials (docked|handheld)
+-SSR enabled (docked|handheld)
+-Reduced particle count (docked|handheld)
+*To improve performance in some scenes
+-Chromatic aberration disabled (docked|handheld)
+-Disabled image grain (docked|handheld)
+-Filtering of some textures changed from linear to anisotropic 4x (docked|handheld)
+
+Optional: HQ textures https://mega.nz/file/oI4xBBKD#I3OLo6OFyGwF3sZ0tI4GjW7-KPkKUdX0G7FN6_fLFAw
+
+Notes: This mod was created by ECLIPSE00074

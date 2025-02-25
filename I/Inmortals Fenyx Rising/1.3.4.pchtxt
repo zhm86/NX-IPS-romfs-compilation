@@ -1,0 +1,27 @@
+@nsobid-70F3F6751D73C644BCE904CCB414E35B
+
+# Fenyx Rising
+
+@flag print_values
+
+@enabled
+00BC8B78 0010261E // ucvtf s0, s0           | fmov s0, #16          | (max aniso)
+00BC8C54 00103D1E // ldr s0, [x21, #0x30]   | fmov s0, #-0.75000000 | (LOD bias)
+00D1FC3C 1B008052 // ldrb w27, [x9, #0x7ec] | mov w27, #0           |
+0159104C 090A8352 // mov w9, #0x1868        | mov w9, #0x1850       |
+01592A8C 090A8352 // mov w9, #0x186c        | mov w9, #0x1850       |
+015A3D94 03102E1E // ldr s3, [x8, #0xd70]   | fmov s3, #1.00000000  |
+01BC40F8 1C008052 // ldrb w28, [x8, #0x7ec] | mov w28, #0           |
+01CCD60C 00102A1E // fmov s0, #0.50000000   | fmov s0, #0.25000000  |
+01CCD650 00902C1E // fmov s0, #1.00000000   | fmov s0, #0.62500000  |
+01CCD768 01F02E1E // fmov s1, #1.00000000   | fmov s1, #1.43750000  |
+01D588E0 02902C1E // fmov s2, #1.00000000   | fmov s2, #0.62500000  |
+01DBFD7C 01102A1E // mov v1.16b, v0.16b     | fmov s1, #0.25000000  |
+01DC0024 01102A1E // fmov s1, #2.00000000   | fmov s1, #0.25000000  |
+01E03620 085A8052 // mov w8, #0x1f8         | mov w8, #0x2d0        | (docked|handheld resY)
+01E036C8 1AA08052 // mov w26, #0x380        | mov w26, #0x500       | (docked|handheld resX)
+01E03DD8 090A8352 // mov w9, #0x1868        | mov w9, #0x1850       |
+01E040D8 090A8352 // mov w9, #0x186c        | mov w9, #0x1850       |
+05BCF5F8 20008052 // add x16, x16, #0x148   | mov w0, #1            |
+05BCF5FC C0035FD6 // br x17                 | ret                   |
+@stop

@@ -1,0 +1,7 @@
+Kirby Star Allies | IPS | v4.0.0
+
+-Fixed 1920x1080p resolution (docked)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)
+
+Notes: Enabling FPSLocker config file produce pink blinking screen in Exit Stage

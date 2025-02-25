@@ -1,0 +1,14 @@
+@nsobid-AC413CB004FE9940B127B59FBB2C65D8
+
+# INSIDE
+
+@flag print_values
+
+@enabled
+00C91278 01008052 // cmp w19, #1          | movz w1, #0      | (reduced AA intensity)
+00C91280 15878052 // orr w21, wzr, #0x3f0 | movz w21, #0x438 | (docked|handheld resY)
+00C91284 14F08052 // orr w20, wzr, #0x700 | movz w20, #0x780 | (docked|handheld resX)
+00C912F0 46008052 // orr w6, wzr, #1      | movz w6, #0x2    | 
+01331508 0010261E // scvtf s0, w22        | fmov s0, #16     | (max aniso)
+01331530 00103F1E // mov v0.16B, v8.16B   | fmov s0, -1.5    | (LOD bias)
+@stop

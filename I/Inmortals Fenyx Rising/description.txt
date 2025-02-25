@@ -1,0 +1,16 @@
+Immortals Fenyx Rising | IPS | v1.3.4
+
+-Image resolution increased from 896x504 to 1280x720 (handheld)
+-Interface resolution increased from 1024x576 to 1280x720 (handheld)
+-Disabled dynamic GPU frequency change (docked|handheld)
+-Texture filtering changed from bilinear to aniso (docked|handheld)
+-Decreased texture LOD bias (docked|handheld)
+-Increased resolution of dynamic shadows (docked|handheld)
+-Reduced FXAA antialiasing intensity (docked|handheld)
+-Increased resolution of cascade dynamic shadows (docked|handheld)
+-Increased distance of LODs of objects (handheld)
+-Increased grass distance (docked|handheld)
+-Increased tree LOD distance (docked|handheld)
+-Increased terrain texture resolution (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074

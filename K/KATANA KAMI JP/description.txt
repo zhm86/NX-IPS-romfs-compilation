@@ -1,0 +1,8 @@
+KATANA KAMI (Japanese) | IPS | romfs | v1.0.3
+
+-Fixed 1920x1080p resolution (docked)
+-Fixed 1280x720p resolution (handheld)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)
+
+Notes: This mod will only work for the japanese version of the game
