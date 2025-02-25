@@ -1,0 +1,17 @@
+@nsobid-8432CEC51F882448B60EED2164FCEF65
+
+# Yooka-Laylee and the Impossible Lair
+
+@flag print_values
+
+@enabled
+001B12F4 025A8052 // mov w2, #0x21C      | mov w2, #0x2D0 | (handheld resY)
+001B12F8 01A08052 // mov w1, #0x3C0      | mov w1, #0x500 | (handheld resX)
+001B1358 01F08052 // mov w1,#0x550       | mov w1,#0x780  | (docked resX)
+001B135C 02878052 // mov w2,#0x2fd       | mov w2,#0x438  | (docked resY)
+001B16B8 01F08052 // mov w1,#0x550       | mov w1,#0x780  | (docked resX)
+001B16BC 02878052 // mov w2,#0x2fd       | mov w2,#0x438  | (docked resY)
+019BBCB4 00103F1E // ldr s0, [x22,#0x18] | fmov s0, #-1.5 | (LOD bias)
+019BBD94 0010261E // scvtf s0, s0        | fmov s0, #16   | (max aniso)
+019BD2F0 0010261E // mov 0.16b, v8.16b   | fmov s0, #16   | (max aniso)
+@stop
