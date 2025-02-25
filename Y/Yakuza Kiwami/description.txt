@@ -1,6 +1,0 @@
-Yakuza Kiwami | IPS | v1.01 
-
--Fixed resolution 1080p (docked)
--Fixed resolution 720p (handheld)
--Decreased LOD bias (docked|handheld)
--Max aniso filtering x16 (docked|handheld)
