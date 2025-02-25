@@ -1,0 +1,27 @@
+@nsobid-4B159F0F7A360669738390EE8657B4F0
+# Astral Chain [01007300020FA000] v1.0.1
+
+@flag print_values
+
+@enabled
+004329C0 08EC8052 // mov w8, #0x640        | mov w8, #0x760  | (docked resX)
+004329C8 C8848052 // mov w8, #0x384        | mov w8, #0x426  | (docked resY)
+//00402BC4 00008052 // mov w0, #0x20000000   | mov w0, #0      | (handheld antialiasing enabled)
+0040D6E4 09EC8052 // mov w9, #0x640        | mov w9, #0x760  | (docked resX)
+0040D6F0 C9848052 // mov w9, #0x384        | mov w9, #0x426  | (docked resY)
+0040FC04 09EC8052 // mov w9, #0x640        | mov w9, #0x760  | (docked resX)
+0040FC14 C9848052 // mov w9, #0x384        | mov w9, #0x426  | (docked resY)
+0040F284 1F801D71 // cmp w0, #0x640        | cmp w0, #0x760  | (docked resX)
+0040F288 C8848052 // mov w8, #0x384        | mov w8, #0x426  | (docked resY)
+0040F2A4 08A08052 // mov w8, #0x400        | mov w8, #0x500  | (handheld resY)
+0040F2A8 09EC8052 // mov w9, #0x5a0        | mov w9, #0x760  | (docked resX)
+0040F2AC 1F801D71 // cmp w0, #0x640        | cmp w0, #0x760  | (docked resX)
+0040F2B0 145A8052 // mov w20, #0x276       | mov w20, #0x2D0 | (handheld resX)
+0040F2B4 D6848052 // mov w22, #0x32A       | mov w22, #0x426 | (docked resY)
+0040F2D0 1F801D71 // cmp w0, #0x640        | cmp w0, #0x760  | (docked resX)
+009ED22C A1008052 // ldr w1, [x9, #0x68]   | mov w1, #5      | (bilinear to aniso)
+009F7C28 00008052 // mov w0, #0x20000000   | mov w0, #0      | (improved aniso quality) 
+00C20204 00008041 // 00000040              | 00008041        | (aniso filter x16)
+00C20208 00008041 // 00008040              | 00008041        | (aniso filter x16)
+00C2020C 00008041 // 00008040              | 00008041        | (aniso filter x16)
+@stop

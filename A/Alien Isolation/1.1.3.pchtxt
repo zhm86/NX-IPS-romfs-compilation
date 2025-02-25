@@ -1,0 +1,11 @@
+@nsobid-1FEDF6BF6D8C7392F122CEF2AB8ED7B52B2FAF82
+
+# Alien Isolation
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+000DB824 00103F1E // ldr s0, [x20,#0x30] | fmov s0, -1.5 | (LOD bias)
+000DB868 0010261E // ldr s0, [x20,#0x3C] | fmov s0, #16  | (max aniso)
+@stop

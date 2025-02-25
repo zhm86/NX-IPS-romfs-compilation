@@ -1,0 +1,6 @@
+Animal Crossing: New Horizons | IPS | v2.0.6
+
+-LOD bias decreased (docked|handheld)
+-Max aniso filtering increased x16 (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix

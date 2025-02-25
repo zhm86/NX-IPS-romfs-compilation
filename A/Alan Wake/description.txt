@@ -1,0 +1,14 @@
+Alan Wake Remastered | IPS | v1.0.1
+
+-Resolution increased from 640x360 to 1280x720 (handheld)
+-Render resolution reduced from 1920x1080 to 1280x720 (docked|handheld)
+-Resolution increased from 960x540 to 1280x720 (docked)
+-Enabled display of dynamic shadows from medium objects in the second cascade (docked|handheld)
+-4-cascade dynamic sun/moon shadow mode enabled (docked|handheld)
+-Reduced the softness of the PCF shadow filter (docked|handheld)
+-Increased the distances of small, medium and large objects (docked|handheld)
+-Increased the distances of small and medium buildings (docked|handheld)
+-Increased LOD distance of all vegetation (docked|handheld)
+-Slighlty decreased LOD bias (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix

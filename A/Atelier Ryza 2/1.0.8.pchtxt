@@ -1,0 +1,17 @@
+@nsobid-2275D20A581F37E3489108C78FAA184B9B019351
+
+# Atelier Ryza 2: Lost Legends & the Secret Fairy
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+00BD1BC4 00103E1E // ldr s0, [x20,#0x10] | fmov s0, #-1.0  | (LOD bias)
+00BD1C34 0010261E // ucvtf s0, s0        | fmov s0, #16    | (max aniso)
+00A0FB84 0AF08052 // mov w10, #0x5A0     | mov w10, #0x780 | (docked resX)
+00A0FBE4 0A878052 // mov w10, #0x32A     | mov w10, #0x438 | (docked resY)
+00A0FB90 08F08052 // mov w8, #0x640      | mov w8, #0x780  | (docked resX)
+00A0FBF0 08878052 // mov w8, #0x384      | mov w8, #0x438  | (docked resY)
+00A0FB64 09A08052 // mov w9, #0x420      | mov w9, #0x500  | (handheld resX)
+00A0FBC4 095A8052 // mov w9, #0x252      | mov w9, #0x2D0  | (handheld resY)
+@stop

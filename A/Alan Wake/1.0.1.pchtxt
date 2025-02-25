@@ -1,0 +1,40 @@
+@nsobid-6520258D00AEA915839F16ACDCF00682499D88F6
+
+# Alan Wake
+
+@flag print_values
+
+@enabled
+00155308 08F2A752 // movz w8, #0x3f00, lsl #16 | mov w8, #0x3f900000 |
+//001555C8 9F020071 // cmp w20, #1               | cmp w20, #0         | (antialiasing off) (comment to enable AA)
+//001555CC C0035FD6 // B.NE loc_7100155648       | ret                 | (antialiasing off) (comment to enable AA)
+//001555D0 08008052 // mov w8, #1                | mov w8, #0          | (antialiasing off) (comment to enable AA)
+//001555D4 C0035FD6 // B loc_7100155630          | ret                 | (antialiasing off) (comment to enable AA)
+//00155818 9F020071 // cmp w20, #1               | cmp w20, #0         | (msaaquality off) (comment to enable msaa)
+//0015581C C0035FD6    B.NE loc_7100155738       | ret                 | (msaaquality off) (comment to enable msaa)
+//00155820 08008052 // mov w8, #1                | mov w8, #0          | (msaaquality off) (comment to enable msaa)
+//00155724 C0035FD6 // B loc_710015572C          | ret                 | (msaaquality off) (comment to enable msaa)
+0015599C 7F160071 // cmp w19, #3               | cmp w19, #5         | (terrainquality) 
+00395788 8951A852 // movz w9, #0x4248, lsl #16 | mov w9, #0x428c0000 |
+003957EC 8956A852 // movz w9, #0x4296, lsl #16 | mov w9, #0x42b40000 | 
+00395850 2962A852 // movz w9, #0x4302, lsl #16 | mov w9, #0x43110000 |
+003958B4 8951A852 // movz w9, #0x4248, lsl #16 | mov w9, #0x428c0000 |
+00395918 095EA852 // movz w9, #0x42c8, lsl #16 | mov w9, #0x42f00000 | 
+003BE820 0010241E // mov v0.16b, v10.16B       | fmov s0, #8         | (max aniso)
+003BE86C 00103F1E // mov v0.16b, v8.16b        | fmov s0, #-1.5      | (LOD bias)
+003D2408 03008052 // movz w3, #0x5             | mov w3, #0          | (controls upscale, Remedy default #5 | ecl mod #1) 
+003D2DC0 080080D2 // movz x8, #0x4080, lsl #16 | mov x8, #0          |
+003D2DC4 080080F2 // movk x8, #0x4000, lsl #48 | movk x8, #0         |
+003D2DCC 08008052 // movz w8, #0x4200, lsl #16 | mov w8, #0          |
+003D2E28 08008052 // movz w8, #0x3f80, lsl #16 | mov w8, #0          |
+003D2E30 08008052 // movz w8, #0x41a0, lsl #16 | mov w8, #0          |
+003D3A28 24008052 // movz w4, #0x3             | mov w4, #1          |
+003D7BD0 0814A8D2 // movz x8, #0x4110, lsl #16 | mov x8, #0x40a00000 | 
+003D7CB4 0808A8D2 // movz x8, #0x40a0, lsl #16 | mov x8, #0x40400000 |
+003DA7CC 17008052 // movz w23, #0x1            | mov w23, #0         |
+0040D220 08008052 // movz w8, #0x1             | mov w8, #0          |
+0040D2D0 0908A852 // movz w9, #0x4000, lsl #16 | mov w9, #0x40400000 |
+01291448 00050000D002 // 800700003804          | 00050000D002        |
+@stop
+
+Notes: lines 8-16 contains patches to disable antialiasing, by default it uses TAA

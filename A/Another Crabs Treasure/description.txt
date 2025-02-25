@@ -1,0 +1,6 @@
+Another Crab's Treasure | IPS | v1.0.103.9
+
+-Base resolution increased from 1280x720p to 1600x900p (docked|handheld)
+-Min resolution scale increased from 845x360 to 1000x562 (docked|handheld)
+-Slightly decreased LOD bias (docked|handheld)
+-Max aniso filtering increased x16 (docked|handheld)

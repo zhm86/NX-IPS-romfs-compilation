@@ -1,0 +1,29 @@
+@nsobid-DED0F920799151BE1D8B6D6DD814E18E
+
+# Another Code: Recollection
+
+@flag print_values
+
+@enabled
+00A13898 00102E1E // scvtf s0, w8              | fmov s0, #1.00000000      | 
+00A138B0 00103F1E // ldr s0, [x20, #8]         | fmov s0, #-1.50000000     | (LOD bias)
+029DCD18 0899A852 // movz w8, #0x44B4, lsl #16 | movz w8, #0x44C8, lsl #16 | (docked resX 1600p)
+029DCD20 0894A852 // movz w8, #0x4470, lsl #16 | movz w8, #0x44A0, lsl #16 | (handheld resX 1280p)
+029DCD38 08008052 // movz w8, #0x8000          | movz w8, #0               |
+029DCD3C 288CA872 // movk w8, #0x444A, lsl #16 | movk w8, #0x4461, lsl #16 | (docked resY 900p)
+029DCD44 8886A852 // movz w8, #0x4407, lsl #16 | movz w8, #0x4434, lsl #16 | (handheld resY 720p)
+029DCD4C 0899A852 // movz w8, #0x44B4, lsl #16 | movz w8, #0x44C8, lsl #16 | (docked resX 1600p)
+029DCD58 0894A852 // movz w8, #0x4470, lsl #16 | movz w8, #0x44A0, lsl #16 | (handheld resX 1280p)
+029DCD70 0894A852 // movz w8, #0x4480, lsl #16 | movz w8, #0x44A0, lsl #16 | (handheld resX 1280p)
+029DCD78 8886A852 // movz w8, #0x4410, lsl #16 | movz w8, #0x4434, lsl #16 | (handheld resY 720p)
+029DCD90 0899A852 // movz w8, #0x44C0, lsl #16 | movz w8, #0x44C8, lsl #16 | (docked resX 1600p)
+029DCD98 288CA852 // movz w8, #0x4458, lsl #16 | movz w8, #0x4461, lsl #16 | (docked resY 900p)
+029DCECC 81708052 // movz w1, #0x360           | movz w1, #0x384           | (docked resX 1600p)
+029DCED0 00C88052 // movz w0, #0x600           | movz w0, #0x640           | (docked resY 900p)
+029DCF30 015A8052 // movz w1, #0x240           | movz w1, #0x2D0           | (handheld resX 1280p)
+029DCF34 00A08052 // movz w0, #0x400           | movz w0, #0x500           | (handheld resY 720p)
+029DCF90 81708052 // movz w1, #0x360           | movz w1, #0x384           | (docked resX 1600p)
+029DCF94 00C88052 // movz w0, #0x600           | movz w0, #0x640           | (docked resY 900p)
+029DCFC4 015A8052 // movz w1, #0x240           | movz w1, #0x2D0           | (handheld resX 1280p)
+029DCFC8 00A08052 // movz w0, #0x400           | movz w0, #0x500           | (handheld resY 720p)
+@stop

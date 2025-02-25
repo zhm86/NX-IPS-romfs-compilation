@@ -1,0 +1,17 @@
+@nsobid-DE9599C18D3F2B7AA26677A423DE37A3
+
+# 1000xResist
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+0099F224 0010261E // scvtf s0, w8    | fmov s0, #16   | (max aniso)
+0204DDE4 00102E1E // fmov s0, w8     | fmov s0, #1.0  | (docked|handheld res scale)
+0204DE50 00F08052 // mov w0, #0x500  | mov w0, #0x780 | (docked|handheld resY 1920)
+0204DE54 01878052 // mov w1, #0x2D0  | mov w1, #0x438 | (docked|handheld resY 1080)
+0204DE60 00102E1E // fmov s0, #0.875 | fmov s0, #1.0  | (docked|handheld res scale)
+0204DE68 01102E1E // fmov s1, s0     | fmov s1, #1.0  | (docked|handheld res scale)
+@stop
+
+Notes: LOD bias decrease results in some textures having surface reflections where it's not needed, it's not modded 

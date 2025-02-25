@@ -1,0 +1,6 @@
+Atelier Ryza 2: Lost Legends & the Secret Fairy | IPS | v1.0.8
+
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)

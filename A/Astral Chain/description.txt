@@ -1,0 +1,8 @@
+Astral Chain | IPS | v1.0.1
+
+-Fixed resolution 1062x1888p (docked)
+-Fixed resolution 1920x720 (handheld)
+-Increased aniso filtering quality (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)
+
+Notes: This mod was created by KetaonTheBot, anisotropic tweaks by ECLIPSE00074, converted to IPS by cucholix

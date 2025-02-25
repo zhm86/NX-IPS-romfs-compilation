@@ -1,0 +1,10 @@
+ABZÛ | romfs | v1.0.0
+ 
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)
+-TAA changed to FXAA+ (docked|handheld)
+-Increased view distance (docked|handheld)
+-Increased dynamic shadow distance (docked|handheld)
+-Increased dynamic shadow resolution x2 (docked|handheld)
+-Increased LOD for all texture groups (docked|handheld)
+-Max aniso filtering increased x4 (docked|handheld)

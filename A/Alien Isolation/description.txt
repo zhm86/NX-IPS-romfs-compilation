@@ -1,0 +1,24 @@
+Alien Isolation | IPS | romfs | v1.1.3
+
+-Slighlty decreased LOD bias (docked|handheld)
+-Max aniso filtering increased x16 (docked|handheld)
+-The following in-game seetings were added: (docked|handheld) 
+  -Level of Detail (by default Medium)
+  -Shadow Map Resolution (by default 1024)
+  -Shadow Mapping (by default Low, not confirmed if it's working)
+  -Particles (by default Low, not confirmed if it's working)
+  -Motion Blur On/Off (by default Off)
+  -Depth of Field On/Off (by default On, not confirmed if it's working)
+  -Planar Reflections On/Off (by default On, not confirmed if it's working)
+  -SSAO (by default Off)
+  -Texture Filtering (by default Anisotropic 2x, not confirmed if it's working)
+  -Field of View (by default 47.) Warning! Configs by default are disabling any changes to FOV. If you have already created save, then you need to delete it from Data Management or backup save, edit "preferences" file and change
+     <value name="DisallowCustomFOV" type="integer">1</value>
+     to
+     <value name="DisallowCustomFOV" type="integer">0</value>
+  -Confirmed not working:
+  -Volumetric Lighting On/Off (Off by default, but it has some custom force values specific for Switch)
+  -Antialiasing option not added, because TAA is a separate setting that cannot be added to game menu.
+-Intro video fixed as it included warnings from Korean version
+  
+Notes: romfs mod by MasaGrator, IPS by cucholix, for more info about the romfs mod (including Advanced settings) please refer to this thread https://gbatemp.net/threads/alien-isolation-60-fps-enhanced-graphics-settings-more.553647/
