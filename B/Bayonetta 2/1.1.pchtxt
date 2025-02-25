@@ -1,0 +1,11 @@
+@nsobid-F19B2E01E1794F933A9720C1404BB6F6
+
+# Bayonetta 2
+
+@flag offset_shift 0x100
+@flag print_values
+
+@enabled
+00ED7228 00503E1E // ldr s0, [x20,#0x10] | fmov s0, #-1.125 | (LOD bias)
+00ED7298 0010261E // ucvtf s0, s0        | fmov s0, #16     | (max aniso)
+@stop

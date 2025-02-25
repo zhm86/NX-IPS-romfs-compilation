@@ -1,0 +1,9 @@
+Batman Arkham Knight | IPS | v1.0.3
+
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld) 
+-Increased distance of object LODs (docked|handheld)
+-Increased distance of small objects (docked|handheld)
+-Decreased LOD bias (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix

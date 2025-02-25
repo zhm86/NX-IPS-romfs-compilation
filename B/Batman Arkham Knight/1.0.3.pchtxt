@@ -1,0 +1,29 @@
+@nsobid-7DC6FDFAD9368F08B48608B4317FDFA2
+
+# Batman Arkham Knight v1.0.3
+
+@flag print_values
+
+@enabled
+00B28100 D77B8052 // movz w23, #0x2d0           | movz w23, #0x3de           |
+00B28108 19DC8052 // movz w25, #0x500           | movz w25, #0x6e0           |
+00B30A14 08DC8052 // movz w8, #0x500            | movz w8, #0x6e0            |
+00B30A28 C97B8052 // movz w9, #0x2d0            | movz w9, #0x3de            |
+00B67F18 0010301E // scvtf s0, w8               | fmov s0, #-0.50000000      | (LOD bias)
+00B67FF0 0110241E // fmov s1, #16.00000000      | fmov s1, #8.00000000       |
+00B67FF8 0010241E // fminnm s0, s0, s1          | fmov s0, #8.00000000       |
+00B68004 0110241E // fmov s1, #1.00000000       | fmov s1, #8.00000000       |
+00B6800C 0010241E // fcsel s0, s1, s0, lt       | fmov s0, #8.00000000       |
+00B6806C A1008052 // movz w1, #0x3              | movz w1, #0x5 (aniso)      |
+00B682C8 A1008052 // movz w1, #0x2              | movz w1, #0x5 (aniso)      |
+00F60054 0AF0A752 // movz w10, #0x42c8, lsl #16 | movz w10, #0x3f80, lsl #16 |
+013CD128 1CF0A752 // movz w28, #0x42c8, lsl #16 | movz w28, #0x3f80, lsl #16 |
+013D2114 08F0A752 // movz w8, #0x42c8, lsl #16  | movz w8, #0x3f80, lsl #16  |
+016255B4 08102A1E // fmov s8, #1.00000000       | fmov s8, #0.25000000       |
+0164DDB0 08F0A752 // movz w8, #0x42c8, lsl #16  | movz w8, #0x3f80, lsl #16  |
+01654EE8 02902E1E // fcmp s2, #0.0              | fmov s2, #1.25000000       |
+0165511C 0350211E // ldr s3, [x9, #0x230]       | fmov s3, #3.25000000       |
+0167F3C0 0AF0A752 // movz w10, #0x42c8, lsl #16 | movz w10, #0x3f80, lsl #16 |
+02C7E328 E0060000DE030000 // 00050000D0020000   | E0060000DE030000           |
+//02C3BF42 6E // URRainComponent                  | 6E                         | (disable rain)
+@stop

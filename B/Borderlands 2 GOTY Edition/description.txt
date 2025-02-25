@@ -1,0 +1,3 @@
+Borderlands 2 GOTY Edition | romfs | v1.0.2
+
+-Disabled outline (docked|handheld)

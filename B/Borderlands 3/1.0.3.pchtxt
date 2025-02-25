@@ -1,0 +1,23 @@
+@nsobid-AE2768797E3337EE209D7EAB9574D475
+
+# Borderlands 3 
+
+@flag print_values
+
+@enabled
+0448E438 09008252 // movz w9, #0x800                      | movz w9, #0x1000      |
+055AE59C 01F0271E // fmov s1, #2.00000000                 | fmov s1, #31.00000000 |
+055AEF18 01F0271E // fmov s1, #2.00000000                 | fmov s1, #31.00000000 |
+055AEF44 02F0271E // fmov s2, #2.00000000                 | fmov s1, #31.00000000 |
+0A0E773E 61       // SetHorizSpacingAdjust.TF_Trilinear   |
+0A0F54FF 73       // DynamicShadowCascades                | 
+0A114DE0 73       // CTM_NormalRoughnessToBlue.TF_Nearest |
+0A187CA5 73       // CastShadow                           |
+0A19CB70 6E       // CascadeDistributionExponent          |
+0A1D36D4 73       // CastShadows                          |
+0A1D8D9C 68       // DynamicShadowDistanceStationaryLight |
+0A20654A 73       // ShadowResolutionScale                |
+0A244C2A 61       // TMC_AllMips.TF_Bilinear              |
+0A2BB557 68       // DynamicShadowDistanceMovableLight    |
+0A2D4A40 9A991940 // 00008040                             |
+@stop

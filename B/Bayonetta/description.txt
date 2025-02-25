@@ -1,0 +1,5 @@
+Bayonetta | IPS | v1.1
+
+-Fixed resolution 1792x1008p (docked|handheld)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)

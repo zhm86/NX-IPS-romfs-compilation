@@ -1,0 +1,19 @@
+@nsobid-74570FA2709ED714006CD65C42A97DC6FC56FDCE
+
+# Burnout Paradise Remastered
+
+@flag print_values
+
+@enabled
+002EA470 098081D2 // mov x9, #0x500               | mov x9, #0xc00               |
+002EA474 0940C2F2 // movk x9, #0x780, lsl #32     | movk x9, #0x1200, lsl #32    |
+002F6BB4 02D02C1E // fmov s2, #1.00000000         | fmov s2, #0.68750000         |
+00582468 0A33A852 // mov w10, #0x41280000         | mov w10, #0x41980000         |
+00582504 4B50A852 // mov w11, #0x41f00000         | mov w11, #0x42820000         |
+00582548 CC72A852 // mov w12, #0x42f00000         | mov w12, #0x43960000         |
+005825DC 0E33E8D2 // mov x14, #0x4128000000000000 | mov x14, #0x4198000000000000 |
+00582670 4B50A8D2 // mov x11, #0x41f00000         | mov x11, #0x42820000         |
+00598CC4 02302D1E // fmov s2, #1.00000000         | fmov s2, #0.78125000         | 
+005F1C50 00103D1E // ldr s0, [x22, #0x10]         | fmov s0, #-0.75000000        | (LOD bias)
+005F1C90 0010261E // ucvtf s0, w8                 | fmov s0, #16.00000000        | (max aniso)
+@stop

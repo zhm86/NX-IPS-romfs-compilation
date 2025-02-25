@@ -1,0 +1,6 @@
+Bubble Bobble 4 Friends | IPS | v1.0.9
+
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)
+
+Notes: This mod was created by theboy181.

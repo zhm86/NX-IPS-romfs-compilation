@@ -1,0 +1,14 @@
+Bravely Default II | romfs | v1.0.0
+
+-Slightly increased image sharpness (docked|handheld)
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)
+-TAA Antialiasing Enabled (docked|handheld)
+-Increased resolution of dynamic cascading shadows (docked|handheld)
+-Texture filtering changed from linear to anisotropic 3x (docked|handheld)
+-Mip filter of all textures changed from point to anisotropic (docked|handheld)
+*Thanks to this, textures now look smooth, without pixelation
+
+Optional: Sunrise-E-Switch_1_P.pak swaps info about voices data in Prologue to play Japanese voices. More info about this mod https://gbatemp.net/threads/bravely-default-ii-japanese-prologue-mod.583821/
+
+Notes: This mod was created by ECLIPSE00074

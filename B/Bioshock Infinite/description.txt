@@ -1,0 +1,10 @@
+Bioshock Infinite | IPS | romfs | 1.0.2
+
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld) 
+-Increased LOD distance (docked|handheld)
+-Increased resolution of dynamic shadows (docked|handheld)
+-Increased draw distance of dynamic shadows (docked|handheld)
+-Increased quality of sun rays (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, LOD bias patch by cucholix

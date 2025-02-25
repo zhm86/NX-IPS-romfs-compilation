@@ -1,0 +1,14 @@
+Bloodstained Ritual of The Night | IPS | romfs | v1.60
+
+-Disabled dynamic resolution (docked|handheld)
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)
+-Disabled TAA (now it's not needed because there's not resolution shifts) (docked|handheld)
+*Fixes the shimer effect in the original, as well as artifact lines in Miriam model during inventory menu* 
+-Enabled FXAA+ (docked|handheld)
+-Enabled aniso filter in all textures (docked|handheld)
+-Increased texture LOD x2 (docked|handheld)
+-Decreased LOD bias (docked|handheld)
+-Framerate and frametime tweaks, greatly improves framerate stability (docked|handheld)
+-Disabled headgear cosmetics, mask, hats, glasses are invisible but still give buff effects (docked|handheld)
+*If you prefer original headgear on Miriam delete "pakchunk0-Switch_2_P.pak" and "pakchunk0-Switch_3_P.pak"

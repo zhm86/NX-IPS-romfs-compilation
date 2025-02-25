@@ -1,0 +1,35 @@
+@nsobid-B47CC79B88B7091EA514B2B725C50AE01C6F00DF
+
+# Bayonetta 3
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+00678730 1F2003D5 // mov w3, w22               | nop                 | (no film grain)
+00678A30 1F2003D5 // movz w8, #0x428c, lsl #16 | nop                 | (no film grain) 
+0069F140 19C88052 // movz w25, #0x5e0          | movz w25, #0x640    | (resX docked)
+0069F144 1A708052 // movz w26, #0x350          | movz w26, #0x380    | (resY docked)
+0069F180 19C88052 // movz w25, #0x5a0          | movz w25, #0x640    | (resX docked)
+0069F184 1A708052 // movz w26, #0x330          | movz w26, #0x380    | (resY docked)
+0069F1C0 19C88052 // movz w25, #0x550          | movz w25, #0x640    | (resX docked)
+0069F1D0 03708052 // movz w3, #0x300           | movz w3, #0x380     | (resY docked)
+0069F1E4 03708052 // movz w3, #0x300           | movz w3, #0x380     | (resY docked)
+0069F1FC 1BC88052 // movz w27, #0x500          | movz w27, #0x640    | (resX docked)
+0069F200 1A708052 // movz w26, #0x2d0          | movz w26, #0x380    | (resY docked)
+0069F23C 19708052 // movz w25, #0x240          | movz w25, #0x380    | (resY docked)
+0069F248 02C88052 // movz w2, #0x400           | movz w2, #0x640     | (resX docked)
+0069F25C 02C88052 // movz w2, #0x400           | movz w2, #0x640     | (resX docked)
+0069F2D8 02C88052 // movz w2, #0x460           | movz w2, #0x640     | (resX docked)
+0069F2DC 03708052 // movz w3, #0x274           | movz w3, #0x380     | (resY docked)
+0069F348 02C88052 // movz w2, #0x800           | movz w2, #0x640     | (resX docked)
+0069F34C 03708052 // movz w3, #0x800           | movz w3, #0x380     | (resY docked)
+00D11F64 A1008052 // ldr w1, [x9, #0x68]       | mov w1, #5          | (linear -> aniso)
+00BD5B2C 08008052 // csel w8, w8, w25, lt      | movz w8, #0         | (improves LOD)
+00CE3BF8 1F000071 // cmp w0, #1                | cmp w0, #0          | (force 900p)
+00CFD994 41008052 // ldr w1, [x9, x8, lsl #2]  | movz w1, #0x2       | (30 FPS in all modes)
+01321F80 C0035FD6 // adrp x16, #0x117a000      | ret                 | (force 900p)
+0182D670 40060000400600004006000040060000400600004006000040060000 // | (resY table) (disabled dynamic res)
+0182D570 80030000800300008003000080030000800300008003000080030000 // | (resX table) (disabled dynamic res)
+0185C4DB 41000000 // 40000000                  | 41000000            | (aniso x8)
+@stop

@@ -1,0 +1,10 @@
+@nsobid-461B14E505AB955525DC93E0E908C0BC
+
+# Bloodstained Ritual of the Night
+
+@flag print_values
+
+@enabled
+0767D1F4 0010241E // mov v0.16b, v8.16b | fmov s0, #8      | (max aniso)
+0767D250 0010381E // ldr s0, [x19,#4]   | fmov s0, #-0.125 | (LOD bias)
+@stop

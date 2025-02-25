@@ -1,0 +1,9 @@
+Baten Kaitos 1 | IPS | v1.0.3
+
+-Decreased LOD bias (docked|handheld)
+-Disabled downscaling (docked|handheld)
+
+30 FPS encoded videos (if you play at 30 FPS)
+https://mega.nz/file/ERhXkLiS#fKGzSBYFir2_T-exJmPP2tysINDkP0GIYvYQ4ZKnKMM
+
+Notes: Downscaling mod by KetaonTheBot, LOD bias mod by cucholix

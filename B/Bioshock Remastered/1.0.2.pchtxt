@@ -1,0 +1,10 @@
+@nsobid-D89FFAA2062E373D914D04BB73CA6C6F9A4CD018
+
+# Bioshock Remastered
+
+@flag print_values
+
+@enabled
+00F0B108 00103D1E // ldr s0, [x22, #0x10] | fmov s0, #-0.75000000 | (LOD bias)
+00F0B130 0010261E // ucvtf s0, s0         | fmov s0, #16          | (max aniso)
+@stop

@@ -1,0 +1,15 @@
+Beyond Good & Evil 20th Anniversary Edition | IPS | romfs | v1.0.1
+
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)
+-The number of dynamic shadow cascades from the sun/moon has been increased from 2 to 4 (docked|handheld)
+-Increased resolution of cascading dynamic shadows (docked|handheld)
+-Increased resolution of dynamic shadows from spotlights (docked|handheld)
+-Parallax mapping enabled (docked|handheld)
+*Not sure if it works
+-Global dimming enabled (docked|handheld)
+Depth of field is enabled (docked|handheld)
+*Not sure if it works
+-Increased planar reflection resolution (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074

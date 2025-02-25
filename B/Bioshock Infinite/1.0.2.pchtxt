@@ -1,0 +1,11 @@
+@nsobid-48681F1D90704F6C802CB5A0AFC25A34A74974A3
+
+# Bioshock Infinite Remastered
+
+@flag print_values
+
+@enabled
+01855E48 00103D1E // ldr s0, [x26,#0x10] | fmov s0, #-0.75 (LOD bias)
+@stop
+
+Notes: max aniso is set in config file in romfs

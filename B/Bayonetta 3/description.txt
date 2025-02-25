@@ -1,0 +1,10 @@
+Bayonetta 3 | IPS | v1.2.0
+
+-Fixed 900p resolution (docked|handheld)
+-Forced 30 FPS (docked|handheld)
+-Increased objects LOD distance (docked|handheld)
+-Removed film filter (docked|handheld)
+-Texture filtering changed from linear to aniso (docked|handheld)
+-Texture filtering aniso increased from x2 to x8 (docked|handheld)
+
+Notes: This mod was created by theboy181, aniso tweaks by ECLIPSE00074

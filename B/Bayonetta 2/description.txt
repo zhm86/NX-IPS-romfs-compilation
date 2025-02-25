@@ -1,0 +1,4 @@
+Bayonetta 2 | IPS | v1.1
+
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)

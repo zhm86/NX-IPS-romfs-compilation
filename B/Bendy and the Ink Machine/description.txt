@@ -1,0 +1,5 @@
+Bendy and the Ink Machine | romfs | v1.6.0.0
+
+-Enabled object shadow casting (docked|handheld)
+-Increased shadow quality (docked|handheld)
+-Increased shadow resolution (docked|handheld)

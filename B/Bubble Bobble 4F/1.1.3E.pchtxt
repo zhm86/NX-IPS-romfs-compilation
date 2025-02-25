@@ -1,0 +1,14 @@
+@nsobid-59EAA7668C1E904FAA33ECCAFD811641
+
+# BUBBLE BOBBLE 4 FRIENDS
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+0153CD74 00F08052 // mov w0, #0x500              | mov w0, #0x780              | (docked|handheld resX)
+0153CD78 01878052 // mov w1, #0x2d0              | mov w1, #0x438              | (docked|handheld resY)
+0201925C 09F8E7D2 // mov x9, #0x3f80000000000000 | mov x9, #0x3fc0000000000000 | (fixes incorrect viewport when res is set to 1920x1080)
+01B77458 0090301E // ldr s0, [x21,#8]            | fmov s0, -2.5               | (LOD bias)
+01B7743C 0010261E // scvtf s0, s0                | fmov s0, #16.00000000       | (max aniso)
+@stop

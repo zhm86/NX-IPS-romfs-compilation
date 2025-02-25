@@ -1,0 +1,38 @@
+Borderlands 3 | IPS | romfs | v1.60
+
+-30FPS cap enabled (docked|handheld)
+-Dynamic resolution frame time changed to 30fps (docked|handheld)
+-Dynamic resolution performance has been accelerated (docked|handheld)
+-Minimum dynamic resolution - 50% (docked|handheld)
+-Maximum dynamic resolution - 100% (docked|handheld)
+-Increased FXAA antialiasing quality (docked|handheld)
+-Contrast Adaptive Sharpening enabled (docked|handheld)
+-Slightly increased image sharpness via ToneMapper (docked|handheld)
+-Improved texture streaming (docked|handheld)
+-Textures load faster and load at a greater distance (docked|handheld)
+-Filtering of some textures changed from linear to anisotropic 4x (docked|handheld)
+-Anisotropic filtering for some textures increased to 4x (docked|handheld)
+-Texture mips slightly shifted forward (docked|handheld)
+-Increased object distance (docked|handheld)
+-Increased LOD distance of some objects (docked|handheld)
+-Enabled dynamic shadows from light sources (docked|handheld)
+-More objects cast dynamic shadows (docked|handheld)
+-4-stage dynamic shadow mode enabled (docked|handheld)
+-Increased dynamic shadow resolution (docked|handheld)
+-Increased dynamic shadow distance (docked|handheld)
+-Increased the clipping distance of small dynamic shadows (docked|handheld)
+-Increased smoothness of transition from cascade to cascade of dynamic shadows (docked|handheld)
+-Cascade offset reset to default (docked|handheld)
+-Reduced depth bias of cascading shadows (docked|handheld)
+-Increased the distance of some light sources (docked|handheld)
+-Reduced the distance of some light sources (docked|handheld)
+-Depth of Field enabled (docked|handheld)
+-Increased bloom quality (docked|handheld)
+-Increased number of decals (docked|handheld)
+-Some particles are included (docked|handheld)
+*For example dust/smoke from under the wheels of cars
+-Fixed some pixelated textures (docked|handheld)
+
+Required: IPS+romfs https://mega.nz/file/sUxTHQib#0Go8VCHdslLrqBgD7EDkNzBztbJpwoBvmcSLvvb6Flg
+
+Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix

@@ -1,0 +1,14 @@
+@nsobid-AC7FD7804398393DA2D2D4B126FA317023C43D07
+
+# Beyond Good and Evil
+
+@flag print_values
+
+@enabled
+0005D3A8 1F400B71 // cmp w0, #0x300       | cmp w0, #0x2d0        |
+00A0DAF4 095A8052 // mov w9, #0x300       | mov w9, #0x2d0        |
+00BD9C98 0010261E // ucvtf s0, s0         | fmov s0, #16          | (max aniso)
+00BD9D20 00103E1E // ldr s0, [x20, #0x30] | fmov s0, #-1.00000000 | (LOD bias)
+01143880 00050000 // 2A04 (1066)          | 0005 (1280)           |
+01143884 D0020000 // 5802 (600)           | D002 (720)            |
+@stop
