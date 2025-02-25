@@ -1,0 +1,22 @@
+@nsobid-8C93B930348C978708AE9E6BC0C9CCA9E8BFC14F
+
+# Dying Light
+
+@flag print_values
+
+@enabled
+01ECAAF0 A1008052 // mov w1, w23          | movz w1, #0x5    | (linear to aniso)
+01EF1A58 20008052 // add x16, x16, #0xff8 | movz w0, #0x1    | (SetPerformanceConfiguration)
+01EF1A5C C0035FD6 // br x17               | ret              | (SetPerformanceConfiguration)
+01EF2228 00008052 // add x16, x16, #0x3e0 | movz w0, #0      | (ShowControllerStrapGuide)
+01EF222C C0035FD6 // br x17               | ret              | (ShowControllerStrapGuide)
+01EF2598 00008052 // add x16, x16, #0x598 | movz w0, #0      | (ShowError)(Network errors)
+01EF259C C0035FD6 // br x17               | ret              | (ShowError)(Network errors)
+02E40F88 3333B33F // 9A99193F (0.6)       | 3333B33F (1.4)   |
+02E40F8C CDCC8C3F // 0000003F (0.5)       | CDCC8C3F (1.1)   |
+02ECE76C CDCC4CBE // 6666E6BE (-0.45)     | CDCC4CBE (-0.2)  |
+02ECE770 3333B3BE // 9A9919BF (0.6)       | 3333B3BE (-0.35) |
+02ECE774 000000BF // 000040BF (-0.75)     | 000000BF (-0.5)  |
+02ECE778 9A9919BF // 9A9959BF (-0.85)     | 9A9919BF (-0.6)  |
+02ECE77C 000040BF // 000080BF (-1)        | 000040BF (-0.75) |
+@stop

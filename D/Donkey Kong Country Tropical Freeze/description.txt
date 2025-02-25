@@ -1,0 +1,5 @@
+Donkey Kong Country Tropical Freeze | IPS | v1.0.2
+
+-Fixed resolution 720p (handheld)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)

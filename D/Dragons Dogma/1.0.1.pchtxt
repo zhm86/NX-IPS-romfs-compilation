@@ -1,0 +1,13 @@
+@nsobid-2CDB9B9D70010E887BC8EAB8CE61B025
+
+# Dragon's Dogma
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+011C3B98 08F080D2 // mov x8, #0x640           | mov x8, #0x780           | (docked resX)
+011C3B9C 0887C0F2 // movk x8, #0x384, lsl #32 | movk x8, #0x438, lsl #32 | (docked resY)
+011C3BA8 08A080D2 // mov x8, #0x40000000400   | mov x8, #0x500           | (handheld resX)
+011C3BBC 085AC0F2 // movk x8, #0x240, lsl #32 | movk x8, #0x2d0, lsl #32 | (handheld resY)
+@stop

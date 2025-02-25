@@ -1,0 +1,14 @@
+Dying Light | IPS | romfs | v1.0.5
+
+-Reduced TAA antialiasing intensity in static and dynamic (docked|handheld)
+-Increased resolution of dynamic sun shadows (docked|handheld)
+-Increased resolution of dynamic shadows from spotlights (docked|handheld)
+-Increased distance of light sources (docked|handheld)
+-Increased object distance (docked|handheld)
+-Increased LOD distance of objects (docked|handheld)
+-Changed some texture filtering from linear to anisotropic 1x (docked|handheld)
+-Decreased LOD bias (docked|handheld)
+-Disabled Network Errors (docked|handheld)
+-Disabled strap guide when launching the game (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix

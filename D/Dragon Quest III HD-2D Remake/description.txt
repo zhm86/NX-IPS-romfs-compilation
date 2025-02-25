@@ -1,0 +1,9 @@
+Dragon Quest III 2D-HD Remastered | IPS | romfs | v1.0.1
+
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)
+-Handheld has docked quality settings (handheld)
+-Increased shadow quality and resolution (docked|handheld)
+-Increased ambient occlusion quality (docked|handheld)
+
+Notes: Resolution IPS patch created by Stevens

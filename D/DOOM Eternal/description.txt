@@ -1,0 +1,22 @@
+DOOM Eternal | IPS | romfs | v1.14
+
+-Max dynamic resolution 720p (docked|handheld)
+-Maximum dynamic Resolution 100% (docked|handheld)
+-Minimum dynamic resolution 25% (handheld)
+-Minimum dynamic resolution 45% (docked)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x8 (docked|handheld)
+-Player shadow enabled (docked|handheld)
+-Reduced motion smoothing intensity + some tweaks (docked|handheld)
+-Disabled Gamma Boost (handheld)
+*Added specifically for Switch version
+-Increased light distance (docked|handheld)
+-Increased shadow distance (docked|handheld)
+-Slightly increased shadow resolution (docked|handheld)
+-Enabled smooth transition from one shadow cascade to another (docked|handheld)
+-Increased LOD distance of objects (docked|handheld)
+-Increased cutscene quality (handheld)
+-Cutscene frame rate limit increased from 20 to 30 (handheld)
+-Player shadow enabled (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, converted to IP by cucholix

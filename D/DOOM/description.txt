@@ -1,0 +1,6 @@
+DOOM | IPS | romfs | v1.14
+
+-Fixed resolution 720p (docked|handheld)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)
+-Player shadow enabled (docked|handheld)

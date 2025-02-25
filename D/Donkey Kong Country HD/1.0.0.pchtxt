@@ -1,0 +1,10 @@
+@nsobid-8AC516E8A5D2564B8A2DFC11D3907B9F
+
+# Donkey Kong Country HD
+
+@flag print_values
+
+@enabled
+00F0D37C 00502E1E // ldr s0, [x22,#8] | fmov s0, -#1.125 | (LOD bias)
+00F0D364 0010261E // scvtf s0, w8     | fmov s0, #16     | (max aniso)
+@stop

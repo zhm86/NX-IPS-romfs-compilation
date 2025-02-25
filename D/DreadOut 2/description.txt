@@ -1,0 +1,14 @@
+DreadOut 2 | romfs | v0.7
+
+-Dynamic resolution 1080p (docked)
+-Dynamic resolution 720p (handheld)
+-Increased shadow quality (docked|handheld)
+-Increased shadow resolution (docked|handheld)
+-Enabled per-object shadow cast (docked|handheld)
+-Highly increased AO settings, greatly helps with dithering checker board effect (docked | handheld)
+-Increased anisotropy x4 (docked|handheld)
+-Fixed NPC skeletal meshes, no geometry shifting when getting close to a NPC (docked|handheld)
+-Enabled spotslights (docked|handheld)
+-Increased overall textures LOD (docked|handheld)
+-Antialising set to FXAA+ (docked|handheld)
+-Flash light is now mapped to ZL by default (docked|handheld)

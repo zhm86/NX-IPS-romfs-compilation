@@ -1,0 +1,10 @@
+@nsobid-01ACE43E724259C3772742BC7598EE2B
+
+# DOOM
+
+@flag print_values
+
+@enabled
+02B68640 00103D1E // mov v0.16B, v9.16b | (mipbias)
+0010221E 0010261E // mov v0.16B, v8.16b | (max aniso)
+@stop

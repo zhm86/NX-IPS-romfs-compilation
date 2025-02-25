@@ -1,0 +1,6 @@
+Dragon's Dogma: Dark Arisen | IPS | v1.0.1
+
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)
+
+Notes: Docked resolution IPS patch created by KeatonTheBot, hanheld resolution by cucholix

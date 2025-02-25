@@ -1,0 +1,4 @@
+Donkey Kong Country HD | IPS | v1.0.0
+
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)

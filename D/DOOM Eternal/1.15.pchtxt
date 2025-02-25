@@ -1,0 +1,10 @@
+@nsobid-B059C2C77AD834B8A0A36B43B69D4B41
+
+# DOOM Eternal 
+
+@flag print_values
+
+@enabled
+03372084 00903E1E // mov v0.16b, v9.16b | fmov s0, #-1.25000000 | (mipbias)
+033720C4 0010261E // mov v0.16b, v8.16b | fmov s0, #16.00000000 | (max aniso)
+@stop

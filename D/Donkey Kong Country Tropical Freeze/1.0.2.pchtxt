@@ -1,0 +1,14 @@
+@nsobid-F48BD40D89B529C114F17C7909FE6AA4
+
+# Donkey Kong Country Tropical Freeze 
+
+@flag print_values
+
+@enabled
+0001F73C 00A08052 // mov w0, #0x480      | mov w0, #0x500   | (handheld resX)
+0001F744 005A8052 // mov w0, #0x288      | mov w0, #0x2d0   | (handheld resY)
+0001F74C 00A08052 // mov w0, #0x480      | mov w0, #0x500   | (handheld resX)
+0001F754 00A08052 // mov w0, #0x288      | mov w0, #0x500   | (handheld resX)
+0005B6F0 00103F1E // ldr s0, [x21,#0x20] | fmov s0, -#1.125 | (LOD bias)
+0005B858 0010261E // fmov s0, #1.0       | fmov s0, #16     | (max aniso)
+@stop
