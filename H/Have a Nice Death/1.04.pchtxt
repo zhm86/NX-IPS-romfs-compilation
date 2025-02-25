@@ -1,0 +1,11 @@
+@nsobid-A558AB9422B8F6AB2DC40E9B21F79EEE
+
+# Have a Nice Death
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+01CF58C8 00F08052 // mov w0, w19 | mov w0, #0x780 | (docked|handheld resX)
+01CF58CC 01878052 // mov w1, w20 | mov w1, #0x438 | (docked|handheld resY)
+@stop

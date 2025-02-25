@@ -1,0 +1,28 @@
+Ghostrunner (Japanese version) | romfs | v1.8
+
+-Min dynamic resolution 70% (docked|handheld)
+-Max dynamic resolution 100% (docked|handheld)
+-Antialiasing changed from FXAA to TAA (docked|handheld)
+-Reduced TAA antialiasing intensity (docked|handheld)
+-TAA Upsampling Enabled (docked|handheld)
+-Increased image sharpness (docked|handheld)
+-Increased LOD distance of objects (docked|handheld)
+-World texture filtering changed from linear to aniso 2x (docked|handheld)
+-Texture mips slightly shifted forward (docked|handheld)
+-SSR reflection smoothing enabled (docked|handheld)
+-Various effects/particles enabled (docked|handheld)
+-Reflection environment enabled (docked|handheld)
+*partially due to memory constraints some levels will not have reflections in certain areas
+-Increased object distance (docked|handheld)
+-Dynamic shadows from spotlights enabled (docked|handheld)
+-Increased distance of light sources (docked|handheld)
+-Increased bloom quality (docked|handheld)
+-Increased texture streaming pool (docked|handheld)
+-Slightly increased quality of environment textures (docked|handheld)
+*textures replaced from PC version, but resolution of many textures reduced due to lack of memory
+-Increased interface scale (docked|handheld)
+-Disabled network errors (docked|handheld)
+
+Required: romfs https://mega.nz/file/dYQFxTJR#LItPNKjRf6P3FM7qCmA8QBhsd9NcoTd7yU-Iubhml8U
+
+Notes: This mod was created by ECLIPSE00074, to use this mod in the western release rename the folder 0100AAA013598000 to 010090F012916000 

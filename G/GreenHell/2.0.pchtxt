@@ -1,0 +1,49 @@
+@nsobid-D3A8F87E96C940458DEE0BF320BC250C
+
+# Green Hell
+
+@flag print_values
+
+@enabled 
+002B72D4 BF021971 // cmp w21, #0x780       | cmp w21, #0x640      | (docked resX)
+002B72D8 08C88052 // orr w8, wzr, #0x780   | movz w8, #0x640      | (docked resX)
+002B72E0 9F120E71 // cmp w20, #0x438       | cmp w20, #0x384      | (docked resY)
+002B72E8 88708052 // movz w8, #0x438       | movz w8, #0x384      | (docked resY)
+002B7328 BF021971 // cmp w21, #0x780       | cmp w21, #0x640      | (docked resX)
+002B7330 9F120E71 // cmp w20, #0x438       | cmp w20, #0x384      | (docked resY)
+0054CFD4 13008052 // mov w19, w4           | movz w19, #0         |
+0054D0D0 09AC8052 // orr w9, wzr, #0x200   | movz w9, #0x560      |
+0054D0D8 0AAC8052 // orr w10, wzr, #0x400  | movz w10, #0x560     |
+0054D1DC 09AC8052 // orr w9, wzr, #0x400   | movz w9, #0x560      |
+0054D1E4 0AAC8052 // orr w10, wzr, #0x800  | movz w10, #0x560     |
+0054D21C 09AC8052 // orr w9, wzr, #0x800   | movz w9, #0x560      |
+0054D220 0AAC8052 // orr w10, wzr, #0x1000 | movz w10, #0x560     |
+0054D234 08AC8052 // orr w8, wzr, #0x1000  | movz w8, #0x560      |
+005F6F08 83708052 // movz w3, #0x438       | movz w3, #0x384      | (docked resY)
+005F6F10 02C88052 // orr w2, wzr, #0x780   | movz w2, #0x640      | (docked resX)
+005F7E90 0010201E // scvtf s0, w8          | fmov s0, #2.00       | (max aniso)
+005F7EAC 00103A1E // ldr s0, [x20, #8]     | fmov s0, #-0.25      | (LOD bias)
+005F8054 08C88052 // w8, wzr, #0x780       | movz w8, #0x640      | (docked resX)
+005F8058 89708052 // movz w9, #0x438       | movz w9, #0x384      | (docked resY)
+005F8070 08C88052 // orr w8, wzr, #0x780   | movz w8, #0x640      | (docked resX)
+005F8078 88708052 // movz w8, #0x438       | movz w8, #0x384      | (docked resY)
+0060C528 01C88052 // orr w1, wzr, #0x780   | movz w1, #0x640      | (docked resX)
+0060C52C 82708052 // movz w2, #0x438       | movz w2, #0x384      | (docked resY)
+014B1B40 1F2003D5 // bl #0x10060b4         | nop                  |
+014B1B5C 1F2003D5 // bl #0x10061d4         | nop                  |
+014B2218 1F2003D5 // b #0x1005b18          | nop                  |
+014D5688 88708052 // movz w8, #0x438       | movz w8, #0x384      |
+014D5694 08C88052 // orr w8, wzr, #0x780   | movz w8, #0x640      | (docked resX)
+016769E8 1F2003D5 // bl #0xe41208          | nop                  |
+016769F4 1F2003D5 // bl #0xe4116c          | nop                  |
+01676A4C 1F2003D5 // bl #0xe41114          | nop                  |
+01699730 0910211E // fmov s9, #2.00000000  | fmov s9, #3.00000000 |
+01699794 0950221E // fmov s9, #3.00000000  | fmov s9, #4.50000000 |
+016997F4 0910201E // fmov s9, #1.00000000  | fmov s9, #2.00000000 |
+01699854 01102F1E // fmov s1, #1.00000000  | fmov s1, #1.50000000 |
+0169987C 0910231E // fmov s9, #4.00000000  | fmov s9, #6.00000000 |
+02735DF8 08102E1E // mov v8.16b, v1.16b    | fmov s8, #1.00000000 |
+02735DFC 09102E1E // mov v9.16b, v0.16b    | fmov s9, #1.00000000 |
+02735E1C 00102E1E // mov v0.16b, v9.16b    | fmov s0, #1.00000000 |
+02735E20 01102E1E // mov v1.16b, v8.16b    | fmov s1, #1.00000000 |
+@stop

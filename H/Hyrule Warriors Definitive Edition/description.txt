@@ -1,0 +1,4 @@
+Hyrule Warriors Definitive Edition | IPS | 1.0.1
+
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)

@@ -1,0 +1,7 @@
+GodEater 3 | IPS | v2.5.1
+
+-Fixed resolution 1920x1080p (docked)
+*1440x1080 in quests
+-Fixed resolution 1280x720p (handheld)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)

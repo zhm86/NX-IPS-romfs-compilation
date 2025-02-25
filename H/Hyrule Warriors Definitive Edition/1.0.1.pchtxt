@@ -1,0 +1,11 @@
+@nsobid-815A2C19D176789688FF33EA875C26C5
+
+# Hyrule Warriors - Definitive Edition
+
+@flag offset_shift 0x100
+@flag print_values
+
+@enabled
+005F9508 00503E1E // ldr s0, [x20,#0x10] | fmov s0, #-1.125 | (LOD bias)
+005F9578 0010261E // ucvtf s0, s0        | fmov s0, #16     | (max aniso)
+@stop

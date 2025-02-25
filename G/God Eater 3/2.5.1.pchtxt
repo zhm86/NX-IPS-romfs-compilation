@@ -1,0 +1,15 @@
+@nsobid-C0F144F5139F542EF1AEDC8CDFE34251
+
+# GOD EATER 3
+
+@flag print_values
+
+@enabled
+00E95E54 05000014 // b.le #0x14              | b #0x14                   | (override conditional jump)
+00E9B5EC 0AF080D2 // mov x10, #0x471         | movz x10, #0x780          | (docked resX)
+00E9B610 0A87C0F2 // movk x10, #0x280,lsl#32 | movk x10, #0x438, lsl #32 | (docked resY)
+015C6BA8 00903F1E // ldr s0, [x20,#0x10]     | fmov s0, #-1.75           | (lod bias)
+015C6C18 0010221E // ucvtf s0, s0            | fmov s0, #4               | (max aniso)
+017D07C0 0000803F // 3333733F (0.95)         | 0000803F                  | (100% handheld res scale)
+01E6D370 0000803F // 5555553F (0.8333333)    | 0000803F                  | (100% docked res scale)
+@stop

@@ -1,0 +1,26 @@
+@nsobid-C3CF52BF2B05D7310884971B50BCCCB8974577BC
+
+# Hyrule Warriors - Age of Calamity
+
+@flag print_values
+
+@enabled
+0008C52C 0230271E // fmov s2, #1.00000000     | fmov s2, #25.00000000
+000CFA7C 0230271E // fmov s2, #1.00000000     | fmov s2, #25.00000000
+00162E0C 09102F1E // fmov s9, #1.00000000     | fmov s9, #1.50000000
+008C3728 4A658052 // movz w10, #0x21c         | mov w10, #0x32a
+008C7FF4 09102E1E // ldr s0, [x9, #0x38]      | fmov s9, #1.00000000
+008D95D0 08C880D2 // movz x8, #0x5a0          | mov x8, #0x640
+008D95D4 8870C0F2 // movk x8, #0x32a, lsl #32 | movk x8, #0x384, lsl #32
+00A8D008 06902E1E // ldr s6, [x15, #0x4e0]    | fmov s6, #1.25000000
+00A8D050 04902E1E // ldr s4, [x14, #0x4e0]    | fmov s4, #1.25000000
+00A9EB80 0210211E // fmov s2, #1.00000000     | fmov s2, #3.00000000
+00AE73FC 00902E1E // ldr s0, [x9, #0x2c]      | fmov s0, #1.25000000
+00AE7504 04902E1E // ldr s4, [x14, #0x4e0]    | fmov s4, #1.25000000
+00AE7528 04902E1E // ldr s4, [x15, #0x4e0]    | fmov s4, #1.25000000
+00AE754C 03902E1E // ldr s3, [x16, #0x4e0]    | fmov s3, #1.25000000
+00AE90A8 09902E1E // fmov s9, #1.00000000     | fmov s9, #1.25000000
+00AEC680 00902E1E // ldr s0, [x8, #0x28]      | fmov s0, #1.25000000
+0160372C 08008052 // disable FXAA
+012BD008 08008052 // disable FXAA
+@stop

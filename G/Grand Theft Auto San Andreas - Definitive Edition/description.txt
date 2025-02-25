@@ -1,0 +1,20 @@
+Grand Theft Auto: San Andreas - Definitive Edition | IPS | romfs | v1.0.8
+ 
+-Enabled in-game graphics settings (docked|handheld)
+-Increased image sharpness (docked|handheld)
+-Upsampling enabled when using TAA antialiasing (docked|handheld)
+-Reduced TAA antialiasing intensity (docked|handheld)
+-Increased rendering distance of traffic and pedestrians (docked|handheld)
+-Increased depth bias of shadows from light sources (docked|handheld)
+*To reduce artifacts when shadows are enabled
+-Increased bloom quality (docked|handheld)
+-Replaced main menu/pause background textures and loading screen textures from the PC version of the game (docked|handheld)
+-Restored particle effects to it's default setting  (docked|handheld)
+-Fixed an issue with Vice City not applying reflections in all textures  (docked|handheld)
+-Fixed an issue with Vice City using old skylight render (docked|handheld)
+-Added missing settings (docked|handheld)
+-Proper overall implementation to reflects changes in v1.0.8
+-IPS clean-up, now they only contains shadow scale tweaks (docked|handheld)
+*It's safe disable them if you want a performance gain
+
+Notes: This mod is based on ECLIPSE00074 work, IPS by cucholix

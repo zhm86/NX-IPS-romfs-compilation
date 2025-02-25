@@ -1,0 +1,11 @@
+Hellblade: Senua's Sacrifice | IPS | romfs | v1.1.0  
+
+-Fixed 720p resolution (docked|handheld)
+-Antialising toned down (docked|handheld)
+-Increased AO levels to avoid dithering checker board effect (docked|handheld)
+-Draw distance reduced to 0.8 from 0.9, had to sacrifice it in order to maintain stable framerate (docked|handheld)
+-Increased max aniso x8 (docked|handheld)
+-Increased shadow resolution, quality and distance (docked|handheld)
+-Increased quality of meshes at distance (docked|handheld)
+
+Notes: Credits to ECLIPSE00074 I took his base mod and modify from there.

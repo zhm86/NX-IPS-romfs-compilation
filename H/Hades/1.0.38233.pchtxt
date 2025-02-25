@@ -1,0 +1,12 @@
+@nsobid-D41357A3DA356B09FA400B90F303B56497DA075E
+
+# Hades 
+
+@flag print_values
+
+@enabled
+002493D8 09F080D2 // mov x9, #0x500           | mov x9, #0x780           | (docked|handheld resX)
+002493E0 0987C0F2 // movk x9, #0x2d0, lsl #32 | movk x9, #0x438, lsl #32 | (docked|handheld resY)
+@stop
+
+

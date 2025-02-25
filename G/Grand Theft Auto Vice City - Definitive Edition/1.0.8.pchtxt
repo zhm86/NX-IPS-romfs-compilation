@@ -1,0 +1,16 @@
+@nsobid-9151E53EE514B03AA85BB950EAD11E09
+
+# GTA VC
+
+@flag print_values
+
+// Shadows
+
+@enabled
+00A19448 41008052 // mov w1, #1           | mov w1, #2
+00A194A8 00506D1E // fmov d0, #0.50000000 | fmov d0, #0.81250000
+00A194C4 61008052 // mov w1, #4           | mov w1, #3
+00A194D8 61008052 // mov w1, #4           | mov w1, #3
+00A19550 61008052 // mov w1, #5           | mov w1, #3
+00A195BC 00106E1E // fmov d0, #1.50000000 | fmov d0, #1.00000000
+@stop

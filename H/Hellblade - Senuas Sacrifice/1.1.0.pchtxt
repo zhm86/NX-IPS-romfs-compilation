@@ -1,0 +1,10 @@
+@nsobid-9B3DDF2FB9100E51FEB11867410606EF
+
+# Hellblade
+
+@flag print_values
+
+@enabled
+03ABF1CC 69 // bCastShadow
+03B18CAC 45 // DynamicShadowCascades
+@stop

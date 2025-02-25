@@ -1,0 +1,3 @@
+Have a Nice Death | IPS | v1.04
+
+-Fixed resolution 1080p (docked|handheld)

@@ -1,0 +1,13 @@
+Hyrule Warriors: Age of Calamity | IPS | 1.3.0
+
+-Resolution increased to 1600x900 (docked|handheld)
+-Increased character distance (docked|handheld)
+-The distance of the second dynamic shadow cascade has been increased (docked|handheld)
+-Increased dynamic distance, character shadows (docked|handheld)
+-Increased the distance of medium objects and their LODs (docked|handheld)
+-Increased the distance of large objects and their LODs (docked|handheld)
+-Increased distance of grass and its LODs (docked|handheld)
+-Increased draw distance (docked|handheld)
+-Disabled FXAA (docked|handheld)
+
+Notes: This mod is based on ECLIPSE00074 work, IPS by cucholix

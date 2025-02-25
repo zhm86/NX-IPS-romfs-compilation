@@ -1,0 +1,20 @@
+@nsobid-4584432786F462DBAE0E2C0BB8E0523E
+
+# GYLT
+
+@flag print_values
+
+@enabled
+0553C17A 73 // CastDynamicShadows    | CastDynamicSsadows
+05543BB9 73 // DynamicShadowCascades | DynamicSsadowCascades
+05596457 73 // CastShadow            | CastSsadow
+055C0FF1 73 // CastShadows           | CastSsadows
+055DA26D 73 // ShadowResolutionScale | SsadowResolutionScale
+055DA28D 73 // CastStaticShadows     | CastStaticSsadows
+055F3DDD 78 // bCastShadow           | xCastShadow
+@stop
+
+
+
+
+

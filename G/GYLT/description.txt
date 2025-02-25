@@ -1,0 +1,31 @@
+GYLT | IPS | romfs | v1.2
+
+-Max dynamic resolution increased to 100% (docked|handheld)
+-Min dynamic resolution reduced to 50% (docked|handheld)
+-Increased upscale quality (docked|handheld)
+-Increased image sharpness (docked|handheld)
+-TAAU Disabled (docked|handheld)
+-Increased TAA antialiasing quality (docked|handheld)
+-Reduced TAA antialiasing intensity (docked|handheld)
+-Increased transparency resolution (docked|handheld)
+-Increased LOD distance of objects (docked|handheld)
+-Increased object distance (docked|handheld)
+-Increased distance of HLOD objects (docked|handheld)
+-Increased quality of vegetation LODs (docked|handheld)
+-Increased vegetation LOD distance (docked|handheld)
+-Filtering of some textures changed from linear to anisotropic 4x (docked|handheld)
+-Increased texture LOD (docked|handheld)
+-3-stage dynamic shadow mode enabled (docked|handheld)
+-Increased distance of cascading shadows (docked|handheld)
+-Improved smoothness of transition from cascade to cascade (docked|handheld)
+*Cascade shadows seem to only work in the main menu
+-Increased resolution of shadows from light sources (docked|handheld)
+-Increased texels per pixel for light source shadows (docked|handheld)
+-Reduced Depth Bias of shadows from light sources (docked|handheld)
+-Increased volumetric fog quality (docked|handheld)
+-Improved motion blur quality (docked|handheld)
+-Global dimming enabled (docked|handheld)
+-Depth of field enabled (docked|handheld)
+-Increased bloom quality (docked|handheld)
+
+Notes: This mod is based on ECLIPSE00074 work, IPS by cucholix
