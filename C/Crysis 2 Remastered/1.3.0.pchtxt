@@ -1,0 +1,13 @@
+@nsobid-B3967105033ACC08A1860971B3A914B2CC3397F7
+
+# Crysis 2 Remastered
+
+@flag print_values
+
+@enabled
+02E2AAEC 48008052 // ldrb w8, [x10]       | mov w8, #2            |
+02E2CF94 48008052 // ldrb w8, [x10]       | mov w8, #2            |
+02F2BEE0 00103E1E // ldr s0, [x20, #0x40] | fmov s0, #-1.00000000 | (LOD bias)
+02F2C19C 0010241E // fmov s0, #1.00000000 | fmov s0, #8.00000000  | (max aniso)
+02F2C310 0010241E // ucvtf s0, s0         | fmov s0, #8.00000000  | (max aniso)
+@stop

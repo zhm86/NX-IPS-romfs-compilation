@@ -1,0 +1,5 @@
+Crysis 3 Remastered | romfs | v1.3.0
+
+-Increased shadow quality (docked|handheld)
+-Increased vegetation draw distance (docked|handheld)
+-Increased range of water reflections (docked|handheld)

@@ -1,0 +1,20 @@
+Crysis 2 Remastered | romfs | v1.3.0
+
+-Aniso texture filtering increased to 8x (docked|handheld)
+-Slightly shifted forward mips of all textures (docked|handheld)
+-Increased shadow quality (handheld)
+*now like in the docked
+-Enabled more cube map reflections (handheld)
+*now like in the docked
+-Slightly reduced SSAO contrast (docked|handheld)
+*to reduce white outline around objects
+-Changed settings for some materials (docked|handheld)
+*All weapons, almost all vehicles, trees, characters (except aliens) and some objects
+-Enabled shadows from various vegetation on some maps (docked|handheld)
+-Additional settings enabled (docked|handheld)
+-Shadows are now cast by many more light sources (docked|handheld)
+-Reconfigured time of day on all maps (docked|handheld)
+*trying to bring the game closer to the PC version (Remastered)
+-Increased range of water reflections (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix

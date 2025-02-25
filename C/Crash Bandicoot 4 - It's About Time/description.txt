@@ -1,0 +1,25 @@
+Crash Bandicoot 4: It's About Time | IPS | v1.2.0
+
+-Fixed resolution 900p (docked)
+-Fixed resolution 720p (handheld)
+-Changed TAA to FXAA (docked|handheld)
+-Increased ambient occlusion quality (docked|handheld)
+-Increased image sharpness (docked|handheld)
+-Increased texels per pixel for dynamic shadows (docked|handheld)
+-Reduced Depth Bias of dynamic shadows from light sources (docked|handheld)
+-Increased resolution of capsule shadows (docked|handheld)
+-Dynamic shadows from the surrounding world are enabled (handheld)
+-2-stage dynamic shadow mode enabled (docked|handheld)
+-Increased resolution of dynamic shadows (docked|handheld)
+-Increased rendering distance of dynamic shadows (docked|handheld)
+-Increased light rendering distance (docked|handheld)
+-Reduced global dimming radius (docked|handheld)
+-Improved bloom quality (docked|handheld)
+-Texture filtering changed from linear to aniso 2x (docked|handheld)
+-SSR enabled (docked|handheld)
+-Increased detail on levels (docked|handheld)
+-More objects on maps and light from simple light sources (like candle fire)
+-Increased particle count (docked|handheld)
+-Effect light on (docked|handheld) 
+
+Notes: This mod is based on ECLIPSE00074 work, tweaks and convertion to IPS by cucholix

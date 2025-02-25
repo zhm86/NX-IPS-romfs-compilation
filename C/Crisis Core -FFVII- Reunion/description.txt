@@ -1,0 +1,11 @@
+Crisis Core -Final Fantasy VII- Reunion | romfs | v1.0.4
+
+-Enabled FSR as primary upscaler (docked|handheld)
+-Enabled Robust Contrast Adaptive Sharpening filter (RCAS) (docked|handheld)
+*sharpness the image once the upscaling process is complete 
+-FSR RCAS sharpness at max value (docked|handheld)
+-FSR RCAS denoise enabled (docked|handheld)
+-Increased quality of distance LOD meshes (docked|handheld)
+-Various TAA tweaks (docked|handheld)
+-Increased shadow resolution (docked|handheld)
+-Some other small changes (docked|handheld)

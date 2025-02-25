@@ -1,0 +1,17 @@
+Crysis Remastered | romfs | v1.3.0
+
+-Slightly retuned TAA antialiasing (docked|handheld)
+-Increased LOD distance for objects and vegetation (docked|handheld)
+-Increased rendering range of objects, vehicles, vegetation, and water reflections (docked|handheld)
+-Enabled debris (branches, leaves) on the ground (docked|handheld)
+*on levels where there was none
+-Increased resolution of dynamic shadows (docked|handheld)
+-Increased softness of dynamic shadows (docked|handheld)
+-Increased quality of dynamic shadows (handheld)
+*now like in the docked
+-Increased the number of volumetric light samples (docked|handheld)
+-Enabled interaction of foliage with the ground and objects (docked|handheld)
+-Increased water caustics rendering distance (docked|handheld)
+-Minimized jerky reflections on water (docked|handheld)
+
+Required: romfs https://mega.nz/file/0ZIDgBgR#Gd8IXepYL-905qdoZSHVVTlgMN_7GL7Gy2ib-pnt4Jk 

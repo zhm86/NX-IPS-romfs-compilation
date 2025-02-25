@@ -1,0 +1,12 @@
+@nsobid-E8DB38F170B0149D7040D492E66825B3
+
+# Crash Bandicoot 4: It's About Time
+
+@flag print_values
+
+// Shadow mod
+
+@enabled
+0278E348 01D0251E // fmov s1, #2.00000000 | fmov s1, #15.00000000
+05CB83B6 73 //DynamicShadowsCascades
+@stop
