@@ -1,0 +1,10 @@
+@nsobid-089DB036B0122F4A0D3F27D26C995C7F
+
+# Stasis Bone Totem
+
+@flag print_values
+
+@enabled
+01497208 00008052 // nn::hid::GetVibrationDeviceHandles
+0149720C C0035FD6 // nn::hid::GetVibrationDeviceHandles
+@stop
