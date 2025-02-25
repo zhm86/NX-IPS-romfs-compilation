@@ -1,0 +1,7 @@
+resident evil 0 | IPS | 1.0.0
+
+-60 FPS enabled (docked|handheld)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074

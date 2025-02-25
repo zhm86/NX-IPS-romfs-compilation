@@ -1,0 +1,4 @@
+resident evil 5 | IPS | 1.0.2
+
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)

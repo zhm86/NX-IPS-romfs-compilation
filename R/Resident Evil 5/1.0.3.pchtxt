@@ -1,0 +1,11 @@
+@nsobid-4E46401BF2FE53A44B69CC07FD951FE6
+
+# Resident Evil 5
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+010D8DCC 00103A1E // mov v0.16B, v9.16B | fmov s0, #-0.25 | (LOD bias)
+010D8DFC 0010261E // mov v0.16B, v8.16B | fmov s0, #16    | (max aniso)
+@stop

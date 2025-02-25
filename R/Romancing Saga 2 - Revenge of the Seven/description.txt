@@ -1,0 +1,14 @@
+Romancing Saga 2: Revenge of the Seven | romfs | v1.0.1
+
+-Increased max resolution from 900p to 1080p (docked)
+-Increased min resolution from 810p to 900p (docked)
+-Fixed resolution 720p (handheld)
+-Increased aniso filtering x4 (docked|handheld)
+-Enabled aniso filtering for all texture groups (docked|handheld)
+-Increased cascade shadow resolution (docked|handheld)
+-Enabled shadow casting for moveable objects (docked|handheld)
+-Increased shadow cascades x4 (docked|handheld)
+-Increased ambient occlusion quality (docked|handheld)
+-Slightly toned down bloom effect (docked|handheld)
+-Forced FXAA+ (docked|handheld)
+-Disabled GPU head room, it will use max GPU frequency available (docked|handheld)

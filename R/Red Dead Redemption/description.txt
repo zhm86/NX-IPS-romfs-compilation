@@ -1,0 +1,24 @@
+Red Dead Redemption | IPS | romfs | v1.0.4
+
+-Min dynamic resolution reduced from (?) to 640x360 (docked|handheld)
+-Min dynamic resolution reduced from (?) to 960x540 (docked|handheld)
+-Disabled the requirement for camera movement to change dynamic resolutions (docked|handheld)
+-Anisotropic texture filtering increased from 1x to 4x (docked|handheld)
+-Increased mipmaps of all textures (docked|handheld)
+-Separately, the grass texture mips have been moved forward a little (docked|handheld)
+-Dynamic system for changing the distance of tree LODs disabled (docked|handheld)
+-Increased distance of tree and vegetation LODs (docked|handheld)
+-Slightly reduced tree transparency (docked|handheld)
+-Fixed grass suddenly appearing when moving (docked|handheld)
+-Increased distance limit for trees and shadows (docked|handheld)
+-Increased sun/moon shadow resolution (docked|handheld)
+-Increased distance of shadows from the sun/moon (docked|handheld)
+-Reduced Depth Bias of sun/moon shadows (docked|handheld)
+-Increased distance of objects and their LODs (docked|handheld)
+-Increased distance of LODs and terrain textures (docked|handheld)
+-Replaced the weather "Fair" with "Clear"
+*When turning on "Fair", the game turned into purple shades
+-Increased overall audio volume slightly (docked|handheld)
+-Disabled anti-aliansing (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix

@@ -1,0 +1,15 @@
+@nsobid-82C2A04A21D3E0B850F273D4149C9003
+
+# Resident Evil 4
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+0064C27C 00103A1E // ldr s0, [x20,#0x10] | fmov s0, #-0.25 | (LOD bias)
+0064C2EC 0010261E // ucvtf s0, s0        | fmov s0, #16    | (max aniso)
+006F6338 80070000 // 40060000            | 80070000        | (docked resX)
+006F633C 38040000 // 84030000            | 38040000        | (docked resY)
+006F6348 00050000 // 2A040000            | 00050000        | (handheld resX)
+006F634C D0020000 // 58020000            | D0020000        | (handheld resY)
+@stop

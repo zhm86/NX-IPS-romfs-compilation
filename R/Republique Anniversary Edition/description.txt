@@ -1,0 +1,6 @@
+Republique Anniversary Edition | IPS | romfs | v1.0.4
+
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)
+-Increased shadow quality (docked|handheld)
+*Not sure if it's working

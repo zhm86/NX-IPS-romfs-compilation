@@ -1,0 +1,3 @@
+Rune Factory 5 | romfs | v1.0.2
+
+-Increased draw distance (docked)

@@ -1,0 +1,9 @@
+Ruiner | romfs | v1.3
+
+-Resolution increased from 1290x720 to 1920x1080 (docked)
+-Increased min resolution threshold (docked)
+-Fixed resolution 720p (handheld)
+-Enabled space screen reflection (docked|handheld)
+-Enabled dynamic shadows (docked|handheld)
+-Increased quiality and resolution of shadows (docked|handheld)
+-Disabled antialiasing (docked|handheld)

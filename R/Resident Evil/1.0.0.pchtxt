@@ -1,0 +1,11 @@
+@nsobid-6BEC9B23B09DF46C315AA6F4BFACF91C
+
+# Resident Evil
+
+@flag print_values
+
+@enabled
+000CE6E8 084EE8F2 // movk x8, #0x41f0, lsl #48 | movk x8, #0x4270, lsl #48 | (60 FPS)
+009024DC 00103E1E // mov v0.16b, v8.16b        | fmov s0, #-1.00000000     | (LOD bias)
+0090250C 0010261E // mov v0.16b, v11.16b       | fmov s0, #16.00000000     | (max aniso)
+@stop

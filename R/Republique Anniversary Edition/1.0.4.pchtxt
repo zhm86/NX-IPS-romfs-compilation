@@ -1,0 +1,10 @@
+@nsobid-31A7744EB94EA74086E5CB6B1F425182
+
+# Republique Anniversary Edition
+
+@flag print_values
+
+@enabled
+0257EBE4 0090301E // ldr s0, [x21,#8] | fmov s0, #-2.5 | (LOD bias) 
+0257EBC8 0010261E // scvtf s0, w8     | fmov s0, #16   | (max aniso)
+@stop

@@ -1,0 +1,11 @@
+Remnant: From the Ashes | IPS | v1.0.1
+
+-Max dynamic resolution 1080p, min dynamic resolution 720p (docked)
+-Fixed resolution 720p (handheld)
+-Increased overall draw distance (docked|handhled)
+-Enhanced Particle Effect (docked|handhled)
+-Increased grass and foliage density (docked|handhled)
+-Increased grass and foliage rendering distance (docked|handhled)
+-Increased shadow resolution (docked|handhled)
+-Image sharpening (docked|handhled)
+-Increased anisotropy filter x8 (docked|handhled)
