@@ -1,0 +1,28 @@
+@nsobid-4BC4A8A814FD46A4831B3AA8E689886B0104C339
+
+# The Witcher 3
+
+@flag print_values
+
+@enabled
+0085CCC8 A8008052 // mov w8, #3                | movz w8, #0x5             | (linear to aniso filtering)
+0085CDBC 00103F1E // ucvtf s0, w8              | fmov s0, #-1.50000000     | (LOD bias)
+0085EFB4 488FA852 // mov w8, #0x42200000       | movz w8, #0x447a, lsl #16 |
+00F30FA0 68668652 // mov w8, #0x481            | movz w8, #0x3333          |
+00F30FA4 68E6A772 // movk w8, #0x3fb5, lsl #16 | movk w8, #0x3f33, lsl #16 |
+00FA1788 01208052 // ldr w1, [x19, #0x2c]      | movz w1, #0x100           |
+00FA4E80 68668652 // mov w8, #0x209b           | movz w8, #0x3333          |
+00FA4E84 68D6A772 // movk w8, #0x3e9a, lsl #16 | movk w8, #0x3eb3, lsl #16 |
+00FC1B94 01008052 // mov w1, #0x400            | movz w1, #0               |
+00FC1BB0 01108052 // movz w1, #0x80            | mov w1, #0x100            |
+00FC1BE0 080080D2 // mov x8, #0x40000000400    | movz x8, #0               |
+00FC1BEC 08608152 // mov w8, #0x1600           | movz w8, #0xb00           |
+00FE5604 883D8A52 // mov w8, #0xcccd           | movz w8, #0x51ec          |
+00FE5608 08DFA772 // movk w8, #0x3fcc, lsl #16 | movk w8, #0x3ef8, lsl #16 |
+0101140C 80B3A852 // cbz x8, #0xc              | movz w0, #0x459c, lsl #16 |
+01011410 0000271E // ldr s0, [x8, #0x5c]       | fmov s0, w0               |
+0101159C 68FEA772 // movk w8, #0x3f33, lsl #16 | movk w8, #0x3ff3, lsl #16 |
+0101CE28 0A102C1E // fmov s10, #2.00000000     | fmov s10, #0.50000000     |
+01F795E8 00008052 // add x16, x16, #0x310      | movz w0, #0               | (disable network errors messages)
+01F795EC C0035FD6 // br x17                    | ret                       | (disable network errors messages)
+@stop

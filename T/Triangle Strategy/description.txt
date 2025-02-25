@@ -1,0 +1,7 @@
+TRIANGLE STRATEGY | IPS | romfs | v1.1.1
+
+-Fixed 1080p resolution (docked)
+-Fixed 720p resolution (handheld)
+-Decreased antialiasing intensity (docked|handheld)
+-Max aniso x8 (docked|handheld)
+-Changed linear to anisotropic filtering for all texture groups (docked|handheld)

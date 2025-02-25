@@ -1,0 +1,20 @@
+@nsobid-8E9978D50BDD20B4C8395A106C27FFDE
+
+# The Legend of Zelda: Breath of The Wild
+
+@flag print_values
+
+@enabled
+000299C0 0C79A8D2 // movz x12, #0x437a, lsl #16 | movz x12, #0x43c8, lsl #16 |
+013CCCDC 08008052 // mov w8, #1                 | mov w8, #0                 | (disable AA)
+015643BC 0110201E // fmov s1, #1.00000000       | fmov s1, #2.00000000       |
+01586A4C 0804A852 // orr w8, wzr, #0x3f800000   | movz w8, #0x4020, lsl #16  |
+017A77E8 0DF0271E // fmov s13, #8.00000000      | fmov s13, #31.00000000     |
+017D89B8 0610201E // fmov s6, #1.00000000       | fmov s6, #2.00000000       |
+01805384 C857A8D2 // movz x8, #0x4248, lsl #16  | movz x8, #0x42be, lsl #16  | (docked resY 1080)
+01821774 089EE8F2 // movk x8, #0x44c8, lsl #48  | movk x8, #0x44f0, lsl #48  | (docked resX 1920)
+018217DC 09DC80D2 // movz x9, #0x500            | movz x9, #0x6e0            | (handheld resX 1760)
+018217E0 C97BC0F2 // movk x9, #0x2d0, lsl #32   | movk x9, #0x3de, lsl #32   | (handheld resY 990)
+01D3ED48 00103D1E // ldr s0, [x20, #0x10]       | fmov s0, #-0.75000000      | (LOD bias)
+01D3EDB8 0010221E // ucvtf s0, s0               | fmov s0, #4.00000000       | (max aniso)
+@stop

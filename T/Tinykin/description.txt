@@ -1,0 +1,5 @@
+Tinykin | IPS | v1.1.1
+
+-Fixed resolution 1080p (docked)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)

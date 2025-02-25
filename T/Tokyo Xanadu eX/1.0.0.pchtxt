@@ -1,0 +1,11 @@
+@nsobid-41050FC21706A282E4F0CD8E2E1B02869B38809E
+
+# Tokyo Xanadu Ex+
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+005D238C 00103F1E // ldr s0, [X20,#0x10] | fmov s0, -1.5 | (LOD bias)
+005D2408 0010261E // ucvtf s0, s0        | fmov s0, #16  | (max aniso)
+@stop

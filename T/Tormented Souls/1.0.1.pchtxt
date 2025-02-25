@@ -1,0 +1,13 @@
+@nsobid-9032E325A28CAEF0C27CEE88FB3EFDE2
+
+# Tormented Souls
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+008C0698 0010261E // scvtf s0, w8     | fmov s0, #16          | (max aniso)
+008C06B0 00503E1E // ldr s0, [x20,#8] | fmov s0, #-1.12500000 | (LOD bias)
+01619D4C 00F08052 // mov w0, #0x500   | mov w0, #0x780        | (docked resX)
+01619D50 01878052 // mov w1, #0x2D0   | mov w1, #0x438        | (docked resY)
+@stop

@@ -1,0 +1,5 @@
+The MISSING JJ Macfield and the Island of Memories | IPS | romfs | v1.0.3
+
+-Decreased LOD bias (docked|handheld)
+-Force aniso filtering from romfs (docked|handheld)
+-Increased shadow quality, resolution, and cascades (docked|handheld)

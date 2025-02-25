@@ -1,0 +1,9 @@
+@nsobid-95C56FF872C4F6D85EF97724DCD0B6E9
+
+# Tetris Effect Connected
+
+@flag print_values
+
+@enabled
+03385A34 00103F1E // ldr s0, [x19,#4] | fmov s0, #-1.5 | (LOD bias)
+@stop

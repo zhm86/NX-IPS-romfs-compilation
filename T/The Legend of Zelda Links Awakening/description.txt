@@ -1,0 +1,6 @@
+The Legend of Zelda: Link's Awakening | IPS | v1.0.1
+
+-DOF removal (docked|handheld)
+*Needs to be enabled in .pchtxt 
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)

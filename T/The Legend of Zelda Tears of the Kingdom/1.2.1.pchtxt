@@ -1,0 +1,25 @@
+@nsobid-9B4E43650501A4D4489B4BBFDB740F26AF3CF850
+
+The Legend of Zelda: Tears of The Kingdom
+
+@flag print_values
+
+@enabled
+00030D74 0010261E // ucvtf s0, s0               | fmov s0, #16               | (maxaniso)
+00030CF8 00103D1E // ldr s0, [x20, #0x10]       | fmov s0, #-0.75000000      | (LOD bias)
+00972D1C 0869A852 // movz w8, #0x42c8, lsl #16  | movz w8, #0x4348, lsl #16  | 
+00C7EC30 08008052 // ldrb w8, [x0]              | mov w8, #0                 | (FXAA disabler)
+00C7EC40 08008052 // ldrb w8, [x0]              | mov w8, #0                 | (FXAA disabler)
+00CEC180 1F2003D5 // fsub s6, s6, s22           | nop                        | (shadow distance)
+00CEC188 D328261E // fadd s19, s4, s6           | fadd s19, s6, s6           | (shadow distance)
+00CEC2CC 0B908052 // fcvtzs w11, s16            | movz w11, #0x480           | (shadow resolution)
+00CF8D68 01102A1E // fmov s1, #0.50000000       | fmov s1, #0.25000000       |
+00E845E4 02102B1E // fmov s2, #0.50000000       | fmov s2, #0.37500000       |
+00E84600 3F050071 // cmp w9, #2                 | cmp w9, #1                 | (FXAA on Link disabler)
+00E846A0 01D0271E // fmov s1, #8.00000000       | fmov s1, #30.00000000      |
+012799B4 0810281E // ldr s8, [x8, #0xb70]       | fmov s8, #0.12500000       |
+012799D4 1A14A852 // movz w26, #0x437f, lsl #16 | movz w26, #0x40a0, lsl #16 |
+//01821774 089EE8F2 // 1920p
+@stop
+
+Notes: Resolution 1008p in romfs 

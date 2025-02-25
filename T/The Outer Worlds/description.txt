@@ -1,0 +1,17 @@
+The Outer Worlds | romfs | v1.0.5
+
+-Max dynamic resolution 1080p, min dynamic resolution 720p (docked)
+-Fixed resolution 720p (handheld)
+-Increased resolution on character screen (docked|handheld)
+-TAA antialiasing has been reconfigured (docked|handheld)
+-Disabled translucent lighting volume (handheld)
+-Reduced min LOD of vegetation (docked|handheld)
+-Better quality vegetation nearby (docked|handheld)
+-Slightly reduced the distance of vegetation LODs (docked|handheld)
+-Dynamic shadow cascades changed to 6 (docked|handheld)
+-Shadow resolution has been slightly reduced (docked|handheld)
+-Slightly increased the range of shadow rendering (docked|handheld)
+-Bloom quality has been slightly increased (docked|handheld)
+-Sun rays enabled (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, resolution, antialiasing tweaks and convertion to IPS by cucholix

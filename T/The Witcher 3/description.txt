@@ -1,0 +1,36 @@
+The Witcher 3: Wild Hunt | IPS | romfs | v4.04b
+
+-Fixed resolution 720p (docked|handheld)
+-Decreased LOD bias (docked|handheld)
+-Texture filtering changed from linear to aniso filtering (docked|handheld)
+-Additional graphics options have been enabled in the (docked|handheld) menu
+*"Number of characters on screen", "Grass amount", "Water quality", "Vignetting", "Dynamic resolution"
+-Vegetation visibility range option reworked (docked|handheld)
+-Antialiasing no longer disables at low resolutions/FPS (docked|handheld)
+-Increased frame time in gameplay (docked|handheld)
+-Increased smoothness of transition from cascade to cascade for dynamic shadows (docked|handheld)
+-Increased softness of first shadow cascade (docked|handheld)
+-Reduced depth bias of shadows (docked|handheld)
+-Increased shadow resolution (docked|handheld)
+-Increased the distance of the first cascade of shadows (docked|handheld)
+-Increased the distance of the second static shadow cascade (docked|handheld)
+-Increased shadow distance from vegetation (docked|handheld)
+-Increased distance of objects and characters (docked|handheld)
+-Replaced some location resources with resources from the PC (NextGen) version of the game (docked|handheld)
+-Replaced post-processing, water and weather resources with resources from the PC (NextGen) version of the game (docked|handheld)
+-Increased number of effects in locations (docked|handheld)
+*For example, smoke from chimneys of houses
+-Reduced water resolution (docked)
+*To maintain performance identical to handheld mode
+-Removed grass density difference between handheld and docked mode (docked|handheld)
+-Reduced intensity of water waves (docked|handheld)
+-Increased resolution of water reflections (docked|handheld)
+-Improved landscape quality (docked|handheld)
+-Re-adjusted motion blur in all locations (docked|handheld)
+-Re-adjusted image sharpness in all locations (docked|handheld)
+-Increased image sharpness for the first option preset and decreased for the second (docked|handheld)
+-Increased texture streaming budget (docked|handheld)
+-Increased density of some vegetation (docked|handheld)
+-Disabled network error notifications (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix

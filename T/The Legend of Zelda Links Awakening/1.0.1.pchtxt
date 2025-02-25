@@ -1,0 +1,13 @@
+@nsobid-909E904AF78AC1B8DEEFE97AB2CCDB51968F0EC7
+
+# The Legend of Zelda: Link's Awakening
+
+@flag print_values
+
+@enabled
+011449A8 0010301E // ldr s0, [x20, #0x10] | fmov s0, #-2.00000000 | (LOD bias)
+01144A18 0010261E // ucvtf s0, s0         | fmov s0, #16.00000000 | (max aniso)
+//016CBE76 69       // PFXTiltShiftParam    | PFXiiltShiftParam     | (DOF blur removal)
+@stop
+
+

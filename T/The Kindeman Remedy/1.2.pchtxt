@@ -1,0 +1,11 @@
+@nsobid-7A450848CFDEC18E329AB8A1B5B658B4587D70B6
+
+# The Kindeman Remedy
+
+@flag print_values
+
+@enabled
+00F881A0 0810261E // scvtf s8, w22    | fmov s8, #16   | (max aniso)
+00F881A8 0010261E // fmov s0, s8      | fmov s0, #16   | (max aniso)
+00F8820C 0090301E // ldr s0, [x19,#4] | fmov s0, #-2.5 | (LOD bias)
+@stop

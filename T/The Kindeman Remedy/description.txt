@@ -1,0 +1,10 @@
+The Kindeman Remedy | IPS | romfs | v1.2
+
+-Fixed resolution 1028p (docked)
+*Performance issues at 1080p
+-Fixed resolution 720p (handheld)
+-TAA changed to FXAA+, decreased antialiasing intensity (docked|handheld)
+-Increased ambient occlusion (docked|handheld)
+-Slightly increased LOD (docked|handheld)
+-Max aniso x4, all texture groups use anisotropic filtering (docked|handheld)
+-Increased overall draw distance (docked|handheld)

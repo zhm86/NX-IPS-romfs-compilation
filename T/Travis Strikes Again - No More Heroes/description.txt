@@ -1,0 +1,9 @@
+Travis Strikes Again: No More Heroes | romfs | v1.2.1
+
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)
+-Increased LOD for all texture groups (docked|handheld)
+-Increased aniso x4 (docked|handheld)
+-Increased foliage quality (docked|handheld)
+-Enabled secondary distance scale, increases draw distance for primitives (docked|handheld)
+-Further increased static meshes view distance, now rocks and remaining meshes render at highest LOD (docked|handheld)

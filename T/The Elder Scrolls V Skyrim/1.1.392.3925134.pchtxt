@@ -1,0 +1,10 @@
+@nsobid-4F7995092FAA5DC083BCA44D87DCA93E1F77A4EA
+
+# The Elder Scrolls V: Skyrim
+
+@flag print_values
+
+@enabled 
+00BF435C 0010241E // mov v0.16b, v9.16b | fmov s0, #8.00000000  | (max aniso)
+0107BC40 0010301E // fmov s0, wzr       | fmov s0, #-2.00000000 | (mipmap bias)
+@stop

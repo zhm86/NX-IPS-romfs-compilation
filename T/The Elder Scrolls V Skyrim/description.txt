@@ -1,0 +1,18 @@
+Elder Scrolls V: Skyrim | IPS | romfs | v1.1.392.3925134
+
+-Screen resolution fixed at 900p (docked)
+-Disabled antialiasing (docked|handheld)
+-Increased overall draw distance and LOD (docked|handheld)
+-Decreased mipmap bias, to allow more detail in textures (docked|handheld)
+-Changed texture filtering from linear to aniso (docked|handheld)
+-Increased aniso x8 (docked|handheld)
+-Decrease gamma boost contrast (docked|handheld)
+*Helps to get less over satured colors and see better on caves and dark places
+-Improved shadows (docked|handheld)
+-Enabled ambient occlusion (docked|handheld)
+-Enabled volumetric lighting (docked|handheld) 
+*It creates a blinking effect sometimes, if it's annoying to you change this line to "0" bVolumetricLightingEnable=0
+
+The .ini is based on ECLIPSE00074 settings, now adapted to modern OC, modding in Skyrim can be tricky I won't give support, advice about how mix the .ini with other mods. 
+WARNING: Mods can break saves if you don't know what are you doing, example if you try this mod on top of another running mod, you are responsible for the use of this .ini, 
+it was created assuming you don't have any mod prior. Always make a backup of your save before using this mod!

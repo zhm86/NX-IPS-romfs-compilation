@@ -1,0 +1,13 @@
+The Legend of Zelda: Breath of The Wild | IPS | v1.6.0
+
+-Maximum image resolution increased from 1600x900 to 1920x1080 (docked)
+-Render resolution increased from 1280x720 to 1760x990 (handheld)
+-Anisotropic filtering for some textures increased to 4x (docked|handheld)
+-Linear filtering of some textures changed to anisotropic 1x (docked|handheld)
+-Slightly decreased LOD bias for some textures (docked|handheld)
+-Increased dynamic shadow distance (docked|handheld)
+-Increased distance of some objects and vegetation (docked|handheld)
+-Increased tree LOD distance (docked|handheld)
+-Increased LOD distance of some objects (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix

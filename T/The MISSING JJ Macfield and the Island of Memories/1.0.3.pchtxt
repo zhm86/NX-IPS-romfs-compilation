@@ -1,0 +1,10 @@
+@nsobid-81CAD0606A6D3041A864EA257C243A64
+
+# The MISSING: J.J. Macfield and the Island of Memories
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+00FA9E98 00103F1E // ldr s0, [x22,#0x18] | fmov s0, #-1.5 | (LOD bias)
+@stop
