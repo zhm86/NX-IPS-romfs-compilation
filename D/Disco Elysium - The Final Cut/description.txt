@@ -1,0 +1,7 @@
+Disco Elysium - The Final Cut | IPS | v1.0.12
+
+-Reduced resolution from 1080p to 900p (docked)
+-Default 720p (handheld)
+
+Notes: The game has severe stuttering with default 1080p resolution, it was needed lower it to 900p
+       in order to get better frame pacing, it's recommended use FPSLocker at 60 FPS

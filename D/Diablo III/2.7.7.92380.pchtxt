@@ -1,0 +1,17 @@
+@nsobid-2607A74F5DF7754CC0357B5DF7E496931355D8CA
+
+# Diablo III
+
+@flag print_values
+
+@enabled
+000E7958 28EF80D2 // mov x8, #0x640           | mov x8, #0x779           | (docked resX)
+000E7960 E886C0F2 // movk x8, #0x384, lsl #32 | movk x8, #0x437, lsl #32 | (docked resY)
+00C71ED8 20008052 // add x16, x16, #0xdc8     | mov w0, #0x1             | (handheld as docked) (nn::oe::GetOperationMode)
+00C71EDC C0035FD6 // br x17                   | ret                      | (handheld as docked) (nn::oe::GetOperationMode)
+00C71EE8 20008052 // add x16, x16, #0xdd0     | mov w0, #0x1             | (handheld as docked) (nn::oe::GetPerformanceMode
+00C71EEC C0035FD6 // br x17                   | ret                      | (handheld as docked) (nn::oe::GetPerformanceMode)
+@stop
+
+Notes: Currently the mod uses 1913x1079 resolution, there's graphical glitches with 1080p, also docked mode is forced in handheld
+       because the mod breaks handheld renderer.

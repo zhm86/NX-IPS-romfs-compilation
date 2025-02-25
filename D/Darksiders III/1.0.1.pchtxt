@@ -1,0 +1,17 @@
+@nsobid-AF7114F019CE6E1D4767A06CBAD3BB2A
+
+# Darksiders III
+
+@flag print_values
+
+@enabled
+00AACFC0 41068052 // mov w1, #0x37 | mov w1, #0x32 | (min screenpercentage resolution)
+00AAD00C 810C8052 // mov w1, #0x53 | mov w1, #0x64 | (max screenpercentage resolution)
+00AAD014 41068052 // mov w1, #0x37 | mov w1, #0x32 | (min screenpercentage resolution)
+0497682A 6C       // r.LightMaxDrawDistanceScale
+049B41BE 61       // rhi.syncinterval
+049E2234 61       // rhi.SyncInterval
+04B1B978 73       // DynamicShadowCascades
+04B345C4 78       // bOverride_MotionBlurAmount
+04BCCF5B 73       // ShadowResolutionScale
+@stop

@@ -1,0 +1,9 @@
+Deadly Premonition 2: A Blessing In Disguise | IPS | romfs | v1.0.4
+
+-Fixed resolution 900p (docked)
+-Fixed resolution 720p (handheld)
+-Increased shadow quality (docked|handheld)
+-Increased shadow resolution (docked|handheld)
+-Decreased LOD bias (docked|handheld)
+-Increased draw distance (docked|handheld)
+-Improved LOD for all objects (docked|handheld)

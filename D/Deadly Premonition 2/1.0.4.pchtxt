@@ -1,0 +1,18 @@
+@nsobid-06B98C7A18749045AE8905CBADEB946B
+
+# Deadly Premonition 2
+
+@flag print_values
+
+@enabled
+003FC80C 0AA08052 // mov w10, #0x400        | mov w10, #0x500        | (handheld resX)
+003FC818 0A5A8052 // mov w10, #0x240        | mov w10, #0x2d0        | (handheld resY)
+003FC824 0AC88052 // mov w10, #0x5A0        | mov w10, #0x640        | (docked resX)
+003FC830 8A708052 // mov w10, #0x32A        | mov w10, #0x384        | (docked resY)
+01967FE0 5C020014 // ldur s4, [x18, #-0x18] | b #0x970               | (improves LOD for all objects)
+01968950 44825EBC // ldr w8, [x22, #8]      | ldur s4, [x18, #-0x18] | (improves LOD for all objects)
+01968954 03F02C1E // mov w9, #1             | fmov s3, #0.71875000   | (improves LOD for all objects)
+01968958 8408251E // strb w9, [sp, #0x48]   | fmul s4, s4, s5        | (improves LOD for all objects)
+0196895C A2FDFF17 // adrp x9, #0x16f3000    | b #0xfffffffffffff698  | (improves LOD for all objects)
+01B71A14 00103F1E // ldr s0, [x21,#8]       | fmov s0, #-1.25000000  | (LOD bias)
+@stop

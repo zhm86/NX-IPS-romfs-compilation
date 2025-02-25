@@ -1,0 +1,16 @@
+DAEMON X MACHINA | romfs | v1.4.2a
+
+-Enabled dynamic resolution (docked)
+-Max dynamic resolution 1080p (docked)
+-Min dynamic resolution 720p (docked)
+-Fixed 720p resolution (handheld)
+-Increased vegetation and foliage density (docked|handheld)
+-Increased LOD for all texture groups (docked|handheld)
+-Enabled aniso x4 for all texture groups (docked|handheld)
+-Enabled smooth framerate feature (docked|handheld)
+-Disabled AA (docked|handheld)
+-Increased dynamic shadow resolution (docked|handheld)
+-Force dynamic lighting (docked|handheld)
+-Disabled motion blur (docked|handheld)
+-Enabled streaming boost, for faster texture streaming (docked|handheld)
+-Increased view distance (docked|handheld)

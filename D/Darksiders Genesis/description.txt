@@ -1,0 +1,16 @@
+Darksiders Genesis | romfs | v1.0.3
+
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)
+-Disabled TAA instances (docked|handheld)
+-Slightly increased image sharpening (docked|handheld)
+-Enabled dynamic shadows (docked|handheld)
+-Enabled fog (docked|handheld)
+-Increased map detail (docked|handheld)
+-Graphics settings enabled (docked|handheld)
+-Control settings enabled (docked|handheld)
+-Fonts have been replaced with new ones, matching the style of the original (docked|handheld)
+-Vibration strength reduced from 50% to 10% (docked|handheld)
+-Increased sound volume (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074

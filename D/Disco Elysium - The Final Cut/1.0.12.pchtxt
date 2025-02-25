@@ -1,0 +1,14 @@
+@nsobid-26BDCC17F782A7B1ABEDDFAC288CD847
+
+# Disco Elysium - The Final Cut
+
+@flag print_values
+
+@enabled
+00386F98 08C88052 // mov w8, #0x780  | mov w8, #0x640 | (docked resX) 
+00386FA8 88708052 // mov w8, #0x438  | mov w8, #0x384 | (docked resY)
+00953EA0 83708052 // mov w3, #0x438  | mov w3, #0x384 | (docked resY)
+00953EAC 02C88052 // mov w2, #0x780  | mov w2, #0x640 | (docked resX)
+0096B0F4 01C88052 // mov w1, #0x780  | mov w1, #0x640 | (docked resX)
+0096B0F8 82708052 // mov w2, #0x438  | mov w2, #0x384 | (docked resY)
+@stop

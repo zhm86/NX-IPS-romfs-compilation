@@ -1,0 +1,4 @@
+Diablo II: Resurreected | IPS | v1.0.27.0
+
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)

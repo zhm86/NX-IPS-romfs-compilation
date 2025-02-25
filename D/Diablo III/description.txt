@@ -1,0 +1,6 @@
+Diablo III | IPS | v2.7.7.92380
+
+-Fixed resolution 1079p (docked|handheld)
+-Forced docked mode (handheld)
+
+Notes: 1080p resolution produce graphical glitches

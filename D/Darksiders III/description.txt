@@ -1,0 +1,27 @@
+Darksiders III | IPS | romfs | v1.0.1
+
+-Max resolution 1080p (docked)
+-Min resolution 540p (docked)
+-Fixed 720p resolution (handheld)
+-Frame rate is limited to 30 (docked|handheld)
+-Reduced gamma (docked|handheld)
+*gamma is closer to the PC version of the game. If the picture is too dark for you, then raise the gamma in the settings
+-Increased image sharpness (docked|handheld)
+-Anti-aliasing changed from FXAA to TAA (docked|handheld)
+-Lighting on (docked|handheld)
+-Cascading shadows enabled (docked|handheld)
+-Enabled shadows from spotlights (docked|handheld)
+-Disabled shadow spot under characters (docked|handheld)
+-Increased decal rendering distance (docked|handheld)
+-Increased light rendering distance (docked|handheld)
+-Motion Blur Enabled (docked|handheld)
+*a necessary measure to smooth out artifacts on the character due to TAA antialiasing
+-Depth of field enabled (docked|handheld)
+-Bloom quality increased (docked|handheld)
+-Changed some texture filtering from anisotropic to linear (docked|handheld)
+*to improve performance
+-Anisotropic filtering of world textures increased to 2x (docked|handheld)
+-SSR Reflections Enabled (docked|handheld)
+*does not work on all surfaces
+
+Notes: This mod is based on ECLIPSE00074 work, IPS by cucholix

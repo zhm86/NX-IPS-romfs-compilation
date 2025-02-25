@@ -1,0 +1,13 @@
+Divinity Original Sin 2: Definitive Edition | IPS | romfs | v1.0.10
+
+-Max dynamic resolution 1080p (docked)
+-Max dynamic resolution 720p (handheld)
+-Texture filtering changed from linear to aniso 4x (docked|handheld)
+-Disabled dynamic GPU frequency change (docked|handheld)
+-Dynamic Shadows Softness Filter changed from PCF to PCSS (docked|handheld)
+-Increased dynamic shadow distance (docked|handheld)
+
+-Optional: Replaced all environment textures with textures from the PC version of the game (docked|handheld)
+https://mega.nz/file/9VQUCLLJ#iSMefAWhpH6s24bjhBUSPHkPDU1IqCcoBRCoiHhhgn4
+
+Notes: This mod was created by ECLIPSE00074, docked resolution mod by MasaGratoR, converted to IPS by cucholix

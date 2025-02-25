@@ -1,0 +1,10 @@
+@nsobid-D5AEB8A5826C2F71F92AC0F41580B5C4FBEAD270
+
+# Diablo II 
+
+@flag print_values
+
+@enabled
+00CAEE4C 13F080D2 // mov x19, #0x640           | mov x19, #0x780           | (docked resX)
+00CAEE50 1387C0F2 // movk x19, #0x384, lsl #32 | movk x19, #0x438, lsl #32 | (docked resY)
+@stop

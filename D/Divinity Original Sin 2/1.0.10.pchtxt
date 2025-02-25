@@ -1,0 +1,15 @@
+@nsobid-4979B200D53BB282E0D11871613286DA3B08C83C
+
+# Divinity: Original Sin 2 - Definitive Edition
+
+@flag print_values
+
+@enabled
+00922074 0010221E // ucvtf s0, w21             | fmov s0, #4.00000000      | (max aniso)
+00938C74 C9008052 // movz w9, #0x6             | movz w9, #0x6666          |
+00938C78 09F0A772 // movk w9, #0x3f66, lsl #16 | movk w9, #0x3f80, lsl #16 |
+0093855C 08F08052 // mov w8, #0x640            | mov w8, #0x780            | (docked resX)
+0093856C 08878052 // mov w8, #0x384            | mov w8, #0x438            | (docked resX)
+00B15D80 0B102D1E // ldr s11, [x19, #0x370]    | fmov s11, #0.75000000     | (GetPerformanceMode)
+01BF6008 20008052C0035F // disables PerformanceMode
+@stop
