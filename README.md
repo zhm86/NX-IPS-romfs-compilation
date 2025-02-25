@@ -9,7 +9,7 @@ This is a romfs and IPS mod compilation from various authors, it's a community e
 * Make sure read the file `description.txt` included in each game as it contains important information about the mod itself, files needed, and what the mod does. It also includes the respective author of the mod, please contact through an "Issue" if you haven't been mentioned in a certain mod.
 * Each folder contains mods for that particular game, `release_X.X.X.rar` contains the files ready to copy to your atmosphere folder, no other step is needed.
 * The mod will only work for the version indicated in `description.txt`
-* Some games use a different folder tittle ID (TID) and/or build ID (BID) for their physical releases, Crysis for example has a different TID and BID for the physical and digital version.
+* Some games use a different folder tittle ID (TID) and/or build ID (BID) for their physical releases, Crysis Remastered for example has a different TID and BID for the physical and digital version.
 * **Advanced**: When apply a `*.pchtxt` file is included in the game folder, you can use it edit the mod to your liking, I tried to document the best I could each instruction.
 * **Advanced**: When apply a `UE.ini` folder is provided, you can edit ini files to your liking and re-pack into an UnrealEngine patch. 
 
