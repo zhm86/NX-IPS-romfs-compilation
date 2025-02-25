@@ -1,0 +1,12 @@
+@nsobid-C4DF04F647BDC727926348BD9A9918C89B2A8E6F
+
+# Persona 5 Strikers
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+00502274 0AF0A752 // mov w10, #0x3f400000       | mov w10, #0x3f800000       | (docked res scale)
+00502304 0A008052 // mov w10, #0x999a           | mov w10, #0                | (handheld res scale)
+00502308 0AF0A772 // movk w10, #0x3f59, lsl #16 | movk w10, #0x3f80, lsl #16 | (handheld res scale)
+@stop

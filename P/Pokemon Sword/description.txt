@@ -1,0 +1,4 @@
+Pokémon Sword | IPS | v1.3.2
+
+-Fixed resolution 1080p (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)

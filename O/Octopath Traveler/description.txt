@@ -1,0 +1,8 @@
+Octopath Traveler | IPS | romfs | v1.0.0
+
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)
+-Decreased antialiasing intensity by disabling DefaultFeature.AntiAliasing (docked|handheld)
+-Texture filtering changed from linear to anisotropic 8x (docked|handheld)
+-Increased image sharpness (docked) 
+-Disabled chromatic aberration (docked|handheld)

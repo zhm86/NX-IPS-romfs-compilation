@@ -1,0 +1,9 @@
+Octopath Traveler 2 | IPS | romfs | v1.1.1
+
+-Fixed resolution 810p , 1080p during batles (docked)
+-Fixed resolution 720p (handheld)
+-Slightly increased vegetation quality (docked|handheld)
+-Enabled object shadow casting (docked|handheld)
+-Increased static LOD meshes (docked|handheld)
+-Decreased antialiasing intensity (docked|handheld)
+-Slightly increased sharpener (handheld)

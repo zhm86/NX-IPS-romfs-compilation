@@ -1,0 +1,19 @@
+@nsobid-CD9AF768102ED946BF265100F3CCDEED
+
+# Outer Wilds v1.1.15.1027
+
+@flag print_values
+
+@enabled
+0144C65C 1F2003D5 // mov w8, #0x42C80000 | nop
+014D47F0 08102E1E // mov v8.16b, v0.16b  | fmov s8, #1.00000000 | (fixed resolution)
+017F3F70 1F2003D5 // bl #0xc9a5e0        | nop (search 091900B90849A8520001271EE0031FAA) (UnityEngine.QualitySettings::set_shadowDistance(System, Single))
+018C3CD4 1F2003D5 // bl #0xbe6fe4        | nop (search 94880241390801003440008052E1031FAA)+0x29 (UnityEngine.QualitySettings::set_shadowDistance(System, Single)) Control+X Code XREF
+0248E4D4 93008052 // mov w19, w0         | movz w19, #0x4 (search F303002AA10000B4E003132A) 3rd occurrence
+0248E4DC 80008052 // mov w0, w19         | movz w0, #0x4
+0248E500 80008052 // mov w0, w19         | movz w0, #0x4
+0248E5B4 33008052 // mov w19, w0         | movz w19, #0x1
+0248E5BC 20008052 // mov w0, w19         | movz w0, #0x1
+0248E5E0 20008052 // mov w0, w19         | movz w0, #0x1
+@stop
+

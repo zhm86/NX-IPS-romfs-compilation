@@ -1,0 +1,19 @@
+@nsobid-28ADAFAE7FADC319C75E49E8D962E278
+
+# Prince of Persia the Lost Crown
+
+@flag print_values
+
+// Graphics
+
+@enabled
+01001C80 0010201E // scvtf s0, w8                          | fmov s0, #2.00000000 (search E00316AA0001221E)
+01001C90 00903F1E // ldr s0, [x21, #8]                     | fmov s0, #-1.75000000
+019C5B08 20008052C0035FD6 // add x16, x16, #0xb80 ; br x17 | movz w0, #0x1 ; ret (60 FPS during cutscenes) (when searching patern 1082139120021FD6, it's the second match) 
+031A0A50 1FF10071 // cmp w8, #0x1e                         | cmp w8, #0x3c (search 1F79007101050054)
+031AD534 34008052 // mov w20, w1                           | movz w20, #0x1
+@stop
+
+Note for future update, for last line (14) search: 
+E103152AE203142AF44F43A9F65742A9F85F41A9FD7BC4A860001FD61F2003D5FD7BBDA9F65701A9F44F02A9FD030091
+and add 0x4

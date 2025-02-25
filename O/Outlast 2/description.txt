@@ -1,0 +1,10 @@
+Outlast 2 | IPS | romfs | v1.0.1
+
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)
+-Increased draw distance (docked|handheld)
+-Increased grass draw distance (docked|handheld)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)
+
+Note: Draw distance mods will only work with english language

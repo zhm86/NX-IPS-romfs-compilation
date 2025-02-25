@@ -1,0 +1,5 @@
+PayDay 2 | IPS | v1.1.0
+
+-Fixed resolution 1792x1008p (docked)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x4 (docked|handheld)

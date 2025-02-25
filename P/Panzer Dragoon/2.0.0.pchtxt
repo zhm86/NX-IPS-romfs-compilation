@@ -1,0 +1,12 @@
+@nsobid-EEE5846FC952E34A9F27533C28F0607B
+
+# Panzer Dragoon: Remake
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+0151C738 00103C1E // ldr s0, [x20,#8] | fmov s0, #-0.5 | (LOD bias)
+01559130 00F08052 // mov x0, x21      | mov w0, #0x780 | (docked|handheld resX)
+01559134 01878052 // mov x2, xzr      | mov w1, #0x438 | (docked|handheld resX)
+@stop

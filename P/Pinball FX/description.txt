@@ -1,0 +1,7 @@
+Pinbal FX | romfs | v1.0.10.0
+
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)
+-TAA changed to FXAA+ (docked|handheld)
+-Texture groups use aniso filtering (docked|handheld)
+-Slightly increased sharpness (docked)

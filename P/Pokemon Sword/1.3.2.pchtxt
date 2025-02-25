@@ -1,0 +1,14 @@
+@nsobid-A3B75BCD3311385AEED67FBEEB79CBB7BF02F471
+
+# Pokémon Sword
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+00294828 C8758052 // mov w8, #0x1D7 | mov w8, #0x3AE | (native resolution)
+00563718 A9008052 // orr w9, w9, #2 | mov w9, #0x5   | (native resolution)
+018A2A88 0010241E // ucvtf s0, s0   | fmov s0, #8    | (max aniso)
+@stop
+
+Notes: Decreasing LOD bias in textures produces visual issues in distant walls

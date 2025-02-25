@@ -1,0 +1,14 @@
+@nsobid-25FDC679C909A2B86B7D2337DB0E7811
+
+# Outlast 2
+
+@flag print_values
+
+@enabled
+00F3F83C 0010241E // fmov s0, #1.0      | fmov s0, #8    | (max aniso)
+00F3F974 00103F1E // mov v0.16B, v8.16B | fmov s0, #-1.5 | (LOD bias)
+02ED7E78 80070000 // 00070000           | 80070000       | (docked resX)
+02ED7E7C 38040000 // F0030000           | 38040000       | (docked resY)
+034C5B70 80070000 // 00070000           | 80070000       | (docked resX)
+034C5B74 38040000 // F0030000           | 38040000       | (docked resY)
+@stop

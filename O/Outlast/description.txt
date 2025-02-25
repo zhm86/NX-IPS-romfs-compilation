@@ -1,0 +1,4 @@
+Outlast | IPS | v1.0.2
+
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)

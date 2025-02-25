@@ -1,0 +1,10 @@
+Paper Mario The Thousand-Year Door | IPS | v1.0.1
+
+-Fixed resolution 720p (handheld)
+-Disabled antialiasing (docked|handheld)
+-Disabled sharpness filter (docked|handheld)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)
+-Increased draw distance (docked|handheld)
+
+Notes: This mod was created by Fl4sh_

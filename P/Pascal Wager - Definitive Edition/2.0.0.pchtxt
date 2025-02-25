@@ -1,0 +1,11 @@
+@nsobid-3F9A7276F039B2263E2771BA44E84408
+
+# Pascal's Wager: Definitive Edition
+
+@flag offset_shift 0x100
+
+@enabled
+004E9430 08008052 // mov w8, #1               | mov w8, #0                | (increased draw distance)
+//016DE474 886CA872 // movk w8, #0x4264,lsl #16 | movk w8, #0x4364, lsl #16 | (increased draw distance) (alt method)
+//03045008 888EA772 // movk w8, #0x3B74,lsl #16 | movk w8, #0x3c74, lsl #16 | (increased draw distance) (alt method)
+@stop

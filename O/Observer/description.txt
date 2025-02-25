@@ -1,0 +1,8 @@
+Observer | romfs | v1.0.0
+
+-Fixed resolution 720p (docked|handheld)
+-30 FPS limit enabled (docked|handheld)
+-Texture filtering changed from linear to aniso 2x (docked|handheld)
+-Increased image sharpness (docked|handheld)
+-TAA changed to FXAA+ (docked|handheld)
+-Increased texture quality (docked|handheld)

@@ -1,0 +1,16 @@
+@nsobid-0EFFE4AF1DEC3A7966B934D4A7C3D2BF566A9C62
+
+# Paper Mario: The Thousand-Year Door
+
+@flag print_values
+
+@enabled
+0020461C 00103F1E // ldr s0, [x20,#0x10]    | fmov s0, #-1.5   | (LOD bias)
+00204698 0010261E // ucvtf s0, s0           | fmov s0, #16     | (max aniso)
+0030EE98 09A08052 // movz w9, #0x480        | movz w9, #0x500  | (handheld resX) 
+0030EEA4 0A5A8052 // movz w10, #0x288       | movz w10, #0x2d0 | (handheld resY)
+0030F0FC 09A08052 // movz w9, #0x480        | movz w9, #0x500  | (handheld resX) 
+0030F108 0A5A8052 // movz w10, #0x288       | movz w10, #0x2d0 | (handheld resY)
+0035EBF0 1F2003D5 // bl #0xfffffffffffeadd4 | nop              | (disable AA)
+00385184 A3008052 // movz w3, #0x4          | movz w3, #0x5    | (disable sharpener)
+@stop

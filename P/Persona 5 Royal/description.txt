@@ -1,0 +1,10 @@
+Persona 5 Royal | IPS | romfs | v1.2.0
+
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)
+
+Optional: Muted most dialogues leaving only the higher quality ones
+          from cutscenes. To play with all dialogues delete "contents" folder.
+		  https://mega.nz/file/dRgwjRwK#GyYoovzNM9gd1648aw3rtIHBmUQ-uOdtY8x-pKZEhvQ

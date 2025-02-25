@@ -1,0 +1,13 @@
+Prince of Persia the Lost Crown | IPS | romfs | v1.4.2
+
+-Disabled dynamic GPU frequency change (docked|handheld)
+*Which interfered with overclocking, now the frequency is adjusted correctly
+-Cutscene FPS limit increased from 30 to 60 (docked|handheld)
+-Texture filtering changed from linear to anisotropic 2x (docked|handheld)
+-Decreased texture LOD bias (docked|handheld)
+-Increased resolution of dynamic shadows (docked|handheld)
+-Increased dynamic shadow distance (docked|handheld)
+-Reduced Depth Bias of dynamic shadows (docked|handheld)
+-Some other small changes (docked|handheld)
+
+Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix

@@ -1,0 +1,13 @@
+@nsobid-E74395F066FD8CCB51EC17B39B3DA2C8CF520089
+
+# Paper Mario Origami King
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled 
+005F4348 1F2003D5 // bl loc_71005E9900   | nop            | (no AA)
+0062FE4C 02008052 // movz w2, #1         | movz w2, #0    | (no sharperner)
+001BA978 00103F1E // ldr s0, [x20,#0x10] | fmov s0, #-1.5 | (LOD bias)
+001BA9E8 0010261E // ucvtf s0, s0        | fmov s0, #16   | (max aniso)
+@stop

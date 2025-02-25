@@ -1,0 +1,23 @@
+Pikmin 4 | v1.0.2 | IPS | romfs
+
+-Fixed resolution 720p (handheld)
+-Fixed resolution 972p fixed (docked)
+-Changed some texture filtering from linear to anisotropic 4x (docked|handheld)
+-Increased LOD for most texture groups (docked|handheld)
+-Disabled antialiasing, was the only way to get rid off TAA, the picture is so much clean at higher resolution (docked|handheld)
+-Disable Double Buffering  (docked|handheld)
+-Increased transparency resolution (docked|handheld)
+-Increased object distance  (docked|handheld)
+-Increased LOD distance of objects  (docked|handheld)
+-Increased vegetation LOD distance  (docked|handheld)
+-Increased texture streaming speed and buffer (docked|handheld)
+-Objects cast dynamic shadows  (docked|handheld)
+-Increased dynamic shadow distance  (docked|handheld)
+-Increased resolution of dynamic shadows  (docked|handheld)
+-Increased smoothness of transition from cascade to cascade of dynamic shadows  (docked|handheld)
+-Increased the far objects distance  (docked|handheld)
+-Chromatic aberration disabled  (docked|handheld)
+-Increased bloom quality  (docked|handheld)
+
+Notes: This mod is based on ECLIPSE00074's work (credits goes to him), reworked to keep resolution constant
+       IPS by cucholix

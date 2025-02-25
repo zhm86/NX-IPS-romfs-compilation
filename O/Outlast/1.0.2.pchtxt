@@ -1,0 +1,11 @@
+@nsobid-F3D9D62484B7D13C6604A3E15BE25BFB
+
+# Outlast
+
+@flag print_values
+
+@enabled
+02BD4110 80070000 // 00070000 | 80070000 (docked resX)
+02BD4114 38040000 // F0030000 | 38040000 (docked resY)
+@stop
+

@@ -1,0 +1,12 @@
+Paradise Killer | romfs | v1.2.0
+
+-Max resolution 1080p, min resolution 608p (docked)
+-Max resolution 720p, min resolution 360p (handheld)
+-Increased rendering distance (docked|handheld)
+-Enabled secondary distance scale, increases draw distance for primitives (docked|handheld)
+-Increased distance of cascade shadows (docked|handheld)
+-Increased resolution of cascade shadows (docked|handheld)
+-Improved transition between pre-shadow and first cascade (docked|handheld)
+-TAA changed to FXAA (docked|handheld)
+-Anisotropic texture filtering increased to 4x (docked|handheld)
+-Decreased grass density  (docked|handheld)
