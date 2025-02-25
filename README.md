@@ -20,7 +20,7 @@ This is a romfs and IPS mod compilation from various authors, it's a community e
 * Make sure add all the relevant information about the issue the most detailed possible, before open an issue test using pchtxt first instead IPS (it could be possible I missed something)
 
 ## Credits
-- @MasaGratoR for his invaluable help, tips, and tools
+- @MasaGratoR for his valuable help, tips, and tools
 - @ECLIPSE00074 for his amazing graphic mods
 - @Hazerou, @theboy181, @KeatonTheBot, @Stevens, @Fl4sh_
 - All the people testing stuff over NSwitch 60 FPS Cheats & Mods
