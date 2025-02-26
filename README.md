@@ -1,8 +1,13 @@
-## About this compilation
+## About this project
 
 This is a romfs and IPS mod compilation from various authors, it's a community effort though the years so I don't take all the credit.
-* To use these mods you will need a Switch with atmosphere installed, you MUST use overcloking for the 90% of these mods, some mods are quite demanding so be prepared to use at least RAM@2500, GPU@1228, CPU@1500
-* Most of these mods focus on resolution and graphical features rather than framerate performance, I've personally tested them to run optimal at 30 FPS, some games will still work at 60 FPS with FPSLocker, but that's rather the exception than the norm.
+
+Most of these mods focus on resolution and graphical features like shadow resolution, draw distance, textures quality, etc. rather than framerate performance, I've personally tested them to run optimal at 30 FPS, some games will still work at 60 FPS with [FPSLocker](https://github.com/masagrator/FPSLocker)
+
+## Requisites
+
+* To use these mods you will need a Switch with atmosphere installed, you MUST use overcloking for the 90% of these mods, some mods are quite demanding so be prepared to use at least RAM@2400, GPU@1228, CPU@1500. More info about how setup overclocking https://rentry.co/mariko
+* **Important**: all the mods were tested and tailored for Mariko Switch, while most mods can work on Erista they were not optimized for it.
 
 ## Usage
 
