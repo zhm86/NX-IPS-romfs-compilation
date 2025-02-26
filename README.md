@@ -14,15 +14,16 @@ Most of these mods focus on resolution and graphical features like shadow resolu
 * Make sure read the file `description.txt` included in each game as it contains important information about the mod itself, files needed, and what the mod does. It also includes the respective author of the mod, please contact through an "Issue" if you haven't been mentioned in a certain mod.
 * Each folder contains mods for that particular game, `release_X.X.X.rar` contains the files ready to copy to your atmosphere folder, no other step is needed.
 * The mod will only work for the version indicated in `description.txt`
-* Some games use a different folder tittle ID (TID) and/or build ID (BID) for their physical releases, Crysis Remastered for example has a different TID and BID for the physical and digital version.
+* Some games use a different folder tittle ID (TID) and/or build ID (BID) for their physical releases, Crysis Remastered for example has a different TID and BID for the physical and digital versions.
 * **Advanced**: When apply a `*.pchtxt` file is included in the game folder, you can use it edit the mod to your liking, I tried to document the best I could each instruction.
 * **Advanced**: When apply a `UE.ini` folder is provided, you can edit ini files to your liking and re-pack into an UnrealEngine patch. 
 
-## Issues
+## About opening Issues
 
 * Only open issues to report problems like crashes, graphical glitches, sound problems, etc. It's not a place to post request, they will be ignored.
-* When open issues make sure you are using the latest version of the game, old versions are unsuported.
-* Make sure add all the relevant information about the issue the most detailed possible, before open an issue test using pchtxt first instead IPS (it could be possible I missed something)
+* When opening a new issue make sure you are using the latest version of the game, old versions are unsuported.
+* Make sure add all the relevant information about the issue include all possible details,
+* Before open an issue test using pchtxt first instead IPS (it could be possible I missed something)
 
 ## Credits
 - @MasaGratoR for his valuable help, tips, and tools
