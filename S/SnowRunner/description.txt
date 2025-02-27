@@ -12,4 +12,4 @@ SnowRunner | IPS | romfs | v1.0.38
 -Increased shadow resolution (docked|handheld)
 -Increased texture quality (docked|handheld)
 
-Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix
+Notes: This mod is based on ECLIPSE00074's work, it's missing PC texture, and it's missing in-game graphics settings from original mod, converted to IPS by cucholix
