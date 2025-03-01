@@ -1,0 +1,14 @@
+Dragon Quest XI S | romfs | v1.0.4
+
+-Max screen resolution 1080p, min screen resolution 810p (docked)
+-Fixed 720p resolution (handheld)
+-Max aniso filter x4 (docked|handheld)
+-All texture groups changed from linear to aniso (docked|handheld)
+-Increased view distance (docked|handheld)
+-Enabled secondary view distance, helps with in-game objects (docked|handheld)
+-Increased static mesh LOD distance (docked|handheld)
+-Increased resolution of dynamic cascades x2 (docked|handheld)
+-Increased dynamic shadow distance (docked|handheld)
+-Increased grass culling distance *vegetation has higher view distance* (docked|handheld)
+-Tree foliage uses max LOD regardless the distance (docked|handheld)
+-Disabled copyright info in screenshots (docked|handheld)
