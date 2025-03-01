@@ -1,4 +1,4 @@
-Dragon Quest XI S | romfs | v1.0.3
+Dragon Quest XI S | romfs | v1.0.4
 
 -Max screen resolution 1080p, min screen resolution 810p (docked)
 -Fixed 720p resolution (handheld)
