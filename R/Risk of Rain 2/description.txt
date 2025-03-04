@@ -1,4 +1,0 @@
-Risk of Rain 2 | IPS | 1.0.2
-
--Fixed resolution 1080p (docked)
--Fixed resolution 720p (handheld)
