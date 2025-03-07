@@ -6,8 +6,8 @@
 @flag offset_shift 0x100
 
 @enabled
-03E89154 08102E1E // fmov s8, s1 | fmov s8, #1.0 | (disables scaling for Suikoden II)
-03E89158 09102E1E // fmov s9, s0 | fmov s9, #1.0 | (disables scaling for Suikoden II)
-03E89190 00102E1E // fmov s0, s9 | fmov s0, #1.0 | (disables scaling for Suikoden I)  
-03E89194 01102E1E // fmov s1, s8 | fmov s1, #1.0 | (disables scaling for Suikoden I)
+03E89154 08102E1E // fmov s8, s1 | fmov s8, #1.0 | (disable resolution scaling for Suikoden II)
+03E89158 09102E1E // fmov s9, s0 | fmov s9, #1.0 | (disable resolution scaling for Suikoden II)
+03E89190 00102E1E // fmov s0, s9 | fmov s0, #1.0 | (disable resolution scaling for Suikoden I)  
+03E89194 01102E1E // fmov s1, s8 | fmov s1, #1.0 | (disable resolution scaling for Suikoden I)
 @stop
