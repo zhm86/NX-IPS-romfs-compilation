@@ -38,7 +38,7 @@ More info about UE unpacking-packing can be found here https://gbatemp.net/threa
 ## Credits and thanks
 
 - @hanai3bi, @B3711 for OC Switchcraft EOS
-- @MasaGratoR for his valuable help, tips, and tools
+- [MasaGratoR](https://github.com/masagrator) for his valuable help, tips, and tools
 - @ECLIPSE00074 for his amazing graphic mods
 - @Hazerou, @theboy181, @KeatonTheBot, @Stevens, @Fl4sh_ modders 
 - @b0rd2death for his handy mod manager tool
