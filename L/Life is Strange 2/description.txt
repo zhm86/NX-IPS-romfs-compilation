@@ -12,6 +12,6 @@ Life is Strange 2 | romfs | v1.1.0
 -Increased resolution of shadow cascades (docked|handheld)
 -TAA changed to FXAA (docked|handheld)
 -Anisotropic texture filtering increased to 4x (docked|handheld)
--All texture groups use aniso except for Cinematics, to keep good performance balance (handheld | docked)
+-All texture groups use aniso except for Cinematics, to keep good performance balance (docked|handheld)
 -Slightly improved DOF quality (docked|handheld)
 -Texture streaming tweaks to avoid pop-up and delay on texture loading  (docked|handheld)
