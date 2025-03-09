@@ -1,0 +1,10 @@
+Life is Strange: Double Exposure | IPS | romfs | v1.0.3
+
+-Fixed resolution 1080p (docked)
+-Fixed resolution 720p (handheld)
+-Increased LOD for all texture groups (docked|handheld)
+-Enabled aniso for all texture groups (docked|handheld)
+-Reduced TAA intensity (docked|handheld)
+-Increased shadow resolution and quality (docked|handheld)
+-Increased draw distance (docked|handheld)
+-Increased ambient occlusion quality (docked|handheld)
