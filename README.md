@@ -10,6 +10,8 @@ Most of these mods focus on resolution and graphical features like shadow resolu
 
 * **Important**: all the mods were tested and tailored for Mariko Switch, while most mods can work on Erista they were not optimized for it.
 
+* **Important**: most of the mods use the American release version, unless stated in `description.txt`, in some cases IPS patches use different BID across different regions so make sure you are using the correct region.
+
 ## Usage
 
 * Make sure read the file `description.txt` included in each game as it contains important information about the mod itself, files needed, and what the mod does. It also includes the respective author of the mod, please contact through an "Issue" if you haven't been mentioned in a certain mod.
