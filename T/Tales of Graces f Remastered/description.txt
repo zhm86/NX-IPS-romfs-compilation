@@ -1,0 +1,7 @@
+Tales of Graces f Remastered | IPS | v1.0.3
+
+-Disabled FXAA (docked|handheld)
+-Slightly decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)
+
+Notes: Antialiasing mod by MasaGratoR, texture tweaks by cucholix

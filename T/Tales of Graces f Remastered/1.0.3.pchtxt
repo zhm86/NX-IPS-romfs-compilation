@@ -1,0 +1,10 @@
+@nsobid-043776CF06E71CD092B990179DF8F1BC
+
+# Tales of Graces f Remastered
+
+@enabled
+0058586C F3031F2A // mov w19, w0          | mov w19, wzr   | (disable FXAA)
+011728B4 0010261E // scvtf s0, w8         | fmov s0, #16   | (max aniso)
+011728CC 00103E1E // ldr s0, [x22,#8]     | fmov s0, #-1.0 | (LOD bias)
+01F3DA9C 1F2003D5 // str w10, [x8, #0x2c] | nop            | (disallow FXAA re-applying after changing modes)
+@stop
