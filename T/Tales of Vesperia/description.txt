@@ -1,3 +1,0 @@
-Tales of Vesperia | IPS | v1.0.2
-
--Decreased LOD bias (docked|handheld)
