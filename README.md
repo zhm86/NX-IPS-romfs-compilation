@@ -33,7 +33,7 @@ More info about UE unpacking-packing can be found here https://gbatemp.net/threa
 
 * When opening a new issue make sure you are using the latest version of the game, old versions are unsupported.
 
-* Make sure add all the relevant information about the issue include all possible details.
+* Make sure add all the relevant information about the issue, include all possible details: TID, BID, game version, region.
 
 * Before open an issue test using pchtxt first instead IPS (it could be possible I missed something at the moment to create the IPS)
 
