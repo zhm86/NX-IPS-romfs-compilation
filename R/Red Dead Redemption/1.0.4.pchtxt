@@ -12,14 +12,14 @@
 012E69F4 C877A852 // movz w8, #0x4320, lsl #16    | movz w8, #0x43be, lsl #16  |
 012E7E8C 0884A852 // movz w8, #0x4320, lsl #16    | movz w8, #0x4420, lsl #16  | (forest grid)
 01362B18 1F2003D5 // ldrb w8, [x8, #8]            | nop                        | (skip legal intro)
-//0136AA08 E003271E // fmov s0, wzr                 | ldr s0, [x1]               | (postprocessing FX)
-//0136AA0C E003271E // fmov s0, wzr                 | str s0, [x0, #0x460]       | (postprocessing FX)
-//0136AA10 E003271E // fmov s0, wzr                 | ldr s0, [x1, #4]           | (postprocessing FX)
-//0136AA14 E003271E // fmov s0, wzr                 | str s0, [x0, #0x464]       | (postprocessing FX)
-//0136AA18 E003271E // fmov s0, wzr                 | ldr s0, [x1, #8]           | (postprocessing FX)
-//0136AA1C E003271E // fmov s0, wzr                 | str s0, [x0, #0x468]       | (postprocessing FX)
-//0136AA20 E003271E // fmov s0, wzr                 | ldr s0, [x1, #0xc]         | (postprocessing FX)
-//0136AA24 E003271E // fmov s0, wzr                 | str s0, [x0, #0x46c]       | (postprocessing FX)
+//0136AA08 E003271E // fmov s0, wzr                 | ldr s0, [x1]               | (postprocessing FX DOF)
+//0136AA0C E003271E // fmov s0, wzr                 | str s0, [x0, #0x460]       | (postprocessing FX DOF)
+//0136AA10 E003271E // fmov s0, wzr                 | ldr s0, [x1, #4]           | (postprocessing FX DOF)
+//0136AA14 E003271E // fmov s0, wzr                 | str s0, [x0, #0x464]       | (postprocessing FX DOF)
+//0136AA18 E003271E // fmov s0, wzr                 | ldr s0, [x1, #8]           | (postprocessing FX DOF)
+//0136AA1C E003271E // fmov s0, wzr                 | str s0, [x0, #0x468]       | (postprocessing FX DOF)
+//0136AA20 E003271E // fmov s0, wzr                 | ldr s0, [x1, #0xc]         | (postprocessing FX DOF)
+//0136AA24 E003271E // fmov s0, wzr                 | str s0, [x0, #0x46c]       | (postprocessing FX DOF)
 //0136C3A5 00102D1E // fmov s0, #1.00000000         | fmov s0, #0.75000000       | (AA decrease)
 0136C3C8 1F2003D5 // stp s1, s0, [sp, #8]         | nop                        | (disable AA)
 01378540 00F4000F // fmov v0.2s, #1.00000000      | fmov v0.2s, #2.00000000    |
@@ -30,8 +30,8 @@
 013785A4 0970A852 // movz w9, #0x4324, lsl #16    | movz w9, #0x4380, lsl #16  | (Tree)
 013968B8 E203271E // ldr s2, [x25, #0x588]        | fmov s2, wzr               | (update dyn res)
 01396A20 01102C1E // ldr s1, [x8]                 | fmov s1, #0.50000000       | (update dyn res)
-//013E8C28 09008052 // movz w9, #0                  | movz w9, #0x447a, lsl #16  | (shimmer)
-//013E8C2C 0A008052 // movz w10, #0x42c8, lsl #16   | movz w10, #0               | (shimmer)
+//013E8C28 09008052 // movz w9, #0                  | movz w9, #0x447a, lsl #16  | (heat haze)
+//013E8C2C 0A008052 // movz w10, #0x42c8, lsl #16   | movz w10, #0               | (heat haze)
 013F250C 08FAA752 // movz w8, #0x3f80, lsl #16    | movz w8, #0x3fd0, lsl #16  | (terrain world)
 0140A9A0 6888A852 // movz w8, #0x43e1, lsl #16    | movz w8, #0x4443, lsl #16  | (streaming manager)
 0140A9B4 6883A872 // movk w8, #0x43a0, lsl #16    | movk w8, #0x441b, lsl #16  |
@@ -41,7 +41,7 @@
 0140AA78 09008852 // movz w9, #0x8000             | movz w9, #0x4000           |
 0140AA7C 8993A872 // movk w9, #0x4427, lsl #16    | movk w9, #0x449c, lsl #16  |
 0140AA9C 08008852 // movz w8, #0x8000             | movz w8, #0x4000           | (streaming calculation manager)
-0140AAA0 88A3A872 // movk w8, #0x44bb, lsl #16    | movk w8, #0x451c, lsl #16  |(streaming calculation manager)
+0140AAA0 88A3A872 // movk w8, #0x44bb, lsl #16    | movk w8, #0x451c, lsl #16  | (streaming calculation manager)
 01410CD4 8D97A852 // movz w13, #0x44a0, lsl #16   | movz w13, #0x44bc, lsl #16 |
 0142D6AC 825BA852 // movz w2, #0x4286, lsl #16    | movz w2, #0x42dc, lsl #16  |
 0142D98C 0710201E // fcsel s7, s1, s0, lt         | fmov s7, #2.00000000       |
