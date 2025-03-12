@@ -13,12 +13,16 @@ Red Dead Redemption | IPS | romfs | v1.0.4
 -Increased distance limit for trees and shadows (docked|handheld)
 -Increased sun/moon shadow resolution (docked|handheld)
 -Increased distance of shadows from the sun/moon (docked|handheld)
--Reduced Depth Bias of sun/moon shadows (docked|handheld)
+-Reduced depth bias of sun/moon shadows (docked|handheld)
 -Increased distance of objects and their LODs (docked|handheld)
 -Increased distance of LODs and terrain textures (docked|handheld)
 -Replaced the weather "Fair" with "Clear"
 *When turning on "Fair", the game turned into purple shades
 -Increased overall audio volume slightly (docked|handheld)
 -Disabled anti-aliansing (docked|handheld)
+-Disabled DOF (docked|handheld)
+*By default it's enabled, to turn it off uncomment lines 15 to 23 
+-Disabled heat haze (docked|handheld)
+*By default it's enabled, to turn it off uncomment lines 33 and 34 
 
-Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix
+Notes: This mod is based on work by ECLIPSE00074, converted to IPS by cucholix
