@@ -21,8 +21,8 @@ Red Dead Redemption | IPS | romfs | v1.0.4
 -Increased overall audio volume slightly (docked|handheld)
 -Disabled anti-aliansing (docked|handheld)
 -Disabled DOF (docked|handheld)
-*By default it's enabled, to turn it off uncomment lines 15 to 23 
+*By default it's enabled, to turn it off uncomment lines 15 to 23 in pchtxt
 -Disabled heat haze (docked|handheld)
-*By default it's enabled, to turn it off uncomment lines 33 and 34 
+*By default it's enabled, to turn it off uncomment lines 33 and 34 in pchtxt
 
 Notes: This mod is based on work by ECLIPSE00074, converted to IPS by cucholix
