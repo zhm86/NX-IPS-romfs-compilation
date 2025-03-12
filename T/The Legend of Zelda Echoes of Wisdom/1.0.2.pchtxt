@@ -8,7 +8,7 @@
 0032D0D0 00103E1E // ldr s0, [x20, #0x10]      | fmov s0, #-1.00000000     | (LOD bias)
 0032D14C 0010261E // ucvtf s0, s0              | fmov s0, #16.00000000     | (max aniso)
 0032D3EC 07000014 // b.eq #0x1c                | b #0x30                   | (FPS stabilizer)
-02722974 89028012 // mov w9, #-0x24            | mov w9, #-0x15 (912p)     | (resolution) (Fl4sh_: decreasing #0 will decrease overall resolution each int (#-0x1 will decrease 14 pixels)
+02722974 89028012 // mov w9, #-0x24            | mov w9, #-0x15 (912p)     | (resolution) (Fl4sh_: decreasing "#0x" will decrease overall resolution for each int (#-0x1 will decrease 14 pixels))
 //0276C64C 1F7C0329 // stp s0, s1, [x0, #0x18]   | stp wzr, wzr, [x0, #0x18] | (DOF blur removal)
 0277E4F0 00008152 // mov w0, #0x400            | mov w0, #0x800            | (shadow res x2 2048)
 0277E4F4 01008152 // mov w1, #0x400            | mov w1, #0x800            | (shadow res x2 2048)
