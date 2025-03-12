@@ -6,4 +6,8 @@ Dragon Quest III 2D-HD Remastered | IPS | romfs | v1.0.1
 -Increased shadow quality and resolution (docked|handheld)
 -Increased ambient occlusion quality (docked|handheld)
 
-Notes: Resolution IPS patch created by Stevens
+Notes: Resolution IPS patch created by Stevens, comparison images provided by Kakarot
+
+Comparison 
+pic01: https://imgsli.com/MzU4MTQ2
+pic02: https://imgsli.com/MzU4MTQ4
