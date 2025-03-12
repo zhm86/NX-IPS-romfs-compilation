@@ -2,7 +2,7 @@ The Legend of Zelda: Echoes of Wisdom | IPS | v1.0.2
 
 -Fixed 912p resolution (docked)
 -DOF removal (docked|handheld)
-*Needs to be enabled in .pchtxt
+*DOF enabled by default, to enable uncomment line 12 in pchtxt 
 -Increased resolution of dynamic shadows x2 (docked|handheld)
 -Decreased LOD bias (docked|handheld)
 -Max aniso filtering x16 (docked|handheld)
