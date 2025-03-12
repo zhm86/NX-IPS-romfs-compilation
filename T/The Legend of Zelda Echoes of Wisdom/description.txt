@@ -7,4 +7,7 @@ The Legend of Zelda: Echoes of Wisdom | IPS | v1.0.2
 -Decreased LOD bias (docked|handheld)
 -Max aniso filtering x16 (docked|handheld)
 
-Notes: Resolution, DOF removal and FPS stabilizer by _Fl4sh, shadows and texture mods by ECLIPSE00074, converted to IPS by cucholix
+Notes: Resolution, DOF removal and FPS stabilizer by _Fl4sh, shadows and texture mods by ECLIPSE00074, converted to IPS by cucholix, comparison images provided by Kakarot
+
+Comparison 
+pic01: https://imgsli.com/MzU4MTc1
