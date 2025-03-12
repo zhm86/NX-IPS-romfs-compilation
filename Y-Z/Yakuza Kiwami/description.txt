@@ -4,3 +4,6 @@ Yakuza Kiwami | IPS | v1.01
 -Fixed resolution 720p (handheld)
 -Decreased LOD bias (docked|handheld)
 -Max aniso filtering x16 (docked|handheld)
+
+Comparison 
+pic01: https://imgsli.com/MzU4MTcz
