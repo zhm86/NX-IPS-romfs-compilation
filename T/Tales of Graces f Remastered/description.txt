@@ -4,6 +4,7 @@ Tales of Graces f Remastered | IPS | v1.0.3
 -Slightly decreased LOD bias (docked|handheld)
 -Max aniso filtering x16 (docked|handheld)
 
-Notes: Antialiasing mod by MasaGratoR, texture tweaks by cucholix
+Notes: Antialiasing mod by MasaGratoR, texture tweaks by cucholix, comparison images provided by Kakarot
 
-Comparison pic01: https://imgsli.com/MzU3NzI5/0/2
+Comparison 
+pic01: https://imgsli.com/MzU3NzI5/0/2
