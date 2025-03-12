@@ -1,0 +1,4 @@
+FREEDOM WARS Remastered | IPS | v1.6.0
+
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x8 (docked|handheld)
