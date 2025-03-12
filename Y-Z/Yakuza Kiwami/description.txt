@@ -5,5 +5,7 @@ Yakuza Kiwami | IPS | v1.01
 -Decreased LOD bias (docked|handheld)
 -Max aniso filtering x16 (docked|handheld)
 
+Notes: Comparison images provided by Kakarot
+
 Comparison 
 pic01: https://imgsli.com/MzU4MTcz
