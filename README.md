@@ -1,6 +1,6 @@
 ## About this project
 
-This is a romfs and IPS mod compilation from various authors, it's a community effort though the years so I don't take all the credit.
+This is a romfs and IPS mod compilation from various authors, it's a community effort through the years so I don't take all the credit.
 
 Most of these mods focus on resolution and graphical features like shadow resolution, draw distance, textures quality, etc. rather than framerate performance, I've personally tested them to run optimal at 30 FPS, some games will still work at 60 FPS with [FPSLocker](https://github.com/masagrator/FPSLocker)
 
