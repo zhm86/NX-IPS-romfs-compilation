@@ -1,5 +1,8 @@
-Ufouria The Saga 2 | IPS | romfs | v1.0.0
+Ufouria The Saga 2 | IPS | romfs | v1.0.1
 
 -Increased shadow quality (docked|handheld)
 -Increased shadow resolution (docked|handheld)
 -Decreased LOD bias (docked|handheld)
+
+Comparison 
+pic01 https://imgsli.com/MzU4Mzgw
