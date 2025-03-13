@@ -5,13 +5,13 @@
 @flag print_values
 
 @enabled
-00716204 09F0A7D2 // mov x9, #0x3f400000       | mov x9, #0x3f800000         | (handheld resolution scaling 1)
-00716208 4933D3F2 // movk x9, #0x3333, lsl #32 | movk x9, #0x999a, lsl #32   | (docked resolution scaling 0.85)
-0071620C 29EBE7F2 // movk x9, #0x3f33, lsl #48 | movk x9, #0x3f59, lsl #48   | (docked resolution scaling 0.85)
-074E8230 0050251E // fmov s0, #8.00000000      | fmov s0, #13.00000000       | (Fidelity FX intensity) (ecl 13)
-074E8240 04903E1E // fmov s4, #-1.00000000     | fmov s4, #-1.25000000       | (shadow distance) (ecl -0.75)
-075892D4 13502E1E // fmov s19, #1.00000000     | fmov s19, #1.12500000       | (shadow ?)
-07712F20 00903C1E // ldr s0, [x20, #0x10]      | fmov s0, #-0.62500000       | (LOD bias)
-//07712F58 0010241E // ucvtf s0, s0              | fmov s0, #8.00000000        | (aniso x8)
-078ACDA0 01648052 // mov w1, #0x200            | mov w1, #0x320              | (shadow resolution) (512->800)
+00716204 09F0A7D2 // mov x9, #0x3f400000       | mov x9, #0x3f800000        | (handheld resolution scaling 1)
+00716208 4933D3F2 // movk x9, #0x3333, lsl #32 | movk x9, #0x999a, lsl #32  | (docked resolution scaling 0.85)
+0071620C 29EBE7F2 // movk x9, #0x3f33, lsl #48 | movk x9, #0x3f59, lsl #48  | (docked resolution scaling 0.85)
+074E8230 0050251E // fmov s0, #8.00000000      | fmov s0, #13.00000000      | (Fidelity FX intensity) (ecl 13)
+074E8240 04903E1E // fmov s4, #-1.00000000     | fmov s4, #-1.25000000      | (shadow distance) (ecl -0.75)
+075892D4 13502E1E // fmov s19, #1.00000000     | fmov s19, #1.12500000      | (shadow ?)
+07712F20 00903C1E // ldr s0, [x20, #0x10]      | fmov s0, #-0.62500000      | (LOD bias)
+//07712F58 0010241E // ucvtf s0, s0              | fmov s0, #8.00000000       | (aniso x8)
+078ACDA0 01648052 // mov w1, #0x200            | mov w1, #0x320             | (shadow resolution) (512->800)
 @stop
