@@ -11,4 +11,4 @@ Dying Light | IPS | romfs | v1.0.5
 -Disabled Network Errors (docked|handheld)
 -Disabled strap guide when launching the game (docked|handheld)
 
-Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix
+Notes: This mod is based on work by ECLIPSE00074, converted to IPS by cucholix
