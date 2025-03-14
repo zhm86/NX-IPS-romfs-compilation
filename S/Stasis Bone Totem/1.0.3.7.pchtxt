@@ -1,0 +1,12 @@
+@nsobid-089DB036B0122F4A0D3F27D26C995C7F
+
+# Stasis: Bone Totem
+
+@flag print_values
+
+@enabled
+019CC524 00F08052 // mov w0, w21          | mov w0, #0x780 | (render resX)
+019CC528 01878052 // mov w1, w22          | mov w1, #0x438 | (render resY)
+01497208 00008052 // add x16, x16, #0x238 | mov w0, #0     | (nn::hid::GetVibrationDeviceHandles) (disable HD rumble)
+0149720C C0035FD6 // br x17               | ret            | (nn::hid::GetVibrationDeviceHandles) (disable HD rumble)
+@stop
