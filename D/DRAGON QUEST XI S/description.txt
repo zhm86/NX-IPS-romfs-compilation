@@ -9,6 +9,10 @@ Dragon Quest XI S | romfs | v1.0.4
 -Increased static mesh LOD distance (docked|handheld)
 -Increased resolution of dynamic cascades x2 (docked|handheld)
 -Increased dynamic shadow distance (docked|handheld)
--Increased grass culling distance *vegetation has higher view distance* (docked|handheld)
 -Tree foliage uses max LOD regardless the distance (docked|handheld)
 -Disabled copyright info in screenshots (docked|handheld)
+
+Notes: Comparison picture provided by Kakarot
+
+Comparison
+pic01: https://imgsli.com/MzU4OTI2
