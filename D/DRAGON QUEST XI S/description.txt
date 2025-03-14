@@ -12,7 +12,7 @@ Dragon Quest XI S | romfs | v1.0.4
 -Tree foliage uses max LOD regardless the distance (docked|handheld)
 -Disabled copyright info in screenshots (docked|handheld)
 
-Notes: Comparison picture provided by Kakarot
+Notes: Comparison images provided by Kakarot
 
 Comparison
 pic01: https://imgsli.com/MzU4OTI2
