@@ -3,7 +3,7 @@ Stasis: Bone Totem | IPS | v1.0.3.7
 -Render resolution (docked|handheld)
 -Disabled HD Rumble (docked|handheld)
 
-Notes: Because a game-bug both modes need to use the same resolution. In comparison screengrabs are using internal Switch 1280x720p limit, so the difference is not visible between 720p vs 1080p
+Notes: Because a game-bug both modes need to use the same resolution. Comparison pictures were captured using internal Switch 1280x720p limit, so the difference is not visible between 720p vs 1080p
 
 Comparison
 pic01: https://imgsli.com/MzU4Nzg3
