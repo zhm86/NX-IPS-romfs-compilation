@@ -6,4 +6,4 @@ Stasis: Bone Totem | IPS | v1.0.3.7
 Notes: Because a game-bug both modes need to use the same resolution. In comparison screengrabs are using internal Switch 1280x720p limit, so the difference is not visible between 720p vs 1080p
 
 Comparison
-pic01 https://imgsli.com/MzU4Nzg3
+pic01: https://imgsli.com/MzU4Nzg3
