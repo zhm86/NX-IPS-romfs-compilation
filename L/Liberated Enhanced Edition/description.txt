@@ -1,4 +1,8 @@
 Liberated Enhanced Edition | IPS | v1.0
 
--Fixed 1080p resolution (docked)
-*Gameplay resolution is lower
+-Fixed 1080p resolution (docked|handheld)
+
+Notes: Because the way resolution logic works it's not possible have a separated resolution for docked and handheld modes.
+
+Comparison
+pic01: https://imgsli.com/MzU5MTg4
