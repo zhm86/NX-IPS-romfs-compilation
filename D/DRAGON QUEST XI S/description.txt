@@ -1,10 +1,8 @@
 Dragon Quest XI S | romfs | v1.0.4
 
--Max screen resolution 1080p, min screen resolution 756p (docked)
+-Max screen resolution 1080p, min screen resolution 720p (docked)
 -Fixed 720p resolution (handheld)
--Balanced framerate dynamic resolution (docked|handheld)
-*min desired framerate is now 30 FPS
--Max aniso filter x4 (docked|handheld)
+-Max aniso filter x8 (docked|handheld)
 -All texture groups changed from linear to aniso (docked|handheld)
 -Increased view distance (docked|handheld)
 -Enabled secondary view distance, helps with in-game objects (docked|handheld)
@@ -12,11 +10,4 @@ Dragon Quest XI S | romfs | v1.0.4
 -Increased resolution of dynamic cascades x2 (docked|handheld)
 -Increased dynamic shadow distance (docked|handheld)
 -Tree foliage uses max LOD regardless the distance (docked|handheld)
--Disabled copyright info in screenshots (docked|handheld)
--Improved color calibration (docked|handheld)
-*Less washed out colors
-
-Notes: Image calibration tweaks and comparison images by Kakarot
-
-Comparison
-pic01: https://imgsli.com/MzU4OTQ5
+-Disabled copyright text in screenshots (docked|handheld)
