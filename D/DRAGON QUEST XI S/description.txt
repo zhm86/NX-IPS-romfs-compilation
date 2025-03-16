@@ -1,4 +1,4 @@
-Dragon Quest XI S | romfs | v1.0.4
+Dragon Quest XI S Echoes of an Elusive Age | romfs | v1.0.4
 
 -Max screen resolution 1080p, min screen resolution 720p (docked)
 -Fixed 720p resolution (handheld)
@@ -11,3 +11,8 @@ Dragon Quest XI S | romfs | v1.0.4
 -Increased dynamic shadow distance (docked|handheld)
 -Tree foliage uses max LOD regardless the distance (docked|handheld)
 -Disabled copyright text in screenshots (docked|handheld)
+
+Notes: Comparison images provided by Kakarot
+
+Comparison 
+pic01: https://imgsli.com/MzU5NTYz
