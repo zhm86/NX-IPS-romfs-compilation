@@ -3,4 +3,4 @@ Baten Kaitos 2 | IPS | v1.0.3
 -Decreased LOD bias (docked|handheld)
 -Disabled downscaling (docked|handheld)
 
-Notes: Downscaling mod by KetaonTheBot, LOD bias mod by cucholix
+Notes: Downscaling mod by KetaonTheBot, LOD bias mod by cucholix, ONLY compatible with Asian release.
