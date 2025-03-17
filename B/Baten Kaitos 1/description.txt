@@ -6,4 +6,4 @@ Baten Kaitos 1 | IPS | v1.0.3
 30 FPS encoded videos (if you play at 30 FPS)
 https://mega.nz/file/ERhXkLiS#fKGzSBYFir2_T-exJmPP2tysINDkP0GIYvYQ4ZKnKMM
 
-Notes: Downscaling mod by KetaonTheBot, LOD bias mod by cucholix
+Notes: Downscaling mod by KetaonTheBot, LOD bias mod by cucholix, ONLY compatible with Asian release.
