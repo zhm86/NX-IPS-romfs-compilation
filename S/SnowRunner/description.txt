@@ -11,5 +11,8 @@ SnowRunner | IPS | romfs | v1.0.38
 -Reduced activation radius of vegetation physics models (docked|handheld)
 -Increased shadow resolution (docked|handheld)
 -Increased texture quality (docked|handheld)
+-Antialising disabled (docked|handheld)
+*To enable antialising open "game.retail.cfg" and change line 1716 "AntialiasingQuality: 1" it should help to reduce shimmering at cost of less sharp image. 
 
-Notes: This mod is based on ECLIPSE00074's work, it's missing PC texture replacement and in-game graphics settings from original the mod, converted to IPS by cucholix
+Notes: This mod is based on ECLIPSE00074's work, it's missing PC texture replacement and in-game graphics settings from original the mod, converted to IPS by cucholix.
+       To enable antialising change line
