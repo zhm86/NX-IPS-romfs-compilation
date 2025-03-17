@@ -7,3 +7,4 @@ Baten Kaitos 1 | IPS | v1.0.3
 https://mega.nz/file/ERhXkLiS#fKGzSBYFir2_T-exJmPP2tysINDkP0GIYvYQ4ZKnKMM
 
 Notes: Downscaling mod by KetaonTheBot, LOD bias mod by cucholix.
+       Use _US for the American version, _AS for the Asian version
