@@ -1,0 +1,12 @@
+@nsobid-A16BEA3ABA632D53666021E0FB38993C
+
+# Baten Kaitos I
+
+@flag print_values
+
+@enabled
+00A180BC 00903E1E // ldr s0, [x19,#8] | fmov s0, #-1.25 | (LOD bias)
+053B2E10 00102E1E // fmov s0, w8      | fmov s0, #1.00  | (disable downscaling)
+@stop
+
+Notes: Artifacts appears when max aniso is enabled
