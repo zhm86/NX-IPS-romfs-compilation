@@ -1,9 +1,0 @@
-Shiren the Wanderer: The Mystery Dungeon of Serpentcoil Island | IPS | romfs | v2.2.3
-
--Fixed resolution 1080p (docked)
--Fixed resolution 720p (handheld)
--Enabled spolights (godrays) (docked|handheld)
--Increased shadow resolution (docked|handheld)
--Increased number of shadow cascades (docked|handheld)
--Enabled shadow cast on objects (docked|handheld)
--Forced aniso textures (docked|handheld)
