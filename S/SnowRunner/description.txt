@@ -15,8 +15,8 @@ SnowRunner | IPS | romfs | v1.0.38
 *To enable antialising open "game.retail.cfg" and change line 1716 "AntialiasingQuality: 0" to 0, 1, 2, 3 or 4, it should help to reduce shimmering at cost of less sharp image. 
 0 = MSAA off, TAA off
 1 = MSAA off, TAA on
-2 = MSAA 2x, TAA off <- images glitches
-3 = MSAA 4x, TAA off <- images glitches
-4 = MSAA 8x, TAA off <- images glitches
+2 = MSAA 2x, TAA off <- image glitches
+3 = MSAA 4x, TAA off <- image glitches
+4 = MSAA 8x, TAA off <- image glitches
 
 Notes: This mod is based on ECLIPSE00074's work, it's missing PC texture replacement and in-game graphics settings from original the mod, converted to IPS by cucholix.
