@@ -3,4 +3,7 @@ Ni no Kuni II | IPS | v1.10
 -Fixed resolution 1080p (docked)
 -Fixed resolution 720p (handheld)
 
-Notes: This mod was created by KeatonTheBot
+Notes: This mod was created by KeatonTheBot, comparison images provided by Kakarot.
+
+Comparison
+pic01: https://imgsli.com/MzYwMjkz
