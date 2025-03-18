@@ -1,12 +1,13 @@
 @nsobid-B7BE689F02777ABD136CE923C30F23A8
 
-# Baten Kaitos 2
+# Baten Kaitos II
 
 @flag print_values
 
 @enabled
 00A1BB3C 0090301E // ldr s0, [x19,#8] | fmov s0, #-2.5 | (LOD bias)
-02883940 00102E1E // fmov s0, w8      | fmov s0, #1.00 | (disable downscaling)
+02883924 01102E1E // fmov s1, #0.75   | fmov s1, #1.0  | (disable downscaling in handheld)
+02883940 00102E1E // fmov s0, w8      | fmov s0, #1.0  | (disable downscaling in docked)
 @stop
 
 Notes: Artifacts appears when max aniso is enabled
