@@ -12,7 +12,7 @@ SnowRunner | IPS | romfs | v1.0.38
 -Increased shadow resolution (docked|handheld)
 -Increased texture quality (docked|handheld)
 -Antialising disabled (docked|handheld)
-*To enable antialising open "game.retail.cfg" and change line 1716 "AntialiasingQuality: 0" to 0, 1, 2, 3 or 4, it should help to reduce shimmering at cost of less sharp image. 
+*To enable antialising open "game.retail.cfg" and change line 1716 "AntialiasingQuality: 0" to 1, 2, 3 or 4, it should help to reduce shimmering at cost of less sharp image. 
 0 = MSAA off, TAA off
 1 = MSAA off, TAA on
 2 = MSAA 2x, TAA off <- image glitches
