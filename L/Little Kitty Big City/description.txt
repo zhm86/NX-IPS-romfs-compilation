@@ -1,0 +1,13 @@
+Little Kitty, Big City | IPS | romfs | v1.25.3.3
+
+-Fixed resolution 1062p (docked)
+*Crashes at boot at 1080p
+-Decreased antialiasing intensity (docked|handheld)
+-Disabled double buffering (docked|handheld)
+-Enabled aniso texture filtering (docked|handheld)
+-Increased shadow resolution (docked|handheld)
+-Shadow cascades set to x4 (docked|handheld)
+-Increased shadow distance (docked|handheld)
+-Increased LOD distance (docked|handheld)
+
+Notes: This mod is based on work by ECLIPSE00074 work, IPS by cucholix.
