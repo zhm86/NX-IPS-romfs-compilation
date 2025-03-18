@@ -8,8 +8,3 @@
 02A1A7A8 08102E1E // fmov s8, #1.00 | fmov s8, #0.75000000 | (handheld res scaling)
 02A1A7FC 08102E1E // fmov s8, #1.00 | fmov s8, w8          | (docked res scaling)
 @stop
-
-
-
-
-
