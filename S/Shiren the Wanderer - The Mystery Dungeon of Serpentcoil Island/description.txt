@@ -7,3 +7,10 @@ Shiren the Wanderer: The Mystery Dungeon of Serpentcoil Island | IPS | romfs | v
 -Increased number of shadow cascades (docked|handheld)
 -Enabled shadow cast on objects (docked|handheld)
 -Forced aniso textures (docked|handheld)
+
+Notes: Comparison images provided by Kakarot.
+
+Comparison
+pic01: https://imgsli.com/MzYwNDIx
+pic02: https://imgsli.com/MzYwNDIz
+pic03: https://imgsli.com/MzYwNDIy
