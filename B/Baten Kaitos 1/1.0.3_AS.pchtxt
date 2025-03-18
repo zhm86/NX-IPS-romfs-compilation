@@ -6,7 +6,8 @@
 
 @enabled
 00A180AC 00903E1E // ldr s0, [x19,#8] | fmov s0, #-1.25 | (LOD bias)
-03FE83C0 00102E1E // fmov s0, w8      | fmov s0, #1.00  | (disable downscaling)
+03FE83C0 00102E1E // fmov s0, w8      | fmov s0, #1.0   | (disable downscaling in docked)
+03FE83A4 01102E1E // fmov s1, #0.75   | fmov s1, #1.0   | (disable downscaling in handheld)
 @stop
 
 Notes: Artifacts appears when max aniso is enabled
