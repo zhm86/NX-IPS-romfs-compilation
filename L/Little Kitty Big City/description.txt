@@ -10,4 +10,7 @@ Little Kitty, Big City | IPS | romfs | v1.25.3.3
 -Increased shadow distance (docked|handheld)
 -Increased LOD distance (docked|handheld)
 
-Notes: This mod is based on work by ECLIPSE00074 work, IPS by cucholix.
+Notes: This mod is based on work by ECLIPSE00074 work, IPS by cucholix, comparison images provided by Kakarot.
+
+Comparison
+pic01: https://imgsli.com/MzYwMjg0
