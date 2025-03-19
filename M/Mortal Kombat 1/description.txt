@@ -1,4 +1,4 @@
-Mortal Kombat 1 | plugin | romfs | ALL
+Mortal Kombat 1 | plugin | romfs | v1.28.0
 
 -Minimum dynamic resolution 540p (docked)
 -Minimum dynamic resolution 360p (handheld)
@@ -11,6 +11,5 @@ Mortal Kombat 1 | plugin | romfs | ALL
 -Enabled walk-in animation during local VS mode (docked|handheld)
 -Reworked memory management to avoid chances of crashes (docked|handheld)
 
-Notes: This mod was created by ECLIPSE00074, converted to plugin by cucholix
+Notes: This mod was created by ECLIPSE00074, converted to plugin by cucholix.
        Unlike IPS patch plugin patching method works regardless the game version.
-	   It's working in the latest update as 11-02-2025 (Conan The Barbarian) 
