@@ -1,0 +1,3 @@
+Eiyuden Chronicle: Hundred Heroes | Iromfs | v1.0.7
+
+-Increased distance LOD (docked|handheld)
