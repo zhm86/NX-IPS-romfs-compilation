@@ -6,6 +6,6 @@
 @flag offset_shift 0x100
 
 @enabled
-027D6474 00102E1E // fmov s0, w8         | fmov s0, #1.0       | (disable resolution scaling)
-027D879C 00102E1E // fmov s0, w8         | fmov s0, #1.0       | (disable resolution scaling during battles)
+027D6474 00102E1E // fmov s0, w8 | fmov s0, #1.0 | (disable resolution scaling)
+027D879C 00102E1E // fmov s0, w8 | fmov s0, #1.0 | (disable resolution scaling during battles)
 @stop
