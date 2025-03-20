@@ -1,0 +1,11 @@
+@nsobid-B3A54521BC08F453EC6BB267A4C783CA
+
+# FRONT MISSION 1st: Remake 
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+027D6474 00102E1E // fmov s0, w8         | fmov s0, #1.0       | (disable resolution scaling)
+027D879C 00102E1E // fmov s0, w8         | fmov s0, #1.0       | (disable resolution scaling during battles)
+@stop
