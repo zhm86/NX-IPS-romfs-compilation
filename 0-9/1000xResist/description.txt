@@ -1,7 +1,8 @@
-1000xResist | IPS | v1.0.4
+1000xResist | IPS | romfs | v1.0.4
 
 -Fixed resolution 1080p (docked)
 -Fixed resolution 720p (handheld)
 -Max aniso filtering increased x16 (docked|handheld)
+-Increased distance LOD (docked|handheld)
 
 Notes: Decreasing LOD bias produce incorrect reflections in textures that shouldn't reflect light. 
