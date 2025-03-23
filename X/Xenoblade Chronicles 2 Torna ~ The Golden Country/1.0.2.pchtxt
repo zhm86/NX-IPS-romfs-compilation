@@ -1,0 +1,11 @@
+@nsobid-56246A89466A791BA88B1CDBB4B3E6F8
+
+Xenoblade Chronicles 2: Torna ~ The Golden Country
+
+@flag print_values
+
+@enabled
+006F9BC0 0010261E                     // ldr s0, [x9,w8,uxtw#2]  | fmov s0, #16   | (max aniso)
+006F9BFC 00103C1E                     // ldr s0, [x20,#0x14]     | fmov s0, #-0.5 | (LOD bias)
+009AA34D 73747265616D2F64756D70696E69 // (path: (monolib/shader) | (path: stream/dumpini)
+@stop

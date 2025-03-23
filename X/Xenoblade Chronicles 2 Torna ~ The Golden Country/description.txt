@@ -1,0 +1,8 @@
+Xenoblade Chronicles 2: Torna ~ The Golden Country | IPS | v1.0.2
+
+-Decreased LOD bias (docked|handheld)
+-Max aniso filtering x16 (docked|handheld)
+-Allows loading "lib_nx.ini" file, graphic settings from romfs (not inluded)
+
+Notes: Aniso filtering is specially taxing in open areas with vegetation, should OC GPU.
+       Includes MasaGrator's patch to load lib_nx.ini from romfs, more info https://gbatemp.net/threads/xenoblade-chronicles-2-graphics-settings.529436/
