@@ -1,0 +1,5 @@
+Xenoblade Chronicles X | IPS | v1.0.1
+
+-Decreased LOD bias (docked|handheld)
+
+Notes: Increased LOD is specially taxing in open areas with high vegetation density, should OC GPU.

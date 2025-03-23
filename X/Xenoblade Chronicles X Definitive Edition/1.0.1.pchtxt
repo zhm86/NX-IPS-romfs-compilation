@@ -1,0 +1,10 @@
+@nsobid-3F2425864CF226844511065F77AA3E36FB5FC33F
+
+# Xenoblade Chronicles X: Definitive Edition
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+009680C8 00103F1E // ldr s0, [x20,#0x14]   | fmov s0, #-1.5 | (LOD bias) 
+@stop
