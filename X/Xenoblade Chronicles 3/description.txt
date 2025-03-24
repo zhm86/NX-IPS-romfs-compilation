@@ -1,0 +1,9 @@
+Xenoblade Chronicles 3 | IPS | cheat | v2.2.0
+
+-Disabled temporal upsampling (docked|handheld)
+*cheat
+-Disabled TAA (docked|handheld) 
+-Increases LOD (docked|handheld)
+-Increases DOF quality (docked|handheld)
+
+Notes: This mod is based on theboy181 work, temporal upsampling disabler cheat by osab.
