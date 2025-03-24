@@ -1,10 +1,11 @@
-@nsobid-92C78BB3DCBBC3F7A3CAF601D7B85F7A36C20907
+@nsobid-F77F1559371C0EC6D50E78774AC59D95
 
-Xenoblade Chronicles: Definitive Edition
+Xenoblade Chronicles 2
 
 @flag print_values
+@flag offset_shift 0x100
 
 @enabled
-0071C05C 00103C1E // ldr s0, [x20, #0x14]  | fmov s0, #-0.5 (LOD bias)
-0071C020 0010261E // ldr s0, [x9,x8,LSL#2] | fmov s0, #16 (max aniso)
+006F9BD4 0010261E // ldr s0, [x9,w8,uxtw#2] | fmov s0, #16 (max aniso)
+006F9C10 0010381E // ldr s0, [x20,#0x14]    | fmov s0, #-0.125 (LOD bias)
 @stop
