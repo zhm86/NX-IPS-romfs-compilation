@@ -42,7 +42,7 @@ More info about UE unpacking-packing can be found here https://gbatemp.net/threa
 - [hanai3bi](https://github.com/hanai3Bi), @B3711 for OC Switchcraft EOS
 - [MasaGratoR](https://github.com/masagrator) for his valuable help, tips, and tools
 - @ECLIPSE00074 for his amazing graphic mods
-- @Hazerou, [theboy181](https://github.com/theboy181), [KeatonTheBot](https://github.com/KeatonTheBot), [StevensND](https://github.com/StevensND), [Fl4sh_](https://github.com/Fl4sh9174) modders 
+- @Hazerou, [theboy181](https://github.com/theboy181), [KeatonTheBot](https://github.com/KeatonTheBot), [StevensND](https://github.com/StevensND), [Fl4sh_](https://github.com/Fl4sh9174), osab modders 
 - [b0rd2death](https://github.com/ppkantorski) for his handy mod manager tool
 - Kakarot for testing and providing comparing pictures
 - All the people testing stuff over NSwitch 60 FPS Cheats & Mods
