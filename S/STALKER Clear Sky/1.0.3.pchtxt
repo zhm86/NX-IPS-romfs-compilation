@@ -1,0 +1,23 @@
+@nsobid-C7E4E6F4167C8E3A9552B03FFCEB140479496CFB
+
+# S.T.A.L.K.E.R. Clear Sky
+
+@flag print_values
+
+@enabled
+000D4EEC 00902E1E // ldr s0, [x8, #0x150]      | fmov s0, #1.25000000      |
+000D4F04 00902E1E // ldr s0, [x8, #0x150]      | fmov s0, #1.25000000      |
+000D4FC0 08008052 // mov w8, #0                | mov w8, #0x999a           |
+000D4FC4 08F4B772 // movk w8, #0x3f59, lsl #16 | movk w8, #0xbfa0, lsl #16 |
+000D4FD8 68668652 // mov w8, #0x70a4           | mov w8, #0x3333           |
+000D4FDC 68F6A772 // movk w8, #0x3f7d, lsl #16 | movk w8, #0x3fb3, lsl #16 |
+//008A28E4 28008052 // ldr w8, [x8, #0xd80]      | mov w8, #1                | (copyrights)
+00CDD8EC 00103C1E // ldr s0, [x19, #0x1c]      | fmov s0, #-0.50000000     | (LOD bias) (search E0030091080540F900013FD6)
+00D750CC 092EA852 // mov w9, #0x41200000       | mov w9, #0x41700000       | (search 0924A852F44F49A9)
+00D750F4 8951A852 // mov w9, #0x42200000       | mov w9, #0x428c0000       |
+00D75788 01902C1E // fmov s1, #1.00000000      | fmov s1, #0.62500000      | (search 01102E1E6000031F2018201E)
+00D861B8 00902B1E // ldr s0, [x8, #0xe40]      | fmov s0, #0.43750000      | (search 0018241EE08B062D)
+00DE88C0 01102C1E // ldr s1, [x8, #0x480]      | fmov s1, #0.50000000      | (search 006546F9400500B4)
+01424001 65 // lights_spot01.accum_volumetric_sun_nomsaa_minmax.accum_sun_mask_msaa.accum_sun_nomsaa.stub_notransform.s_jitter1
+017D5844 0000C044 // 00004044 (768)            | 0000C044 (1536)           | (search 0000404400000000030000000000100001000500)
+@stop
