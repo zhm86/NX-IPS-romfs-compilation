@@ -1,0 +1,6 @@
+Game Boy NSO | IPS | v2.0.0
+
+-Disable preset filter (docked|handheld)
+*It's a filter applied in NSO emulator that makes colors look washed out
+
+Notes: This mod breaks color compatibility in GB games, all GB games will display with original green palette only. GBC games are not affected.

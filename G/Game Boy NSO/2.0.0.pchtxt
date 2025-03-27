@@ -1,0 +1,9 @@
+@nsobid-C61618F1A2FFE970DC2479E4E2ACB2562D0B7DE4
+
+# Game Boy NSO
+
+@flag print_values
+
+@enabled
+0000F998 1F2003D5 // bl #0xffffffffffff6cc8 | nop | (disable "filter_preset")
+@stop
