@@ -1,0 +1,5 @@
+Pikmin 3 Deluxe | IPS | v1.1.1
+
+-Fixed resolution 1536x864 (docked|handheld)
+
+Notes: Mod created by Fl4sh_, game crash workaround when changing handheld->docked mode by cucholix.
