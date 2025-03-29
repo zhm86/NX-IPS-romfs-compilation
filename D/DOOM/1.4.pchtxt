@@ -5,6 +5,6 @@
 @flag print_values
 
 @enabled
-02B68640 00103D1E // mov v0.16B, v9.16b | (mipbias)
-0010221E 0010261E // mov v0.16B, v8.16b | (max aniso)
+02B68640 00103D1E // mov v0.16B, v9.16b | fmov s0, #-0.75 | (mipbias)
+0010221E 0010261E // mov v0.16B, v8.16b | fmov s0, #16    | (max aniso)
 @stop
