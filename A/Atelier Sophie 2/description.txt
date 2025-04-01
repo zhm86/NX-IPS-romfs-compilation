@@ -1,0 +1,2 @@
+Atelier Sophie 2 1.0.8
+Changes 3D resolution to 1080p in docked Quality mode up from 900p (chose from options in-game)
