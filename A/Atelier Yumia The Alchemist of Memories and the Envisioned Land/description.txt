@@ -7,3 +7,6 @@ Atelier Yumia The Alchemist of Memories and the Envisioned Land | IPS | romfs | 
 -Changed pop-up settings for some objects so they render gradually instead pop-in (docked|handheld)
 -Increased dynamic shadows quality and resolution (docked|handheld)
 -Slightly decreased LOD bias (docked|handheld)
+
+Comparison:
+pic01: https://imgsli.com/MzY0OTc2
