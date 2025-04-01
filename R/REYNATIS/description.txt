@@ -1,10 +1,8 @@
-REYNATIS | romfs | v1.0.9
+REYNATIS | romfs | v1.0.10
 
 -Increased objets draw distance (docked|handheld)
 -Increased tree and vegetation draw distance and LOD (docked|handheld)
 -Increased shadow rendering distance (docked|handheld)
--Unlocked framerate (docked|handheld)
-*Disabled by default, rename the file "globalgamemanagers-FPS-unlocked" to "globalgamemanagers"
 
 Notes: Comparison images provided by Kakarot.
 
