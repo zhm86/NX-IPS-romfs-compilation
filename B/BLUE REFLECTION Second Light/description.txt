@@ -1,3 +1,4 @@
-Blue Reflection Second Light 1.0.7
-Changes 3D resolution to 720p handheld from 540p and 1008p docked from 810p/900p (1080p runs out of ram) 
-Menus in docked are still 900p
+Blue Reflection Second Light | IPS | v1.0.7
+
+-Changes 3D resolution to 720p handheld from 540p and 1008p docked from 810p/900p (1080p runs out of ram) 
+-Menus in docked are still 900p
