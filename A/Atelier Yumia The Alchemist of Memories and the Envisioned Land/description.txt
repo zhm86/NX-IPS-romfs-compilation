@@ -1,9 +1,13 @@
 Atelier Yumia The Alchemist of Memories and the Envisioned Land | IPS | romfs | v1.0.1
 
 -Fixed 1000p resolution (docked)
+*Quality mode (in-game setting)
 -Fixed 900p resolution in battles (docked)
+*Quality mode (in-game setting)
 -Fixed 800p resolution (handheld)
--Fixed 720p resolution (handheld)
+*Quality mode (in-game setting)
+-Fixed 720p resolution in battles (handheld)
+*Quality mode (in-game setting)
 -Increased overall draw distance (docked|handheld)
 -Increased LOD at distance (docked|handheld)
 -Culling range decreased (docked|handheld)
