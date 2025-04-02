@@ -12,5 +12,7 @@ Atelier Yumia The Alchemist of Memories and the Envisioned Land | IPS | romfs | 
 -Increased dynamic shadows quality and resolution (docked|handheld)
 -Slightly decreased LOD bias (docked|handheld)
 
+Notes: Resolution mod by Fl4sh_
+
 Comparison:
 pic01: https://imgsli.com/MzY0OTc2
