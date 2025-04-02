@@ -6,5 +6,7 @@
 @flag offset_shift 0x100
 
 @enabled
-0000DDB0 00103C1E // ldr s0, [x20,#0x10] | fmov s0, -0.5 (LOD bias)
+0000DDB0 00103C1E // ldr s0, [x20,#0x10] | fmov s0, -0.5 | (LOD bias)
+0253D2D0 F1060000 // 1290p               | 1777p         | (docked resX)(quality mode)
+0253D2D4 E8030000 // 810p                | 1000p         | (docked resY)(quality mode)
 @stop
