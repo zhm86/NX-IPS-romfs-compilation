@@ -1,4 +1,4 @@
-Mortal Kombat 1 | plugin | romfs | v1.28.0
+Mortal Kombat 1 | plugin | romfs | v1.29.0
 
 -Minimum dynamic resolution 540p (docked)
 -Minimum dynamic resolution 360p (handheld)
