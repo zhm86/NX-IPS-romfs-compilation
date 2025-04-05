@@ -1,0 +1,3 @@
+The Legend of Heroes: Trails through Daybreak II | IPS | 1.0.1
+
+- 3D docked resolution increased from 540p to 720p

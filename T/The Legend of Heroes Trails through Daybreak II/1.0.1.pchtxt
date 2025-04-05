@@ -1,0 +1,12 @@
+@nsobid-7CE83658C7B53BB69C123D757E7680C041930049000000000000000000000000
+
+# The Legend of Heroes: Trails through Daybreak II
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+0059ce4c 00050000
+0059ce50 d0020000
+@stop
+
