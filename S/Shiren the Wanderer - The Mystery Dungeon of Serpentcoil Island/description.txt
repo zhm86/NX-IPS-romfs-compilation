@@ -1,4 +1,4 @@
-Shiren the Wanderer: The Mystery Dungeon of Serpentcoil Island | IPS | romfs | v2.2.3
+Shiren the Wanderer: The Mystery Dungeon of Serpentcoil Island | IPS | romfs | v2.2.3 (Plus+)
 
 -Fixed resolution 1080p (docked)
 -Fixed resolution 720p (handheld)
