@@ -1,0 +1,16 @@
+@nsobid-E8905441279BD2A402C2A0E3818E842400000000000000000000000000000000
+
+# Super Monkey Ball Banana Mania - 1.0.4
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+01d0b974 09A08052
+01d0b984 095A8052
+01d0b994 0AF08052
+01d0b9a0 0A878052
+@stop
+
+
+
