@@ -6,7 +6,7 @@
 @flag offset_shift 0x100
 
 @enabled
-0059ce4c 00050000
-0059ce50 d0020000
+0059ce4c 00050000 | 1280 docked resolution x 
+0059ce50 d0020000 | 720 docked resolution y
 @stop
 
