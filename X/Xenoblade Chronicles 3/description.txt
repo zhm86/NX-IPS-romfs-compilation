@@ -4,6 +4,7 @@ Xenoblade Chronicles 3 | IPS | cheat | v2.2.0
 *cheat
 -Disabled TAA (docked|handheld) 
 -Increases LOD (docked|handheld)
--Increases DOF quality (docked|handheld)
+-Disabled DOF (docked|handheld)
+*As it doesn't work properly without antialiasing (docked|handheld)
 
 Notes: This mod is based on theboy181 work, temporal upsampling disabler cheat by osab.
