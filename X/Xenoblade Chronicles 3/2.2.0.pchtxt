@@ -5,13 +5,12 @@
 @flag print_values
 
 @enabled
-00F1F23C 1F2003D5 // b.hi #0x24            | nop              | (increased LOD)
-00F1F24C 1F2003D5 // b.hi #0x14            | nop              | (increased LOD)
-00F1F25C 77000014 // b.ls #0x1dc           | b #0x1dc         | (increased LOD)
-00F6E510 E903271E // fmov s9, #0.5         | fmov s9, wzr     | (HQ DOF)
-00F6E6A4 02103C1E // fmov s2, #-1.0        | fmov s2, #-0.50  | (HQ DOF)
-00EB6E44 C0035FD6 // str d8, [sp, #-0x40]! | ret              | (disables TAA)
-00F63CAC 1F000014 // cbz w24, #0xa8        | b #0x7c          | (disables TAA)
-00F55D24 1F2003D5 // cbz w8, #0x30         | nop              | (disables TAA)
-00F55D28 00008052 // mov w0, #1            | mov w0, #0       | (disables TAA)
+00EB6E44 C0035FD6 // str d8, [sp, #-0x40]! | ret        | (disable TAA)
+00F1F23C 1F2003D5 // b.hi #0x24            | nop        | (increased LOD)
+00F1F24C 1F2003D5 // b.hi #0x14            | nop        | (increased LOD)
+00F1F25C 77000014 // b.ls #0x1dc           | b #0x1dc   | (increased LOD)
+00F55D24 1F2003D5 // cbz w8, #0xc          | nop        | (disable TAA)
+00F55D28 00008052 // mov w0, #1            | mov w0, #0 | (disable TAA)
+00F63AE8 15000014 // cbz x21, #0x54        | b #0x54    | (disable DOF)
+00F63CAC 1F000014 // cbz w24, #0x7c        | b #0x7c    | (disable TAA)
 @stop
