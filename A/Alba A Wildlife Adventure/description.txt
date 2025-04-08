@@ -1,10 +1,10 @@
 Alba A Wildlife Adventure | IPS | romfs | v1.2.4
 
-Disabled 30fps cap [Handheld / Dock]
-Highly recommend reducing display refresh rate to 45
-Texture filtering changed from linear to anisotropic 4x [Handheld / Dock]
-Anti-aliasing changed from MSAA 2x to SMAA [Handheld / Dock]
-Increased dynamic shadow distance [Handheld mode / Dock]
-Increased LOD distance of objects [Handheld mode / Dock]
+-Disabled 30 FPS cap (docked|handheld)
+-Texture filtering changed from linear to anisotropic 4x (docked|handheld)
+-Anti-aliasing changed from MSAA 2x to SMAA (docked|handheld)
+-Increased dynamic shadow distance (docked|handheld)
+-Increased LOD distance of objects (docked|handheld)
 
+Notes:
 https://mega.nz/file/dMplibrD#ODt0bJWpcW3_Wx_dA0iwfplN_x-dNXeYfI6yKFD5CAc
