@@ -1,0 +1,10 @@
+@nsobid-E0A4AB13942D904C8A847409864D9E65
+
+# Alba: A Wildlife Adventure
+
+@flag print_values
+
+@enabled
+004B1C4C 88008052 // ldr w8, [x8, #0xe18] | mov w8, #4 (max aniso)
+004B1C5C 88008052 // ldr w8, [x8, #0xe1c] | mov w8, #4 (max aniso)
+@stop
