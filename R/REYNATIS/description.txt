@@ -3,6 +3,7 @@ REYNATIS | romfs | v1.0.10
 -Increased objets draw distance (docked|handheld)
 -Increased tree and vegetation draw distance and LOD (docked|handheld)
 -Increased shadow rendering distance (docked|handheld)
+-Increased shadow resolution (docked|handheld)
 
 Notes: Comparison images provided by Kakarot.
 
