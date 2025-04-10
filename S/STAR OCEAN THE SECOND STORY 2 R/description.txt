@@ -3,6 +3,8 @@ STAR OCEAN THE SECOND STORY 2 R | IPS | v1.1.0
 -Disabled dynamic resolution 1080p (docked|handheld)
 -Increased rendering draw distance for vegetation (docked|handheld)
 -Decreased mipmap bias (docked|handheld)
--Increased LOD (docked|handhled)
+-Increased distance LOD (docked|handhled)
+-Increased shadow resolution (docked|handhled)
+-Increased shadow distance (docked|handhled)
 
-Notes: Resolution mod by KeatonTheBot
+Notes: Resolution mod by KeatonTheBot, shadow mod by Kakarot.
