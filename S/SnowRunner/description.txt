@@ -3,7 +3,7 @@ SnowRunner | IPS | romfs | v1.0.38
 -Reduced image sharpness when using FIDELITY FX (docked|handheld)
 -Slightly increased dynamic resolution frame time (docked|handheld)
 -Texture filtering changed from linear to anisotropic (docked|handheld)
--Decreased mipmap LOD bias (docked|handheld)
+-Slightly decreased LOD bias (docked|handheld)
 -Increased the distance of shadows from vegetation (docked|handheld)
 -Increased dynamic shadow distance (docked|handheld)
 -Disabled dynamic vegetation and object distance system (docked|handheld)
