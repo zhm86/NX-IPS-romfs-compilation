@@ -1,31 +1,29 @@
-@nsobid-CD9E844E29E8CA8078FDE9F689015BE5D09310B5
+@nsobid-53531030A4199B74E82B9C30A808AD9C85C0CF91
 
-# SnowRunner
+# Snowrunner
 
 @flag print_values
 
-// Graphics
-
 @enabled
-0115E500 02102D1E // fmov s2, #1.00000000      | fmov s2, #0.75000000
-01189568 02D0241E // fmov s2, #8.00000000      | fmov s2, #11.00000000 (search C328241EA028241E)
-0118B390 E103271E // fmov s1, #1.00000000      | fmov s1, wzr
-0118B3BC 0210281E // fmov s2, #1.00000000      | fmov s2, #0.12500000
-0118B3C0 0390241E // fmov s3, #3.00000000      | fmov s3, #10.00000000
-0137B044 01106E1E // fmov d1, #4.00000000      | fmov d1, #1.00000000
-0137B060 0110691E // fmov d1, #1.00000000      | fmov d1, #0.18750000
-014D9610 0A908052 // orr w10, wzr, #0x600      | movz w10, #0x480
-014D9628 0A708052 // orr w10, wzr, #0x300      | movz w10, #0x380
-014D9634 0A208152 // movz w10, #0x1200         | movz w10, #0x900
-014D9638 0BD08052 // orr w11, wzr, #0xc00      | movz w11, #0x680
-0152284C 0A908052 // orr w10, wzr, #0x600      | movz w10, #0x480
-01522864 0A708052 // orr w10, wzr, #0x300      | movz w10, #0x380
-01522870 0A208152 // movz w10, #0x1200         | movz w10, #0x900
-01522874 0BD08052 // orr w11, wzr, #0xc00      | movz w11, #0x680
-0152326C 884CA852 // movz w8, #0x4248, lsl #16 | movz w8, #0x4264, lsl #16
-01A65084 88008052 // mov w8, #2                | mov w8, #4
-01A65110 00903E1E // mov v0.16b, v8.16b        | fmov s0, #-1.2500000 (LOD bias)
-0232FE50 0000AF430000AF43
-0232FF50 0080224400802244
-02330D9C 85EB0842 // frametime 34.23
+01160438 02102D1E // fmov s2, #1.00000000      | fmov s2, #0.75000000
+0118C328 02D0241E // fmov s2, #8.00000000      | fmov s2, #11.00000000 (search C328241EA028241E)
+0118E104 E103271E // fmov s1, #1.00000000      | fmov s1, wzr
+0118E130 0210281E // fmov s2, #1.00000000      | fmov s2, #0.12500000 (FIDELITY FX slider)
+0118E134 0390241E // fmov s3, #3.00000000      | fmov s3, #10.00000000
+0137D004 01106E1E // fmov d1, #4.00000000      | fmov d1, #1.00000000
+0137D020 0110691E // fmov d1, #1.00000000      | fmov d1, #0.18750000
+014DD450 0A908052 // orr w10, wzr, #0x600      | movz w10, #0x480
+014DD468 0A708052 // orr w10, wzr, #0x300      | movz w10, #0x380
+014DD474 0A208152 // movz w10, #0x1200         | movz w10, #0x900
+014DD478 0BD08052 // orr w11, wzr, #0xc00      | movz w11, #0x680
+015262FC 0A908052 // orr w10, wzr, #0x600      | movz w10, #0x480
+01526314 0A708052 // orr w10, wzr, #0x300      | movz w10, #0x380
+01526320 0A208152 // movz w10, #0x1200         | movz w10, #0x900
+01526324 0BD08052 // orr w11, wzr, #0xc00      | movz w11, #0x680
+01526D1C 884CA852 // movz w8, #0x4248, lsl #16 | movz w8, #0x4264, lsl #16
+01A73474 88008052 // mov w8, #2                | mov w8, #4
+01A73500 00903F1E // mov v0.16b, v8.16b        | fmov s0, #-1.7500000 (LOD bias)
+0233E670 0000AF430000AF43
+0233E770 0080224400802244
+0233F5BC 85EB0842 // frametime 34.23
 @stop
