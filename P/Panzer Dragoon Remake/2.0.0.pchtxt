@@ -1,0 +1,21 @@
+@nsobid-EEE5846FC952E34A9F27533C28F0607B
+
+# Panzer Dragoon: Remake
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+01559130 00F08052 // mov w0, #0x500   | mov w0, #0x780  | (force boot at 1080p)
+01559134 01878052 // mov w1, #0x720   | mov w1, #0x438  | (force boot at 1080p)
+//0022C148 09F08052 // mov w9, #0x500   | mov w9, #0x500  | (handheld resX)
+//0022C14C 0A878052 // mov w10, #0x2D0  | mov w10, #0x2D0 | (handheld resY)
+//0056F98C 17F08052 // mov w23, #0x500  | mov w23, #0x500 | (handheld resX)
+//0056F990 16878052 // mov w22, #0x2D0  | mov w22, #0x2D0 | (handheld resY)
+0217D6AC 00F08052 // mov w0, #0x500   | mov w0, #0x780  | (docked resX)
+0217D6B0 01878052 // mov w1, #0x720   | mov w1, #0x438  | (docked resY)
+0217D6DC 00F08052 // mov w0, #0x380   | mov w0, #0x780  | (docked | handheld resX) (performance mode)
+0217D6E0 01878052 // mov w1, #0x1F8   | mov w1, #0x438  | (docked | handheld resX) (performance mode)
+0217D700 00F08052 // mov w0, #0x480   | mov w0, #0x780  | (docked | handheld resX) (performance mode)
+0217D704 01878052 // mov w1, #0x288   | mov w1, #0x438  | (docked | handheld resX) (performance mode)
+@stop
