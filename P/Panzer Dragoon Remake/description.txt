@@ -2,6 +2,10 @@ Panzer Dragoon Remake | IPS | v2.0.0
 
 -Fixed resolution 1080p (docked)
 -Fixed resolution 720p (handheld)
-*Due a bug introduced by the developer when including "Performance Mode" option now enabling performance mode in handheld will set the resolution to 1080p.
+*Due a bug introduced by the developer when including "Performance Mode" option now enabling performance mode in handheld will set the
+resolution to 1080p.
 
-Notes: The game render logic is bugged, this issue was introduced in 2.0.0 with "Performance Mode" setting, the game will stuck with performance mode resolution once enabled. As a workaround now the resolution in docked is 1080p fixed (there's no resolution scaling when enabling performance mode), in handheld mode the resolution is 720p fixed, BUT it will increase to 1080p if you enable performance mode and it will stuck until you restart the game of dock-undock the system. 
+Notes: The game render logic is bugged, this issue was introduced in 2.0.0 with "Performance Mode" setting, the game will stuck with
+performance mode resolution once enabled. As a workaround now the resolution in docked is 1080p fixed (there's no resolution scaling when
+enabling performance mode), in handheld mode the resolution is 720p fixed, BUT it will increase to 1080p if you enable performance mode and
+it will stuck until you restart the game or dock-undock the system.
