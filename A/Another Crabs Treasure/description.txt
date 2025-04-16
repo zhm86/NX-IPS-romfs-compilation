@@ -5,3 +5,8 @@ Another Crab's Treasure | IPS | romfs | v1.0.103.9
 -Slightly decreased LOD bias (docked|handheld)
 -Increased shadow resolution (docked|handheld)
 -Increased draw distance and LOD (docked|handheld)
+-Forced aniso textures (docked|handheld)
+
+Download: https://mega.nz/file/oQ4gxIgZ#PJ-orsxu0AE6haR14feCeqKgc2G-E4gM66daz7Fl8Co
+
+Notes: Cull distance for enemies and NPCs can be found in resources.assets under cullDistance, it affects performance on Switch however. 
