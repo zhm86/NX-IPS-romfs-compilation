@@ -1,0 +1,9 @@
+@nsobid-153DB27728D41305A971B30BB37A523FF0E8D9A0
+
+# Atelier Yumia: The Alchemist of Memories & the Envisioned Land
+
+@flag print_values
+
+@enabled
+0000DEB0 00103C1E // ldr s0, [x20,#0x10] | fmov s0, -0.5 | (LOD bias)
+@stop
