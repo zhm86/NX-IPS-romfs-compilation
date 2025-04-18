@@ -5,12 +5,16 @@
 @flag print_values
 
 @enabled
-00EB6E44 C0035FD6 // str d8, [sp, #-0x40]! | ret        | (disable TAA)
-00F1F23C 1F2003D5 // b.hi #0x24            | nop        | (increased LOD)
-00F1F24C 1F2003D5 // b.hi #0x14            | nop        | (increased LOD)
-00F1F25C 77000014 // b.ls #0x1dc           | b #0x1dc   | (increased LOD)
-00F55D24 1F2003D5 // cbz w8, #0xc          | nop        | (disable TAA)
-00F55D28 00008052 // mov w0, #1            | mov w0, #0 | (disable TAA)
-00F63AE8 15000014 // cbz x21, #0x54        | b #0x54    | (disable DOF)
-00F63CAC 1F000014 // cbz w24, #0x7c        | b #0x7c    | (disable TAA)
+00EB6E44 C0035FD6 // str d8, [sp, #-0x40]! | ret            | (disable TAA)
+00F1F23C 1F2003D5 // b.hi #0x24            | nop            | (increased LOD)
+00F1F24C 1F2003D5 // b.hi #0x14            | nop            | (increased LOD)
+00F1F25C 77000014 // b.ls #0x1dc           | b #0x1dc       | (increased LOD)
+00F55D24 1F2003D5 // cbz w8, #0xc          | nop            | (disable TAA)
+00F55D28 00008052 // mov w0, #1            | mov w0, #0     | (disable TAA)
+00F63AE8 15000014 // cbz x21, #0x54        | b #0x54        | (disable DOF)
+00F63CAC 1F000014 // cbz w24, #0x7c        | b #0x7c        | (disable TAA)
+00EA0C84 00103E1E // ldr s0, [x20,#0x14]   | fmov s0, #-1.0 | (LOD bias)
+014DFEE8 00000041 // 00000040              | 00000041       | (max aniso)
+014DFEEC 0000A040 // 00004040              | 0000A040       | (max aniso)
+014DFEF0 00000041 // 00008040              | 00000041       | (max aniso)
 @stop
