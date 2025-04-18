@@ -6,5 +6,7 @@ Xenoblade Chronicles 3 | IPS | cheat | v2.2.0
 -Increases LOD (docked|handheld)
 -Disabled DOF (docked|handheld)
 *As it doesn't work properly without antialiasing in cutscenes
+-Decreased LOD bias (docked|handheld)
+-Increased max aniso x16  (docked|handheld)
 
 Notes: This mod is based on theboy181 work, temporal upsampling disabler cheat by osab.
