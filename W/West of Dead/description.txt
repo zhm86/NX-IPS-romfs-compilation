@@ -1,0 +1,5 @@
+West of Dead | romfs | v1.4.0
+
+-Enabled dynamic shadows (docked|handheld)
+-Enabled antialiasing MSAA x2 (docked|handheld)
+-Forced aniso textures (docked|handheld)
