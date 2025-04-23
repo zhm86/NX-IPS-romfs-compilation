@@ -5,7 +5,6 @@
 @flag print_values
 
 @enabled
-00EB6E44 C0035FD6 // str d8, [sp, #-0x40]! | ret            | (disable TAA)
 00F1F23C 1F2003D5 // b.hi #0x24            | nop            | (increased LOD)
 00F1F24C 1F2003D5 // b.hi #0x14            | nop            | (increased LOD)
 00F1F25C 77000014 // b.ls #0x1dc           | b #0x1dc       | (increased LOD)
