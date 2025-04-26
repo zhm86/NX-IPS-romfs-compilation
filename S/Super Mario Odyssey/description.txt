@@ -1,7 +1,7 @@
 Super Mario Odyssey | IPS | romfs | v1.3.0
 
--Fixed 1080p resolution (docked)
--Fixed 720p resolution (handheld)
+-Dynamic resolution 720p-1008p (docked)
+-Dynamic resolution 540p-720p resolution (handheld)
 -Disabled interlacing (docked|handheld)
 *Now the image is clear when the camera moves
 -Slightly reduced antialiasing intensity (docked|handheld)
@@ -16,6 +16,6 @@ Super Mario Odyssey | IPS | romfs | v1.3.0
 -Increased resolution of reflections in mirrors (docked|handheld)
 
 Notes: This mod is based on work by ECLIPSE00074, converted to IPS by cucholix
-       Memory resolution buffer increase mod by _Fl4sh
+       Max resolution of 1792x1008p tested without crashing when entering spaceship 
        This mod doesn't include texture changes like the original 
        https://4pda.to/forum/index.php?showtopic=939714&view=findpost&p=114144272
