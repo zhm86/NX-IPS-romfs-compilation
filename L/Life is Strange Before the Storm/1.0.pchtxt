@@ -1,0 +1,18 @@
+@nsobid-30B812AB1BA3D4479297523C4277C8E5
+
+# Life is Strange: Before the Storm
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+014BDC74 1F2003D5 // bl #0x8c194c   | nop            | (UnityEngine.QualitySettings::set_shadowDistance(System.Single))
+01D7F570 80008052 // mov w0, w19    | mov w0, #0x4   | (UnityEngine.QualitySettings::set_shadowCascades(System.Int32))
+01D7F544 93008052 // mov w19, w0    | mov w19, #0x4  | (UnityEngine.QualitySettings::set_shadowCascades(System.Int32))
+01D7F54C 80008052 // mov w0, w19    | mov w0, #0x4   | (UnityEngine.QualitySettings::set_shadowCascades(System.Int32))
+01D7F624 33008052 // mov w19, w0    | mov w19, #0x1  | (UnityEngine.QualitySettings::set_shadowResolution(UnityEngine.ShadowResolution))
+01D7F62C 20008052 // mov w0, w19    | mov w0, #0x1   | (UnityEngine.QualitySettings::set_shadowResolution(UnityEngine.ShadowResolution))
+01D7F650 20008052 // mov w0, w19    | mov w0, #0x1   | (UnityEngine.QualitySettings::set_shadowResolution(UnityEngine.ShadowResolution))
+@stop
+
+Notes: increasing max aniso and/or decreasing LOD bias preoduce graphical glitches
