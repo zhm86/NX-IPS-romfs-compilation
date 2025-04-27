@@ -1,5 +1,4 @@
 Life is Strange: Before the Storm | IPS | romfs | v1.0
 
--Slightly decreased LOD bias (docked|handheld)
 -Forced anisotropic textures (docked|handheld)
 -Increased shadow distance and resolution (docked|handheld)
