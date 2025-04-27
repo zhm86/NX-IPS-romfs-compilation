@@ -15,4 +15,4 @@
 01D7F650 20008052 // mov w0, w19    | mov w0, #0x1   | (UnityEngine.QualitySettings::set_shadowResolution(UnityEngine.ShadowResolution))
 @stop
 
-Notes: increasing max aniso and/or decreasing LOD bias preoduce graphical glitches
+Notes: increasing max aniso and/or decreasing LOD bias produce graphical glitches
