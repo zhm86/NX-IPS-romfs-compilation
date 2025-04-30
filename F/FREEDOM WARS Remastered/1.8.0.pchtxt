@@ -1,0 +1,10 @@
+@nsobid-CC76BB99D209316B70135490478869B9D9BA45E3
+
+# FREEDOM WARS Remastered
+
+@flag print_values
+
+@enabled
+01623990 00103F1E // ldr s0, [x20,#0x10] | fmov s0, #-1.5 | (LOD bias)
+01623A0C 0010241E // ucvtf s0, s0        | fmov s0, #8    | (max aniso)
+@stop
