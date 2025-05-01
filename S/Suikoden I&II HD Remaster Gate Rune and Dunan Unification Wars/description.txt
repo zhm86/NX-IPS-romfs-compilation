@@ -1,4 +1,4 @@
-Suikoden I&II HD Remaster Gate Rune and Dunan Unification Wars | IPS | v1.0.2
+Suikoden I&II HD Remaster Gate Rune and Dunan Unification Wars | IPS | v1.0.3
 
 -Disables resolution scaling during battles in both games (docked|handheld)
 *Fixed 720p-1080p
