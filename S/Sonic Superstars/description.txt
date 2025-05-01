@@ -1,4 +1,4 @@
-Sonic Superstars | IPS | v1.1.8
+Sonic Superstars | IPS | romfs | v1.1.8
 
 -Fixed resolution 1080p (docked|handheld)
 -Decreased LOD bias (docked|handheld)
