@@ -1,4 +1,4 @@
-Need for Speed Hot Persuit Remastered | IPS | v1.0.3
+Need for Speed Hot Pursuit Remastered | IPS | v1.0.3
 
 -Decreased LOD bias (docked|handheld)
 -Max aniso filtering x8 (docked|handheld)
