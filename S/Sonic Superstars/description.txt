@@ -1,6 +1,7 @@
 Sonic Superstars | IPS | romfs | v1.1.8
 
 -Fixed resolution 1080p (docked|handheld)
-*Forced docked mode, disable scaling in some stages 
+*Forced docked mode in handheld, disable scaling in some stages 
 -Decreased LOD bias (docked|handheld)
+-Max aniso x8 (docked|handheld)
 -Enabled shadows (4096) (docked|handheld)
