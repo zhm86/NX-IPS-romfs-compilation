@@ -1,3 +1,9 @@
-Eiyuden Chronicle: Hundred Heroes | Iromfs | v1.0.7
+Eiyuden Chronicle: Hundred Heroes | romfs | v1.0.7
 
 -Increased distance LOD (docked|handheld)
+-Increased shadow resolution (2048) (docked|handheld)
+
+Notes: Shadow resolution mod by Kakarot, comparison images provided by Kakarot
+
+Comparison
+pic01: https://imgsli.com/Mzc2NjU2
