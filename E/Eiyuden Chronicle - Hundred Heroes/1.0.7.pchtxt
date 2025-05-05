@@ -5,6 +5,6 @@
 @flag print_values
 
 @enabled
-00E0BE84 0010241E // scvtf s0, w8     | fmov s0, #8    | (maxaniso)
-00E0BE9C 0090301E // ldr s0, [x19,#8] | fmov s0, #-2.5 | (LOD bias)
+00E0BE84 0010261E // scvtf s0, w8     | fmov s0, #16    | (maxaniso)
+00E0BE9C 00103A1E // ldr s0, [x19,#8] | fmov s0, #-0.25 | (LOD bias)
 @stop
