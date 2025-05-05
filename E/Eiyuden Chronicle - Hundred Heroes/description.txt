@@ -1,9 +1,12 @@
-Eiyuden Chronicle: Hundred Heroes | romfs | v1.0.7
+Eiyuden Chronicle: Hundred Heroes | IPS | romfs | v1.0.7
 
 -Increased distance LOD (docked|handheld)
 -Increased shadow resolution (2048) (docked|handheld)
+-Decreased LOD bias (docked|handheld)
+-Max aniso set to x8 (docked|handheld)
 
 Notes: Shadow resolution mod by Kakarot, comparison images provided by Kakarot
 
 Comparison
 pic01: https://imgsli.com/Mzc2NjU2
+pic02: https://imgsli.com/Mzc3MjUx
