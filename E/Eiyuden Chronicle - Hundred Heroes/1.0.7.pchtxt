@@ -1,0 +1,10 @@
+@nsobid-F55824F5201DD7042F35EF8C2C499F87
+
+# Eiyuden Chronicle: Hundred Heroes
+
+@flag print_values
+
+@enabled
+00E0BE84 0010241E // scvtf s0, w8     | fmov s0, #8    | (maxaniso)
+00E0BE9C 0090301E // ldr s0, [x19,#8] | fmov s0, #-2.5 | (LOD bias)
+@stop
