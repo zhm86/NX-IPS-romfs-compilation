@@ -8,5 +8,4 @@ Eiyuden Chronicle: Hundred Heroes | IPS | romfs | v1.0.7
 Notes: Shadow resolution mod by Kakarot, comparison images provided by Kakarot
 
 Comparison
-pic02: https://imgsli.com/Mzc3MjUx
-pic03: https://imgsli.com/Mzc3MzEx
+pic01: https://imgsli.com/Mzc3Mzc2
