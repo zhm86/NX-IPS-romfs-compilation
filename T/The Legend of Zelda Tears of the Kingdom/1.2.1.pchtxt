@@ -1,6 +1,6 @@
 @nsobid-9B4E43650501A4D4489B4BBFDB740F26AF3CF850
 
-The Legend of Zelda: Tears of The Kingdom
+# The Legend of Zelda: Tears of The Kingdom
 
 @flag print_values
 
@@ -19,7 +19,14 @@ The Legend of Zelda: Tears of The Kingdom
 00E846A0 01D0271E // fmov s1, #8.00000000       | fmov s1, #30.00000000      |
 012799B4 0810281E // ldr s8, [x8, #0xb70]       | fmov s8, #0.12500000       |
 012799D4 1A14A852 // movz w26, #0x437f, lsl #16 | movz w26, #0x40a0, lsl #16 |
-//01821774 089EE8F2 // 1920p
+01884980 0AE080D2 // movz x10, #0x780           | movz x10, #0x700           | (res Y)
+01884988 0A7EC0F2 // movk x10, #0x438, lsl #32  | movk x10, #0x3f0, lsl #32  | (res X)
+01885130 0AE080D2 // movz x10, #0x780           | movz x10, #0x700           | (res Y)
+01885144 0A7EC0F2 // movk x10, #0x438, lsl #32  | movk x10, #0x3f0, lsl #32  | (res X)
+0188530C 1F000071 // cmp w0, #1                 | cmp w0, #0                 | (res scaler "0" no scaling)
+0188534C 1F000071 // cmp w0, #1                 | cmp w0, #0                 | (res scaler "0" no scaling)
+027C3000 1F000071 // cmp w0, #1                 | cmp w0, #0                 | (res scaler "0" no scaling)
+027C88C4 1F000071 // cmp w0, #1                 | cmp w0, #0                 | (res scaler "0" no scaling)
+027C892C 1F000071 // cmp w0, #1                 | cmp w0, #0                 | (res scaler "0" no scaling)
+//02B19578 20008052C0035FD6 // ori: add x16, x16, #0x7b0 | mod: movz w0, #0x1 | (handheld as docked)
 @stop
-
-Notes: Resolution 1008p in romfs 
