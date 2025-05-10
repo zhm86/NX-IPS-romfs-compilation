@@ -11,4 +11,4 @@ The Legend of Zelda: Tears of the Kingdom | IPS | v1.2.1
 -Max aniso filtering x16 (docked|handheld)
 
 Notes: This mod is based on work by ECLIPSE00074, converted to IPS by cucholix.
-       In fw 20.0.1 romfs impacted this game, resolution mod was moved to exefs_patches to avoid disabling custom sys-modules 
+       To avoid crashes with custom sysmodules in fw 20.0.1 onwards, resolution mod was moved to exefs_patches.
