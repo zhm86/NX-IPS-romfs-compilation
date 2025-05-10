@@ -1,7 +1,6 @@
-The Legend of Zelda: Tears of the Kingdom | IPS | romfs | v1.2.1
+The Legend of Zelda: Tears of the Kingdom | IPS | v1.2.1
 
--Max 1008p resolution (docked)
--Max 720p resolution (handheld)
+-Fixed resolution 1792x1008p (docked|handheld)
 -Minor changes to FXAA (docked|handheld)
 -Disabled FXAA on character screen (docked|handheld)
 -Increased dynamic shadow distance (docked|handheld)
@@ -11,4 +10,5 @@ The Legend of Zelda: Tears of the Kingdom | IPS | romfs | v1.2.1
 -Decreased LOD bias (docked|handheld)
 -Max aniso filtering x16 (docked|handheld)
 
-Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix
+Notes: This mod is based on work by ECLIPSE00074, converted to IPS by cucholix.
+       In fw 20.0.1 romfs impacted this game, resolution mod was moved to exefs_patches to avoid disabling custom sys-modules 
