@@ -1,4 +1,4 @@
-Another Crab's Treasure | IPS | romfs | v1.1.100.1
+Another Crab's Treasure | IPS | romfs | v1.1.100.2
 
 -Base resolution increased from 1280x720p to 1600x900p (docked|handheld)
 -Min resolution scale increased from 845x360p to 1190x675p (docked|handheld)
