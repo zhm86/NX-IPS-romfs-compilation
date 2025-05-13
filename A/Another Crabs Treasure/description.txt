@@ -9,4 +9,5 @@ Another Crab's Treasure | IPS | romfs | v1.1.100.2
 
 Download: https://mega.nz/file/tIpXlQ5L#QvvSsNv2wZJGdSd84bOo_UMw8hZ8s3Pz6L1FomGAg1I
 
-Notes: Cull distance for enemies and NPCs can be found in resources.assets under cullDistance, it affects performance on Switch however. 
+Notes: Cull distance for enemies and NPCs can be found in resources.assets under GlobalSettings (MonoBehaviour), it affects performance on 
+       Switch however. 
