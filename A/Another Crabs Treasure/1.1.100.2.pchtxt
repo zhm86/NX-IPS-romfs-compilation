@@ -1,0 +1,12 @@
+@nsobid-693314C08EA157F32E3156A701493427
+
+# Another Crab's Treasure
+
+@flag print_values
+
+@enabled
+009C848C 0010381E // ldr s0, [x19,#8]    | fmov s0, #-0.125    | (LOD bias)
+009C8588 17C88052 // mov w23, #0x500     | mov w23, #0x640     | (docked|handheld resX)
+009C858C 96708052 // mov w22, #0x2D0     | mov w22, #0x384     | (docked|handheld resY)
+0389C5E0 08E8A752 // mov w8, #0x3F000000 | mov w8, #0x3F400000 | (min res scale)(675p)
+@stop
