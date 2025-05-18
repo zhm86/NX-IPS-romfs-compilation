@@ -7,6 +7,8 @@ resolution to 1080p.
 -Increased shadow resolution for all areas (2048) (docked|handheld)
 -MSAA reduced from x2 to x1 (docked|handheld)
 
+Download: https://mega.nz/file/JZZXGLZS#DsvuJMhg5E4ebxtgUdWYMV0ujMk5534JIlJZl2k4AuQ
+
 Notes: The game render logic is bugged, this issue was introduced in 2.0.0 with "Performance Mode" setting, the game will stuck with
 performance mode resolution once enabled. As a workaround now the resolution in docked is 1080p fixed (there's no resolution scaling when
 enabling performance mode), in handheld mode the resolution is 720p fixed, BUT it will increase to 1080p if you enable performance mode and
