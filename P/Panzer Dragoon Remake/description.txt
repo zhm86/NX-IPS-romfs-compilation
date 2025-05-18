@@ -1,4 +1,4 @@
-Panzer Dragoon Remake | IPS | v2.0.0
+Panzer Dragoon Remake | IPS | romfs | v2.0.0
 
 -Fixed resolution 1080p (docked)
 -Fixed resolution 720p (handheld)
