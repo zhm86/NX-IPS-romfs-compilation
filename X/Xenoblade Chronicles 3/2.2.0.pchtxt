@@ -13,5 +13,5 @@
 00F63AE8 15000014 // cbz x21, #0x54        | b #0x54        | (disable DOF)
 00F63CAC 1F000014 // cbz w24, #0x7c        | b #0x7c        | (disable TAA)
 00EA0C84 00103E1E // ldr s0, [x20,#0x14]   | fmov s0, #-1.0 | (LOD bias)
-0109993C C2028052 // ldr w2, [x8,x9,lsl#2] | mov w2, #0x16  | (max aniso)
+01099928 C1028052 // ldr w1, [x8,x9,lsl#2] | mov w1, #0x16  | (max aniso)
 @stop
