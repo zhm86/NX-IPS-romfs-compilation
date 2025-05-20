@@ -15,3 +15,5 @@
 00EA0C84 00103E1E // ldr s0, [x20,#0x14]   | fmov s0, #-1.0 | (LOD bias)
 01099928 C1028052 // ldr w1, [x8,x9,lsl#2] | mov w1, #0x16  | (max aniso)
 @stop
+
+Notes: haven't been reports of aniso mod generating negative graphic side effects.
