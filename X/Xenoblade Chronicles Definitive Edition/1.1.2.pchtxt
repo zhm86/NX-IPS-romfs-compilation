@@ -5,6 +5,6 @@
 @flag print_values
 
 @enabled
-0071C05C 00103C1E // ldr s0, [x20, #0x14]  | fmov s0, #-0.5 | (LOD bias)
 0071C020 0010261E // ldr s0, [x9,x8,lsl#2] | fmov s0, #16   | (max aniso)
+0071C05C 00103C1E // ldr s0, [x20, #0x14]  | fmov s0, #-0.5 | (LOD bias)
 @stop
