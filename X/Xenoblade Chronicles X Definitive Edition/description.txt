@@ -5,3 +5,6 @@ Xenoblade Chronicles X | IPS | v1.0.2
 *Higher levels make water reflection look weird
 
 Notes: Increased LOD is specially taxing in open areas with high vegetation density, should OC GPU.
+
+Comparison:
+pic01: https://imgsli.com/MzgxMDYy
