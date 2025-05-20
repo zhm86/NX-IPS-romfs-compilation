@@ -8,3 +8,8 @@
 0095838C 0010221E // ldr s0, [x9,x8,lsl#2] | fmov s0, #4    | (max aniso)
 009583C8 00103C1E // ldr s0, [x20,#0x14]   | fmov s0, #-0.5 | (LOD bias)
 @stop
+
+Notes: higher aniso value makes water reflection look weird.
+
+Comparison:
+pic01: https://imgsli.com/MzgxMDYy
