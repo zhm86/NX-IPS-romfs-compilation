@@ -6,6 +6,7 @@ Xenoblade Chronicles 2
 @flag offset_shift 0x100
 
 @enabled
-006F9BD4 0010261E // ldr s0, [x9,w8,uxtw#2] | fmov s0, #16 (max aniso)
 006F9C10 0010381E // ldr s0, [x20,#0x14]    | fmov s0, #-0.125 (LOD bias)
 @stop
+
+Notes: aniso tweaks generate side effects on some feather and cloud like textures.
