@@ -1,0 +1,13 @@
+@nsobid-F7C4835FD8AE9D1001E3910BBC981DCE
+
+# Ys VIII: Lacrimosa of DANA
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+00298E70 1F011971 // cmp w8, #0x780  | cmp w8, #0x640  | (docked res X)
+00298E74 0CC88052 // mov w12, #0x780 | mov w12, #0x640 | (docked res X)
+00298EA4 8B708052 // mov w11, #0x438 | mov w11, #0x384 | (docked res Y)
+00298EA8 5F110E71 // cmp w10, #0x438 | cmp w10, #0x384 | (docked res Y)
+@stop
