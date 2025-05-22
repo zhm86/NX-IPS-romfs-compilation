@@ -1,0 +1,4 @@
+Ys VIII: Lacrimosa of DANA | IPS | v1.05
+
+-3D resolution reduced from 1080p to 900p (docked|handheld)
+*Helps to increase framerate, HUD, videos, intro still render at 1080p
