@@ -1,4 +1,4 @@
-Atelier Yumia The Alchemist of Memories and the Envisioned Land | IPS | romfs | v1.1.0
+Atelier Yumia The Alchemist of Memories and the Envisioned Land | IPS | romfs | v1.2.0
 
 -Increased overall draw distance (docked|handheld)
 -Increased LOD at distance (docked|handheld)
