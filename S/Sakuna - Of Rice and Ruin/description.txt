@@ -1,6 +1,5 @@
 Sakuna - Of Rice and Ruin | romfs | v1.0.9
 
 -Re-encoded voice acting using PC samples to play at higher quality
-https://mega.nz/file/0V5WSDAT#R_A5vv1IfTHGFjv7UkepJZJp8tu6wQ9MAKf7znMUalI
 
--Notes: Thanks to MasaGratoR for his nsopus encoding tool
+Notes: Thanks to MasaGratoR for his nsopus encoding tool
