@@ -33,6 +33,4 @@ Borderlands 3 | IPS | romfs | v1.60
 *For example dust/smoke from under the wheels of cars
 -Fixed some pixelated textures (docked|handheld)
 
-Required: IPS+romfs https://mega.nz/file/sUxTHQib#0Go8VCHdslLrqBgD7EDkNzBztbJpwoBvmcSLvvb6Flg
-
 Notes: This mod was created by ECLIPSE00074, converted to IPS by cucholix
