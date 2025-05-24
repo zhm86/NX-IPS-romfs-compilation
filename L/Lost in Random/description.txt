@@ -8,7 +8,7 @@ Lost in Random | romfs | v1.0.1
 -HDR enabled (docked|handheld)
 *Mainly improved the quality of the halo effect
 -Increased resolution of dynamic shadows (docked|handheld)
--3-stage dynamic shadow mode enabled (docked|handheld)
+-3 cascade dynamic shadow mode enabled (docked|handheld)
 -Increased dynamic shadow distance (docked|handheld)
 -Enabled shadows from light sources (docked|handheld)
 
