@@ -1,0 +1,13 @@
+@nsobid-4F41309B39EEBE5E1B8F2729B8105C35
+
+# DRAGON QUEST III HD-2D Remake
+
+@flag print_values
+
+@enabled
+02F94824 08008052 // fmov s1, #1.00000000       | mov w8, #0                 | (screenpercentage)
+02F94828 08F0A772 // fcmp s0, #0.0              | movk w8, #0x3f80, lsl  #16 | (screenpercentage 100%)
+02F9482C 0001271E // fcsel s0, s0, s1, hi       | fmov s0, w8                | (screenpercentage)
+046C5BC8 1F2003D5 // secondaryscreen.percentage | nop                        | (r.SecondaryScreenPercentage)
+046D411E 1F2003D5 // dynamicres.operation.mode  | nop                        | (r.DynamicRes.OperationMode)
+@stop
