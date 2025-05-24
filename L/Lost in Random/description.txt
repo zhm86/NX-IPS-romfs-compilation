@@ -12,6 +12,4 @@ Lost in Random | romfs | v1.0.1
 -Increased dynamic shadow distance (docked|handheld)
 -Enabled shadows from light sources (docked|handheld)
 
-Required: romfs https://mega.nz/file/tYYETIyL#-h2eEGnOihRg1X1feFsdXlQKpJytfndjs1xXgp0pU6Y
-
 Notes: This mod was created by ECLIPSE00074
