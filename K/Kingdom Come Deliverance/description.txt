@@ -30,8 +30,6 @@ Kingdom Come: Deliverance | IPS | romfs | v1.9.6H
 *To create less low dynamic shadows for better performance
 -Fixed sharp grass rendering (docked|handheld)
 
-Required: romfs https://mega.nz/file/YRgFAZ6b#mw7DsRKtdmrLL8pie6MGP3Uxbc_cCAuFSE4RE1c2OWc
-
 Optional: Bow aiming sight enabled, unlimited saving
 https://mega.nz/file/NYYTVTRR#7A8rWi6MqpXCDF5--LJvaoDT2LS8elM11wfC6Bn4aJI
 
