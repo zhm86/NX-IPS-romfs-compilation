@@ -1,4 +1,4 @@
-Borderlands 3 | IPS | romfs | v1.60
+Borderlands 3 | IPS | romfs | v1.0.3
 
 -30FPS cap enabled (docked|handheld)
 -Dynamic resolution frame time changed to 30fps (docked|handheld)
