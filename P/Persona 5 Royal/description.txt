@@ -7,4 +7,3 @@ Persona 5 Royal | IPS | romfs | v1.2.0
 
 Optional: Muted most dialogues leaving only the higher quality ones
           from cutscenes. To play with all dialogues delete "contents" folder.
-		  https://mega.nz/file/dRgwjRwK#GyYoovzNM9gd1648aw3rtIHBmUQ-uOdtY8x-pKZEhvQ
