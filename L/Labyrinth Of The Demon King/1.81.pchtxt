@@ -1,0 +1,9 @@
+@nsobid-DE26B43C3D21B3A3B9C6E8B468B9045A
+
+# Labyrinth Of The Demon King
+
+@flag print_values
+
+@enabled
+0451C888 78 // (r.ScreenPercentage) (default 60%)
+@stop
