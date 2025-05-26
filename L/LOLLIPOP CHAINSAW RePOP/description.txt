@@ -1,4 +1,4 @@
-LOLLIPOP CHAINSAW RePOP | romfs | v1.10
+LOLLIPOP CHAINSAW RePOP | romfs | v1.12
 
 -Max dynamic resolution 1920x1080p, min dynamic resolution 1280x720p (docked)
 -Fixed 1280x720p (handheld)
