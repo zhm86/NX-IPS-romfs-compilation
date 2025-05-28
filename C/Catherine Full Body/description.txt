@@ -1,0 +1,4 @@
+Catherine: Full Body | IPS | v1.0.1
+
+-Resolution increased to 1188p (docked)
+-Resolution increased to 1080p (handheld)

@@ -1,0 +1,13 @@
+@nsobid-93A79C77DA81F7F15DB021C5C7431EB46863D89C
+
+# Catherine: Full Body
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+00304794 88948052 // mov w8, #0x438  | mov w8, #0x4a4  | (docked resY)
+00304798 09878052 // mov w9, #0x2D0  | mov w9, #0x438  | (handheld resY)
+003047A0 09088152 // mov w9, #0x780  | mov w9, #0x840  | (docked resX)
+003047A4 0AF08052 // mov w10, #0x500 | mov w10, #0x780 | (handheld resX)
+@stop
