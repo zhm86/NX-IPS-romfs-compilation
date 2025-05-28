@@ -5,4 +5,5 @@ Pokémon Briliant Diamond | IPS | romfs | v1.3.0
 -Foced aniso (docked|handheld)
 *Not sure if works with all textures
 
-Notes: While the mod fixes the long standing Pokédex incorrect viewport when setting the game at 1080p, the map still has issues, the elements on it has a wrong viewport
+Notes: While the mod fixes the long standing Pokédex incorrect viewport when setting the game at 1080p, 
+       the map still has render issues, the elements on it has a wrong placement.
