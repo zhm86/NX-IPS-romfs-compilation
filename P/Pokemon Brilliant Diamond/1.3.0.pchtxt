@@ -1,0 +1,14 @@
+@nsobid-94CEAE325C205C4B9D6F7235552F28FD
+
+# Pokémon Briliant Diamond
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+0060630C 17F08052 // mov w23, #0x500  | mov w23, #0x780 | (render resolution X)
+00606310 16878052 // mov w22, #0x2d0  | mov w22, #0x438 | (render resolution Y)
+02692004 33008052 // mov w19, w0      | mov w19, #0x1   | (UnityEngine.QualitySettings::set_shadowResolution(UnityEngine.ShadowResolution))
+02692010 20008052 // mov w0, w19      | mov w0, #0x1    | (UnityEngine.QualitySettings::set_shadowResolution(UnityEngine.ShadowResolution))
+02692034 20008052 // mov w0, w19      | mov w0, #0x1    | (UnityEngine.QualitySettings::set_shadowResolution(UnityEngine.ShadowResolution))
+@stop
