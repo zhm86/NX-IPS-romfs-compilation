@@ -1,0 +1,6 @@
+Ori and the Will of the Wisps | romfs | v1.2.0
+
+-Max dynamic resolution scale changed from 0.86 to 1.0 (docked|handheld)
+*Max resolution now is 1080p
+
+Notes: Increase GPU clock to maintain 1080p
