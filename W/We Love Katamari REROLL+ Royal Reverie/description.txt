@@ -1,0 +1,3 @@
+We Love Katamari REROLL+ Royal Reverie | romfs | v1.0.3
+
+-Increased shadow resolution, quality and distance (docked|handheld)
