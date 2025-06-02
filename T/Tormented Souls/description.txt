@@ -4,6 +4,7 @@ Tormented Souls | IPS | romfs | v1.0.1
 -Decreased LOD bias (docked|handheld)
 -Max aniso filtering x16 (docked|handheld)
 -Increased shadow resolution and quality (docked|handheld)
+*Now is proper working
+-Increased max LOD (docked|handheld)
 
 Optional: Muted dialogues https://mega.nz/file/QZ4jXZAB#_WPkTcTfk63q6-tWTC77lP4TxeBAtlbcdODQ6V8FMLo
-
