@@ -1,0 +1,10 @@
+@nsobid-76A7DDC62B5A8CF5682D6C219E6E71C1
+
+# Risk of Rain 2 [010076D00E4BA800]
+
+@flag print_values
+
+@enabled
+012E48B8 17F08052 // movz w23, #0x500 | movz w23, #0x780 | (docked resX)
+012E48BC 16878052 // movz w22, #0x2D0 | movz w22, #0x438 | (docked resY)
+@stop
