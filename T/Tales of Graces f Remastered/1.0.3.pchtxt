@@ -1,6 +1,6 @@
 @nsobid-043776CF06E71CD092B990179DF8F1BC
 
-# Tales of Graces f Remastered
+# Tales of Graces f Remastered [0100B2E01D166800]
 
 @enabled
 0058586C F3031F2A // mov w19, w0          | mov w19, wzr   | (disable FXAA)
