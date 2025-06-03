@@ -5,4 +5,4 @@
 -Max aniso filtering increased x16 (docked|handheld)
 -Increased distance LOD (docked|handheld)
 
-Notes: Decreasing LOD bias produce incorrect reflections in textures that shouldn't reflect light. 
+Notes: Decreasing LOD bias produce incorrect reflections in textures that shouldn't reflect light. The game use baked shadows so it's not possible increase its resolution through romfs.
