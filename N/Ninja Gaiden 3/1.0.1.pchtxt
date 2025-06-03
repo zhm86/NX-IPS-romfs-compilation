@@ -1,6 +1,6 @@
 @nsobid-F20FDC280AF01CBE4397FFEC8C491BEC6C8876E6
 
-# NINJA GAIDEN 3: Razor's Edge
+# NINJA GAIDEN 3: Razor's Edge [01002AF014F4C800]
 
 @flag print_values
 
@@ -9,4 +9,4 @@
 00663C54 8870C0F2 // movk x8, #0x2d0, lsl #32 | movk x8, #0x384, lsl #32 | (docked|handheld resY)
 00DECFC4 08C880D2 // mov x8, #0x500           | mov x8, #0x640           | (docked|handheld resX)
 00DECFC8 8870C0F2 // movk x8, #0x2d0, lsl #32 | movk x8, #0x384, lsl #32 | (docked|handheld resY)
-@stop
+@stop
