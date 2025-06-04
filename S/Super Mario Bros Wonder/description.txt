@@ -1,4 +1,4 @@
-Super Mario Bros Wonder | IPS | v1.1.0
+Super Mario Bros Wonder | IPS | v1.0.2
 
 -Force antialiasing in World Map (docked|handheld)
 
