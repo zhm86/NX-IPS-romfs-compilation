@@ -4,3 +4,4 @@ Risk of Rain 2 | IPS | romfs | v1.3.9
 -Fixed resolution 720p (handheld)
 -Forced aniso in all textures (docked|handheld)
 -Frame rate locked at 30 FPS (docked|handheld)
+-Increased draw distance (docked|handheld)
