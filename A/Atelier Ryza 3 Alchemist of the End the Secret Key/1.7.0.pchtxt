@@ -1,0 +1,11 @@
+@nsobid-C29B86A5D924BD38FB91CCE415C915B18AC000C6
+
+# Atelier Ryza 3: Alchemist of the End & the Secret Key [010095E018944800]
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+00E63560 00103E1E // ldr s0, [x20,#0x10] | fmov s0, #-1.0 | (LOD bias)
+00E635D8 0010261E // ucvtf s0, s0        | fmov s0, #16   | (max aniso)
+@stop
