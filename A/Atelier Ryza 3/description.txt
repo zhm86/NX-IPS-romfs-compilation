@@ -1,4 +1,0 @@
-Atelier Ryza 3: Alchemist of the End & the Secret Key | IPS | v1.7.0
-
--Decreased LOD bias (docked|handheld)
--Max aniso filtering x16 (docked|handheld)
