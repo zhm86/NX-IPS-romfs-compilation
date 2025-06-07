@@ -1,0 +1,13 @@
+@nsobid-3474FAEE2B35BCAD9E2ED494EC2786B2C2F2AAB0
+
+# Atelier Ryza: Ever Darkness & the Secret Hideout [0100D1900EC80800]
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+00586B38 00103E1E // ldr s0, [x20,#0x10] | fmov s0, #-0.75 | (LOD bias)
+00586BA8 0010261E // ucvtf s0, s0        | fmov s0, #16    | (max aniso)
+0058F448 08E08052 // mov w8, #0x640      | mov w8, #0x700  | (1792 resX)
+0058F488 087E8052 // mov w8, #0x384      | mov w8, #0x3F0  | (1008 resY)
+@stop
