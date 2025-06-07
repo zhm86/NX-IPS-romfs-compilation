@@ -1,5 +1,0 @@
-Atelier Ryza: Ever Darkness & the Secret Hideout | IPS | v1.0.9
-
--Fixed resolution 1792x1008p (docked)
--Decreased LOD bias (docked|handheld)
--Max aniso filtering x16 (docked|handheld)
