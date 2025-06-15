@@ -1,6 +1,5 @@
-Xenoblade Chronicles: Definitive Edition | IPS | v2.1.0
+Xenoblade Chronicles 2 | IPS | v2.1.0
 
 -Decreased LOD bias (docked|handheld)
--Max aniso filtering x16 (docked|handheld)
 
 Notes: Aniso filtering is specially taxing in open areas with vegetation, should OC GPU.
