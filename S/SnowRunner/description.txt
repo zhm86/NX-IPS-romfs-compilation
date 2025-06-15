@@ -1,4 +1,4 @@
-SnowRunner | IPS | romfs | v1.0.38
+SnowRunner | IPS | romfs | v1.0.40
 
 -Reduced image sharpness when using FIDELITY FX (docked|handheld)
 -Slightly increased dynamic resolution frame time (docked|handheld)
