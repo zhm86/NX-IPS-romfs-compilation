@@ -1,0 +1,15 @@
+@nsobid-A6C0AA925BB8E34FBC3AE9BFD7AB2E6E
+
+# Empire of Sin
+
+@flag print_values
+
+@enabled
+017E3744 E103271E // fmov s1, w8               | fmov s1, wzr              |
+017E3910 495580F2 // movk x9, #0xaaaa, lsl #32 | movk x9, #0x2aa           |
+017E3914 2908E8F2 // movk x9, #0x4040, lsl #48 | movk x9, #0x4041, lsl #48 |
+017E3AD4 8824E1F2 // movk x8, #0x924, lsl #48  | movk x8, #0x9249, lsl #32 |
+017F67C8 0808E8F2 // movk x8, #0x403c, lsl #48 | movk x8, #0x4040, lsl #48 |
+026AFA8C 40008052 // mov w0, w19               | movz w0, #0x2             | UnityEngine.QualitySettings::setVsyncCount (mode 2)
+026AFAB0 40008052 // mov w0, w19               | movz w0, #0x2             | UnityEngine.QualitySettings::setVsyncCount (mode 2)
+@stop
