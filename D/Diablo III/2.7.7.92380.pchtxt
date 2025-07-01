@@ -11,7 +11,7 @@
 00276B6C E8031B32 // mov w8, #0x10            | mov w8, #0x20            | (resource mask)
 00C71ED8 20008052 // add x16, x16, #0xdc8     | mov w0, #0x1             | (handheld as docked) (nn::oe::GetOperationMode)
 00C71EDC C0035FD6 // br x17                   | ret                      | (handheld as docked) (nn::oe::GetOperationMode)
-00C71EE8 20008052 // add x16, x16, #0xdd0     | mov w0, #0x1             | (handheld as docked) (nn::oe::GetPerformanceMode
+00C71EE8 20008052 // add x16, x16, #0xdd0     | mov w0, #0x1             | (handheld as docked) (nn::oe::GetPerformanceMode)
 00C71EEC C0035FD6 // br x17                   | ret                      | (handheld as docked) (nn::oe::GetPerformanceMode)
 @stop
 
